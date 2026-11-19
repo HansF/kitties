@@ -6,6 +6,7 @@ Writes:
   data/shelters.json|csv   every shelter with contact info and counts
   data/new.json            animals that appeared since the previous refresh
   data/changes.csv         running log of added/removed animals (timestamped)
+  data/meta.json           index for apps: last update time, counts, file list
 
 Refuses to overwrite data if a scrape returns far fewer animals than before
 (e.g. the site layout changed), so a broken run can't wipe the dataset.
@@ -22,6 +23,7 @@ import scrape_shelters
 CATEGORIES = ["katten", "honden", "weidedieren", "konijnen-en-knaagdieren", "overigedieren"]
 DATA = Path(__file__).parent / "data"
 MIN_RATIO = 0.5  # abort if a category shrinks below half its previous size
+BASE_URL = "https://hansf.github.io/kitties/data"
 LOG_FIELDS = ["time", "change", "category", "id", "type", "name", "shelter", "url"]
 
 
@@ -34,6 +36,31 @@ def scrape_category(category):
         seen.update(a["id"] for a in page)
         animals.extend({"category": category, **a} for a in page)
         n += 1
+
+
+def snapshot():
+    """Contents of all data files except meta.json, to detect real changes."""
+    return {p: p.read_bytes() for p in DATA.rglob("*") if p.is_file() and p.name != "meta.json"}
+
+
+def write_meta(animals, shelters, added, removed, now, changed):
+    meta_file = DATA / "meta.json"
+    old = json.loads(meta_file.read_text(encoding="utf-8")) if meta_file.exists() else {}
+    files = {"animals": "animals.json", "shelters": "shelters.json", "new": "new.json"}
+    files.update({c: f"per-soort/{c}.json" for c in CATEGORIES})
+    meta = {
+        "updated_at": now if changed or "updated_at" not in old else old["updated_at"],
+        "source": "https://www.adopteereendier.be",
+        "counts": {
+            "total": len(animals),
+            **{c: sum(a["category"] == c for a in animals) for c in CATEGORIES},
+            "shelters": len(shelters),
+        },
+        "last_change": {"added": len(added), "removed": len(removed)} if changed else old.get("last_change"),
+        "files": {k: f"{BASE_URL}/{v}" for k, v in files.items()},
+        "csv": {k: f"{BASE_URL}/{v[:-5]}.csv" for k, v in files.items() if k != "new"},
+    }
+    meta_file.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def write(name, rows):
@@ -73,6 +100,7 @@ def main():
     removed = [a for i, a in old_by_id.items() if i not in new_by_id]
     print(f"added: {len(added)}, removed: {len(removed)}")
 
+    before = snapshot()
     write("animals", animals)
     for cat in CATEGORIES:
         write(f"per-soort/{cat}", [a for a in animals if a["category"] == cat])
@@ -88,6 +116,7 @@ def main():
         for change, rows in (("added", added), ("removed", removed)):
             for a in rows:
                 w.writerow({"time": now, "change": change, **a})
+    write_meta(animals, shelters, added, removed, now, snapshot() != before)
 
 
 if __name__ == "__main__":

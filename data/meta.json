@@ -1,0 +1,33 @@
+{
+ "updated_at": "2026-11-19T22:47Z",
+ "source": "https://www.adopteereendier.be",
+ "counts": {
+  "total": 2535,
+  "katten": 996,
+  "honden": 412,
+  "weidedieren": 324,
+  "konijnen-en-knaagdieren": 570,
+  "overigedieren": 233,
+  "shelters": 170
+ },
+ "last_change": null,
+ "files": {
+  "animals": "https://hansf.github.io/kitties/data/animals.json",
+  "shelters": "https://hansf.github.io/kitties/data/shelters.json",
+  "new": "https://hansf.github.io/kitties/data/new.json",
+  "katten": "https://hansf.github.io/kitties/data/per-soort/katten.json",
+  "honden": "https://hansf.github.io/kitties/data/per-soort/honden.json",
+  "weidedieren": "https://hansf.github.io/kitties/data/per-soort/weidedieren.json",
+  "konijnen-en-knaagdieren": "https://hansf.github.io/kitties/data/per-soort/konijnen-en-knaagdieren.json",
+  "overigedieren": "https://hansf.github.io/kitties/data/per-soort/overigedieren.json"
+ },
+ "csv": {
+  "animals": "https://hansf.github.io/kitties/data/animals.csv",
+  "shelters": "https://hansf.github.io/kitties/data/shelters.csv",
+  "katten": "https://hansf.github.io/kitties/data/per-soort/katten.csv",
+  "honden": "https://hansf.github.io/kitties/data/per-soort/honden.csv",
+  "weidedieren": "https://hansf.github.io/kitties/data/per-soort/weidedieren.csv",
+  "konijnen-en-knaagdieren": "https://hansf.github.io/kitties/data/per-soort/konijnen-en-knaagdieren.csv",
+  "overigedieren": "https://hansf.github.io/kitties/data/per-soort/overigedieren.csv"
+ }
+}

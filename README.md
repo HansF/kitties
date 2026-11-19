@@ -24,3 +24,21 @@ python check_cats.py -c honden     # same for dogs (honden, weidedieren, konijne
 ```
 
 No dependencies beyond the Python standard library.
+
+## Using the data in an app
+
+Everything in `data/` is served via GitHub Pages (CDN, CORS enabled):
+
+```
+https://hansf.github.io/kitties/data/meta.json        <- start here
+https://hansf.github.io/kitties/data/animals.json
+https://hansf.github.io/kitties/data/per-soort/katten.json
+https://hansf.github.io/kitties/data/shelters.json
+https://hansf.github.io/kitties/data/new.json
+```
+
+`meta.json` holds `updated_at` (last time the data actually changed), counts per category and the URL
+of every file. Poll it (hourly is plenty) and only re-download the data when `updated_at` changes.
+
+Each animal: `category, id, type, name, breed, sex, age, summary, shelter, location, badge, image, url`.
+Join animals to shelters on `shelter` == `name`.
