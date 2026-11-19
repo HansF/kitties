@@ -8,6 +8,7 @@ plus all shelters. A GitHub Action runs `refresh.py` every hour and commits the 
 | File | Contents |
 |---|---|
 | `animals.csv` / `.json` | All listed animals (cats, dogs, farm animals, rabbits & rodents, other), newest first. `category` column to filter. |
+| `per-soort/<categorie>.csv` / `.json` | Same, one file per category: `honden`, `katten`, `konijnen-en-knaagdieren`, `weidedieren`, `overigedieren`. |
 | `shelters.csv` / `.json` | All shelters: address, phone, email, website, animal counts. |
 | `new.json` | Animals that appeared since the previous hourly run. |
 | `changes.csv` | Running log of every animal added/removed, with UTC timestamp. |

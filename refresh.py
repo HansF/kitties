@@ -2,6 +2,7 @@
 
 Writes:
   data/animals.json|csv    every listed animal (all categories), newest first
+  data/per-soort/<category>.json|csv   the same, split per category
   data/shelters.json|csv   every shelter with contact info and counts
   data/new.json            animals that appeared since the previous refresh
   data/changes.csv         running log of added/removed animals (timestamped)
@@ -36,6 +37,7 @@ def scrape_category(category):
 
 
 def write(name, rows):
+    (DATA / name).parent.mkdir(parents=True, exist_ok=True)
     (DATA / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
     if rows:
         with open(DATA / f"{name}.csv", "w", newline="", encoding="utf-8-sig") as f:
@@ -72,6 +74,8 @@ def main():
     print(f"added: {len(added)}, removed: {len(removed)}")
 
     write("animals", animals)
+    for cat in CATEGORIES:
+        write(f"per-soort/{cat}", [a for a in animals if a["category"] == cat])
     write("shelters", shelters)
     # empty on the first run: nothing to compare against
     (DATA / "new.json").write_text(json.dumps(added, ensure_ascii=False, indent=1), encoding="utf-8")
