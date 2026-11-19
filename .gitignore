@@ -1,0 +1,5 @@
+__pycache__/
+seen*.json
+# local one-off exports (the repo keeps data/ instead)
+/*.json
+/*.csv
