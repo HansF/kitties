@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-19T22:47Z",
+ "updated_at": "2026-11-19T22:50Z",
  "source": "https://www.adopteereendier.be",
  "counts": {
   "total": 2535,
@@ -10,7 +10,10 @@
   "overigedieren": 233,
   "shelters": 170
  },
- "last_change": null,
+ "last_change": {
+  "added": 0,
+  "removed": 0
+ },
  "files": {
   "animals": "https://hansf.github.io/kitties/data/animals.json",
   "shelters": "https://hansf.github.io/kitties/data/shelters.json",
