@@ -60,12 +60,12 @@ def write_meta(animals, shelters, added, removed, now, changed):
         "files": {k: f"{BASE_URL}/{v}" for k, v in files.items()},
         "csv": {k: f"{BASE_URL}/{v[:-5]}.csv" for k, v in files.items() if k != "new"},
     }
-    meta_file.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8")
+    meta_file.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
 
 
 def write(name, rows):
     (DATA / name).parent.mkdir(parents=True, exist_ok=True)
-    (DATA / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / f"{name}.json").write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     if rows:
         with open(DATA / f"{name}.csv", "w", newline="", encoding="utf-8-sig") as f:
             w = csv.DictWriter(f, fieldnames=list(rows[0]), delimiter=";")
@@ -106,7 +106,7 @@ def main():
         write(f"per-soort/{cat}", [a for a in animals if a["category"] == cat])
     write("shelters", shelters)
     # empty on the first run: nothing to compare against
-    (DATA / "new.json").write_text(json.dumps(added, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / "new.json").write_text(json.dumps(added, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
     log = DATA / "changes.csv"
     is_new_log = not log.exists()
     with open(log, "a", newline="", encoding="utf-8") as f:
@@ -120,5 +120,5 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stdout.reconfigure(encoding="utf-8", newline="\n")
     main()

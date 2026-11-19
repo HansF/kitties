@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitties Data API</title>
+<meta name="description" content="Hourly JSON/CSV snapshot of every animal up for adoption on adopteereendier.be">
+<style>
+  :root {
+    --bg: #fbfaf8; --fg: #1f1d1a; --muted: #6b665e; --line: #e6e2db;
+    --card: #ffffff; --accent: #b4532a; --code-bg: #f3f0ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #161513; --fg: #ece8e1; --muted: #a39d93; --line: #2e2b27;
+      --card: #1d1c19; --accent: #e08a5f; --code-bg: #24221f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #161513; --fg: #ece8e1; --muted: #a39d93; --line: #2e2b27;
+    --card: #1d1c19; --accent: #e08a5f; --code-bg: #24221f;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  main { max-width: 820px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 2rem; margin: 0 0 4px; letter-spacing: -0.02em; }
+  h2 { font-size: 1.15rem; margin: 48px 0 12px; }
+  p { margin: 0 0 12px; }
+  .lede { color: var(--muted); margin-bottom: 24px; }
+  a { color: var(--accent); }
+  code, pre { font: 13.5px/1.5 ui-monospace, "Cascadia Code", Consolas, monospace; }
+  code { background: var(--code-bg); padding: 1px 5px; border-radius: 4px; }
+  pre { background: var(--code-bg); padding: 14px 16px; border-radius: 8px; overflow-x: auto; margin: 0 0 12px; }
+  pre code { background: none; padding: 0; }
+  .status { display: flex; gap: 8px 20px; flex-wrap: wrap; color: var(--muted); font-size: 14px; }
+  .status b { color: var(--fg); font-weight: 600; }
+  .stats { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin-top: 20px; }
+  .stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .stat .n { font-size: 1.6rem; font-weight: 650; font-variant-numeric: tabular-nums; }
+  .stat .l { color: var(--muted); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14.5px; }
+  th, td { text-align: left; padding: 8px 10px 8px 0; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 500; font-size: 13px; }
+  td a { margin-right: 10px; white-space: nowrap; }
+  .table-wrap { overflow-x: auto; }
+  footer { margin-top: 56px; color: var(--muted); font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kitties Data API</h1>
+  <p class="lede">Hourly snapshot of every animal up for adoption on
+    <a href="https://www.adopteereendier.be">adopteereendier.be</a>, plus all shelters, as static JSON and CSV.</p>
+
+  <div class="status">
+    <span>Data last changed: <b id="updated">loading…</b></span>
+    <span>Last change: <b id="lastchange">–</b></span>
+  </div>
+  <div class="stats" id="stats"></div>
+
+  <h2>Start here</h2>
+  <pre><code>https://hansf.github.io/kitties/data/meta.json</code></pre>
+  <p><code>meta.json</code> is tiny and holds <code>updated_at</code> (last time the listings actually changed — not
+    the last scrape), counts per category and the URL of every file. Poll it (hourly is plenty) and only re-download
+    the data when <code>updated_at</code> changes.</p>
+
+  <h2>Files</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Dataset</th><th>Contents</th><th>Download</th></tr></thead>
+    <tbody id="files">
+      <tr><td>animals</td><td>All animals, newest first</td><td><a href="data/animals.json">JSON</a><a href="data/animals.csv">CSV</a></td></tr>
+      <tr><td>katten</td><td>Cats</td><td><a href="data/per-soort/katten.json">JSON</a><a href="data/per-soort/katten.csv">CSV</a></td></tr>
+      <tr><td>honden</td><td>Dogs</td><td><a href="data/per-soort/honden.json">JSON</a><a href="data/per-soort/honden.csv">CSV</a></td></tr>
+      <tr><td>konijnen-en-knaagdieren</td><td>Rabbits &amp; rodents</td><td><a href="data/per-soort/konijnen-en-knaagdieren.json">JSON</a><a href="data/per-soort/konijnen-en-knaagdieren.csv">CSV</a></td></tr>
+      <tr><td>weidedieren</td><td>Farm animals</td><td><a href="data/per-soort/weidedieren.json">JSON</a><a href="data/per-soort/weidedieren.csv">CSV</a></td></tr>
+      <tr><td>overigedieren</td><td>Birds, reptiles, fish</td><td><a href="data/per-soort/overigedieren.json">JSON</a><a href="data/per-soort/overigedieren.csv">CSV</a></td></tr>
+      <tr><td>shelters</td><td>All shelters: address, phone, email, website, counts</td><td><a href="data/shelters.json">JSON</a><a href="data/shelters.csv">CSV</a></td></tr>
+      <tr><td>new</td><td>Animals added in the latest change</td><td><a href="data/new.json">JSON</a></td></tr>
+      <tr><td>changes</td><td>Running log of every animal added / removed (UTC)</td><td><a href="data/changes.csv">CSV</a></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p style="margin-top:12px">CSV files use <code>;</code> as separator and UTF-8 with BOM, so they open directly in Excel.
+    All URLs are served with <code>Access-Control-Allow-Origin: *</code>.</p>
+
+  <h2>Animal fields</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Field</th><th>Example</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td><code>category</code></td><td>katten</td><td>One of the five per-soort names</td></tr>
+      <tr><td><code>id</code></td><td>143413</td><td>Site's own ID, stable; higher = newer</td></tr>
+      <tr><td><code>type</code></td><td>konijn</td><td>Sub-type for farm animals, rabbits/rodents and other; empty for cats &amp; dogs</td></tr>
+      <tr><td><code>name</code></td><td>Optima</td><td>Long names are truncated by the site with "..."</td></tr>
+      <tr><td><code>breed</code></td><td>Europese Korthaar</td><td><code>-</code> when unknown</td></tr>
+      <tr><td><code>sex</code></td><td>Kater</td><td>Kater/Kattin, Reu/Teef, or M/V</td></tr>
+      <tr><td><code>age</code></td><td>1 jaar en 4 maand</td><td>Free text; may be empty</td></tr>
+      <tr><td><code>summary</code></td><td>Maak kennis met…</td><td>Listing teaser, truncated</td></tr>
+      <tr><td><code>shelter</code></td><td>Vzw Hulplijn Dier in Nood</td><td>Join to <code>shelters[].name</code></td></tr>
+      <tr><td><code>location</code></td><td>ONZE-LIEVE-VROUW WAVER</td><td>Shelter's town</td></tr>
+      <tr><td><code>badge</code></td><td>Duo-adoptie</td><td>Empty when none</td></tr>
+      <tr><td><code>image</code></td><td>https://media.animalshelter.be/…</td><td>Hot-linked photo</td></tr>
+      <tr><td><code>url</code></td><td>https://www.adopteereendier.be/katten/…</td><td>Listing page</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2>Example</h2>
+<pre><code>const BASE = "https://hansf.github.io/kitties/data";
+const meta = await fetch(`${BASE}/meta.json`).then(r =&gt; r.json());
+if (meta.updated_at !== localStorage.lastUpdate) {
+  const cats = await fetch(meta.files.katten).then(r =&gt; r.json());
+  const shelters = await fetch(meta.files.shelters).then(r =&gt; r.json());
+  const byName = Object.fromEntries(shelters.map(s =&gt; [s.name, s]));
+  cats.forEach(c =&gt; c.shelterInfo = byName[c.shelter]);
+  localStorage.lastUpdate = meta.updated_at;
+}</code></pre>
+
+  <h2>Freshness</h2>
+  <p>A GitHub Action scrapes the site every hour (at :17) and commits only when something changed. Pages republishes
+    about a minute later and responses may be cached up to 10 minutes, so new listings show up within roughly an hour.
+    The git history of <a href="https://github.com/HansF/kitties">the repo</a> is a full history of the listings.</p>
+
+  <footer>Unofficial. Data belongs to adopteereendier.be and the listed shelters.
+    Source: <a href="https://github.com/HansF/kitties">github.com/HansF/kitties</a></footer>
+</main>
+<script>
+  const LABELS = { total: "Animals", katten: "Cats", honden: "Dogs",
+    "konijnen-en-knaagdieren": "Rabbits & rodents", weidedieren: "Farm animals",
+    overigedieren: "Other", shelters: "Shelters" };
+  fetch("data/meta.json", { cache: "no-cache" }).then(r => r.json()).then(m => {
+    const d = new Date(m.updated_at.replace("Z", ":00Z"));
+    document.getElementById("updated").textContent = isNaN(d) ? m.updated_at :
+      d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
+    if (m.last_change) document.getElementById("lastchange").textContent =
+      `+${m.last_change.added} / −${m.last_change.removed}`;
+    document.getElementById("stats").innerHTML = Object.entries(m.counts).map(([k, n]) =>
+      `<div class="stat"><div class="n">${n.toLocaleString()}</div><div class="l">${LABELS[k] || k}</div></div>`).join("");
+  }).catch(() => { document.getElementById("updated").textContent = "unavailable"; });
+</script>
+</body>
+</html>
