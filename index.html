@@ -54,6 +54,7 @@
   <h1>Kitties Data API</h1>
   <p class="lede">Hourly snapshot of every animal up for adoption on
     <a href="https://www.adopteereendier.be">adopteereendier.be</a>, plus all shelters, as static JSON and CSV.</p>
+  <p><a href="map.html"><b>Open the map →</b></a> every animal on one map, clustered by shelter, with photos and filters.</p>
 
   <div class="status">
     <span>Data last changed: <b id="updated">loading…</b></span>
@@ -102,6 +103,7 @@
       <tr><td><code>summary</code></td><td>Maak kennis met…</td><td>Listing teaser, truncated</td></tr>
       <tr><td><code>shelter</code></td><td>Vzw Hulplijn Dier in Nood</td><td>Join to <code>shelters[].name</code></td></tr>
       <tr><td><code>location</code></td><td>ONZE-LIEVE-VROUW WAVER</td><td>Shelter's town</td></tr>
+      <tr><td><code>lat</code>, <code>lon</code></td><td>51.0283, 4.4758</td><td>Shelter's coordinates (WGS84); see <code>geo_precision</code> in shelters</td></tr>
       <tr><td><code>badge</code></td><td>Duo-adoptie</td><td>Empty when none</td></tr>
       <tr><td><code>image</code></td><td>https://media.animalshelter.be/…</td><td>Hot-linked photo</td></tr>
       <tr><td><code>url</code></td><td>https://www.adopteereendier.be/katten/…</td><td>Listing page</td></tr>

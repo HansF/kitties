@@ -1,0 +1,548 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Adoption Map</title>
+<meta name="description" content="Every animal up for adoption in Flanders on one map, clustered by shelter, refreshed hourly.">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f6f3ee; --panel: rgba(255,255,255,.92); --panel-solid: #ffffff; --fg: #1d1b18; --muted: #6d675e;
+    --line: rgba(29,27,24,.10); --hover: rgba(29,27,24,.05); --shadow: 0 10px 40px rgba(40,30,20,.18);
+    --katten: #e07a2e; --honden: #3577d4; --weidedieren: #3f9a4a; --konijnen-en-knaagdieren: #d4508a; --overigedieren: #8a5cd1;
+    --ring: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #121417; --panel: rgba(24,26,30,.90); --panel-solid: #1a1c20; --fg: #ecebe8; --muted: #9a978f;
+      --line: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --shadow: 0 10px 40px rgba(0,0,0,.5);
+      --katten: #f0924a; --honden: #5b9af0; --weidedieren: #5cba67; --konijnen-en-knaagdieren: #ea6ea4; --overigedieren: #a57ef0;
+      --ring: #1a1c20;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #121417; --panel: rgba(24,26,30,.90); --panel-solid: #1a1c20; --fg: #ecebe8; --muted: #9a978f;
+    --line: rgba(255,255,255,.09); --hover: rgba(255,255,255,.06); --shadow: 0 10px 40px rgba(0,0,0,.5);
+    --katten: #f0924a; --honden: #5b9af0; --weidedieren: #5cba67; --konijnen-en-knaagdieren: #ea6ea4; --overigedieren: #a57ef0;
+    --ring: #1a1c20;
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bg); color: var(--fg); font: 14px/1.45 Inter, system-ui, sans-serif; overflow: hidden; }
+  #map { position: fixed; inset: 0; background: var(--bg); }
+  button { font: inherit; color: inherit; }
+
+  /* ---------- panel ---------- */
+  #panel {
+    position: fixed; top: 16px; left: 16px; bottom: 16px; width: 380px; z-index: 1000;
+    display: flex; flex-direction: column; background: var(--panel); border: 1px solid var(--line);
+    border-radius: 18px; box-shadow: var(--shadow); backdrop-filter: blur(14px) saturate(1.4);
+    -webkit-backdrop-filter: blur(14px) saturate(1.4); overflow: hidden;
+  }
+  .head { padding: 18px 18px 12px; }
+  .grab { display: none; }
+  h1 { font: 700 22px/1.15 Fraunces, Georgia, serif; margin: 0; letter-spacing: -.01em; }
+  .sub { color: var(--muted); font-size: 12.5px; margin-top: 4px; }
+  .sub b { color: var(--fg); font-weight: 600; }
+  .bar { display: flex; height: 8px; border-radius: 99px; overflow: hidden; margin: 14px 0 12px; background: var(--hover); }
+  .bar span { display: block; height: 100%; transition: flex-grow .4s ease; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    --c: var(--muted); display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px 5px 6px;
+    border-radius: 99px; border: 1px solid color-mix(in srgb, var(--c) 45%, transparent);
+    background: color-mix(in srgb, var(--c) 14%, transparent); cursor: pointer; font-size: 12.5px; font-weight: 500;
+    transition: opacity .15s, background .15s;
+  }
+  .chip .em { width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; background: var(--c); font-size: 12px; }
+  .chip .n { color: var(--muted); font-variant-numeric: tabular-nums; }
+  .chip.off { opacity: .4; background: transparent; }
+  .search { position: relative; margin-top: 12px; }
+  .search input {
+    width: 100%; padding: 9px 12px 9px 34px; border-radius: 10px; border: 1px solid var(--line);
+    background: var(--hover); color: var(--fg); font: inherit; outline: none;
+  }
+  .search input:focus { border-color: color-mix(in srgb, var(--fg) 30%, transparent); }
+  .search svg { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); opacity: .5; }
+  .tabs { display: flex; gap: 4px; padding: 0 18px; border-bottom: 1px solid var(--line); }
+  .tab { background: none; border: 0; padding: 9px 4px; margin-right: 12px; cursor: pointer; color: var(--muted); font-weight: 500; border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .tab.on { color: var(--fg); border-color: var(--fg); }
+  .tab .n { font-variant-numeric: tabular-nums; opacity: .7; margin-left: 3px; }
+  .body { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+  .empty { padding: 30px 18px; color: var(--muted); text-align: center; }
+
+  /* animal list */
+  .card { display: flex; gap: 12px; padding: 10px 18px; cursor: pointer; align-items: center; border-bottom: 1px solid var(--line); }
+  .card:hover { background: var(--hover); }
+  .thumb { --c: var(--muted); flex: none; width: 52px; height: 52px; border-radius: 12px; overflow: hidden; background: color-mix(in srgb, var(--c) 25%, transparent); box-shadow: 0 0 0 2px var(--c); display: grid; place-items: center; font-size: 24px; }
+  .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .meta { min-width: 0; flex: 1; }
+  .name { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .line { color: var(--muted); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .tag { display: inline-block; font-size: 10.5px; font-weight: 600; padding: 1px 6px; border-radius: 99px; background: var(--hover); color: var(--muted); margin-left: 6px; vertical-align: 1px; }
+  .more { display: block; width: calc(100% - 36px); margin: 12px 18px 18px; padding: 9px; border-radius: 10px; border: 1px solid var(--line); background: none; cursor: pointer; }
+  .more:hover { background: var(--hover); }
+
+  /* hotspots */
+  .hot { display: grid; grid-template-columns: 22px 1fr auto; gap: 4px 10px; align-items: center; padding: 10px 18px; cursor: pointer; border-bottom: 1px solid var(--line); }
+  .hot:hover { background: var(--hover); }
+  .rank { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+  .hot .t { font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .hot .c { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .hot .bar { grid-column: 2 / 4; margin: 2px 0 0; height: 6px; }
+  .hot .line { grid-column: 2 / 4; }
+  .section { padding: 14px 18px 6px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+
+  /* detail */
+  .back { display: flex; align-items: center; gap: 6px; background: none; border: 0; padding: 12px 18px 6px; cursor: pointer; color: var(--muted); font-weight: 500; }
+  .back:hover { color: var(--fg); }
+  .hero { --c: var(--muted); margin: 6px 18px 0; border-radius: 14px; overflow: hidden; aspect-ratio: 4/3; background: color-mix(in srgb, var(--c) 20%, transparent); display: grid; place-items: center; font-size: 64px; box-shadow: 0 0 0 3px var(--c); }
+  .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .detail { padding: 14px 18px 20px; }
+  .detail h2 { font: 700 26px/1.1 Fraunces, Georgia, serif; margin: 0 0 4px; }
+  .facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 14px 0; font-size: 13px; }
+  .facts dt { color: var(--muted); }
+  .facts dd { margin: 0; }
+  .summary { color: var(--fg); opacity: .85; margin: 0 0 16px; }
+  .cta { display: inline-flex; gap: 8px; align-items: center; padding: 10px 16px; border-radius: 10px; background: var(--c, var(--fg)); color: #fff; text-decoration: none; font-weight: 600; }
+  .shead { padding: 6px 18px 12px; }
+  .shead h2 { font: 700 22px/1.15 Fraunces, Georgia, serif; margin: 0 0 4px; }
+  .shead a { color: inherit; }
+  .approx { font-size: 11.5px; color: var(--muted); }
+
+  /* ---------- map overlays ---------- */
+  .ctrls { position: fixed; top: 16px; right: 16px; z-index: 1000; display: flex; flex-direction: column; gap: 8px; }
+  .ctrl {
+    width: 42px; height: 42px; border-radius: 12px; border: 1px solid var(--line); background: var(--panel);
+    backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); box-shadow: var(--shadow); cursor: pointer;
+    display: grid; place-items: center;
+  }
+  .ctrl.on { background: var(--fg); color: var(--bg); }
+  .ctrl svg { width: 20px; height: 20px; }
+  .leaflet-control-attribution { background: var(--panel) !important; color: var(--muted) !important; border-radius: 8px 0 0 0; font-size: 10.5px; }
+  .leaflet-control-attribution a { color: var(--muted) !important; }
+  .leaflet-control-zoom { border: 1px solid var(--line) !important; border-radius: 12px !important; overflow: hidden; box-shadow: var(--shadow) !important; }
+  .leaflet-control-zoom a { background: var(--panel) !important; color: var(--fg) !important; border-color: var(--line) !important; width: 40px !important; height: 40px !important; line-height: 40px !important; }
+  .leaflet-top.leaflet-right { top: 116px; }
+
+  /* cluster: donut of the category mix */
+  .cl { position: relative; border-radius: 50%; display: grid; place-items: center; box-shadow: 0 4px 16px rgba(0,0,0,.28); transition: transform .15s; }
+  .cl:hover { transform: scale(1.08); }
+  .cl b { position: absolute; inset: 5px; border-radius: 50%; background: var(--panel-solid); display: grid; place-items: center; font: 700 13px/1 Inter, sans-serif; color: var(--fg); font-variant-numeric: tabular-nums; }
+  .cl.big b { font-size: 15px; inset: 6px; }
+  .cl.huge b { font-size: 17px; inset: 7px; }
+  .leaflet-marker-icon.marker-cluster-anim, .leaflet-marker-icon { transition: none; }
+
+  /* one shelter, zoomed in: photo bubble with category ring + count */
+  .shel { position: relative; border-radius: 50%; padding: 4px; box-shadow: 0 6px 18px rgba(0,0,0,.35); transition: transform .15s; }
+  .shel:hover { transform: scale(1.08); }
+  .shel img, .shel span { position: absolute; inset: 4px; width: calc(100% - 8px); height: calc(100% - 8px); border-radius: 50%; object-fit: cover; border: 2px solid var(--ring); background: var(--panel-solid); display: grid; place-items: center; font-size: 22px; }
+  .shel img.f1 { inset: auto; width: 46%; height: 46%; left: -14%; top: -6%; }
+  .shel img.f2 { inset: auto; width: 40%; height: 40%; right: -12%; top: -10%; }
+  .shel img.f0 { z-index: 1; }
+  .shel img.f1, .shel img.f2 { z-index: 2; box-shadow: 0 2px 8px rgba(0,0,0,.35); }
+  .shel b { position: absolute; z-index: 3; right: -8px; bottom: -4px; min-width: 26px; height: 22px; padding: 0 7px; border-radius: 99px; background: var(--fg); color: var(--bg); font: 700 12px/22px Inter, sans-serif; text-align: center; font-variant-numeric: tabular-nums; box-shadow: 0 2px 6px rgba(0,0,0,.3); }
+
+  /* single animal pin */
+  .pin { --c: #999; width: 44px; height: 44px; border-radius: 50%; padding: 3px; background: var(--c); box-shadow: 0 4px 14px rgba(0,0,0,.35); transition: transform .15s; }
+  .pin:hover { transform: scale(1.12); }
+  .pin > div { width: 100%; height: 100%; border-radius: 50%; overflow: hidden; background: var(--panel-solid); display: grid; place-items: center; font-size: 20px; border: 2px solid var(--ring); }
+  .pin img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .pin.sel { transform: scale(1.25); z-index: 1000 !important; }
+
+  .loading { position: fixed; inset: 0; display: grid; place-items: center; z-index: 2000; background: var(--bg); font: 600 16px Inter, sans-serif; color: var(--muted); transition: opacity .4s; }
+  .loading.gone { opacity: 0; pointer-events: none; }
+  .paws { font-size: 34px; display: block; text-align: center; margin-bottom: 8px; animation: bob 1s ease-in-out infinite alternate; }
+  @keyframes bob { to { transform: translateY(-6px); } }
+
+  /* ---------- phone: panel becomes a bottom sheet ---------- */
+  @media (max-width: 720px) {
+    #panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: 52vh; border-radius: 18px 18px 0 0; border-bottom: 0; transition: height .25s ease; }
+    .grab { display: block; width: 40px; height: 5px; border-radius: 9px; background: var(--line); margin: 8px auto 0; cursor: pointer; border: 0; padding: 0; }
+    .head { padding: 8px 16px 10px; }
+    h1 { font-size: 19px; }
+    .sub { font-size: 12px; }
+    .bar { margin: 10px 0 10px; }
+    .chips { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
+    .chips::-webkit-scrollbar { display: none; }
+    .chip { flex: none; }
+    .search { margin-top: 10px; }
+    #panel.min { height: 178px; }
+    .tabs, .card, .hot, .section, .shead, .detail, .back { padding-left: 16px; padding-right: 16px; }
+    .ctrls { top: 12px; right: 12px; }
+    .leaflet-top.leaflet-right { top: 108px; }
+    .leaflet-bottom.leaflet-right { bottom: calc(52vh + 4px); }
+  }
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="loading" id="loading"><div><span class="paws">🐾</span>Fetching every adoptable animal…</div></div>
+
+<aside id="panel">
+  <button class="grab" id="grab" aria-label="Expand or collapse panel"></button>
+  <div class="head">
+    <h1>Waiting for a home</h1>
+    <div class="sub" id="sub">&nbsp;</div>
+    <div class="bar" id="mix"></div>
+    <div class="chips" id="chips"></div>
+    <label class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Name, breed, shelter or town" autocomplete="off">
+    </label>
+  </div>
+  <div class="tabs" id="tabs">
+    <button class="tab on" data-tab="list">In view<span class="n" id="nView"></span></button>
+    <button class="tab" data-tab="hot">Hotspots</button>
+  </div>
+  <div class="body" id="body"></div>
+</aside>
+
+<div class="ctrls">
+  <button class="ctrl" id="heatBtn" title="Concentration heatmap" aria-label="Toggle concentration heatmap">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3c2 3.5 6 6 6 11a6 6 0 0 1-12 0c0-3 1.5-4.5 3-6 0 2 1 3 2 3 0-3 0-5 1-8z"/></svg>
+  </button>
+  <button class="ctrl" id="fitBtn" title="Show all of Flanders" aria-label="Show everything">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>
+  </button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.min.js"></script>
+<script src="https://unpkg.com/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.heat/0.2.0/leaflet-heat.js"></script>
+<script>
+const CATS = {
+  "katten":                  { label: "Cats",            emoji: "🐱" },
+  "honden":                  { label: "Dogs",            emoji: "🐶" },
+  "konijnen-en-knaagdieren": { label: "Rabbits & rodents", emoji: "🐰" },
+  "weidedieren":             { label: "Farm animals",    emoji: "🐑" },
+  "overigedieren":           { label: "Birds & other",   emoji: "🦜" },
+};
+const ORDER = Object.keys(CATS);
+const SEX = { M: "Male", V: "Female", Kater: "Male", Kattin: "Female", Reu: "Male", Teef: "Female" };
+const PAGE = 60;
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const color = cat => getComputedStyle(document.documentElement).getPropertyValue("--" + cat).trim();
+const nice = s => String(s || "").toLowerCase().replace(/(^|[\s\-(])\p{L}/gu, m => m.toUpperCase());
+const cleanBreed = b => (b && b.trim() !== "-" ? nice(b) : "");
+const fmt = n => n.toLocaleString("en");
+const imgTag = (a, cls = "") => a.image
+  ? `<img src="${esc(a.image)}" alt="" loading="lazy" ${cls} onerror="this.replaceWith(document.createTextNode('${CATS[a.category].emoji}'))">`
+  : CATS[a.category].emoji;
+
+let animals = [], shelters = {}, markers = new Map();
+const state = { on: new Set(ORDER), q: "", tab: "list", shown: PAGE, view: null };
+
+/* ---------- map ---------- */
+const dark = () => document.documentElement.dataset.theme === "dark" ||
+  (!document.documentElement.dataset.theme && matchMedia("(prefers-color-scheme: dark)").matches);
+const map = L.map("map", { zoomControl: false, minZoom: 7, maxZoom: 18, zoomSnap: 0.25, zoomDelta: 0.5, wheelPxPerZoomLevel: 90 })
+  .setView([51.0, 4.4], 9);
+L.control.zoom({ position: "topright" }).addTo(map);
+// OpenFreeMap vector basemap: free, no API key
+let tiles;
+const styleUrl = () => `https://tiles.openfreemap.org/styles/${dark() ? "dark" : "positron"}`;
+function setTiles() {
+  if (tiles) { tiles.getMaplibreMap().setStyle(styleUrl()); return; }
+  tiles = L.maplibreGL({
+    style: styleUrl(),
+    attribution: '<a href="https://openfreemap.org">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> · data <a href="https://www.adopteereendier.be">adopteereendier.be</a>',
+  }).addTo(map);
+}
+setTiles();
+matchMedia("(prefers-color-scheme: dark)").addEventListener("change", () => { setTiles(); refreshIcons(); });
+
+function donut(counts, total) {
+  let acc = 0;
+  const stops = ORDER.filter(c => counts[c]).map(c => {
+    const from = acc / total * 360; acc += counts[c];
+    return `${color(c)} ${from}deg ${acc / total * 360}deg`;
+  });
+  return `conic-gradient(${stops.join(",")})`;
+}
+const cluster = L.markerClusterGroup({
+  maxClusterRadius: z => z < 10 ? 70 : 50,
+  showCoverageOnHover: false, spiderfyOnMaxZoom: false, zoomToBoundsOnClick: false, chunkedLoading: true,
+  iconCreateFunction(c) {
+    const kids = c.getAllChildMarkers(), counts = {};
+    for (const m of kids) counts[m.animal.category] = (counts[m.animal.category] || 0) + 1;
+    const n = kids.length, size = Math.round(34 + Math.min(40, Math.log2(n) * 5));
+    const cls = n >= 200 ? "huge" : n >= 50 ? "big" : "";
+    // zoomed in on one spot (a shelter, or several sharing a town centre): show it as a photo bubble instead of a bare number
+    const k0 = kids[0].animal;
+    if (map.getZoom() >= 10.5 && kids.every(m => m.animal.lat === k0.lat && m.animal.lon === k0.lon)) {
+      const withImg = kids.filter(m => m.animal.image).map(m => m.animal);
+      const faces = withImg.slice(0, 3);
+      const ps = Math.round(50 + Math.min(18, Math.log2(n) * 3));
+      return L.divIcon({
+        html: `<div class="shel" style="width:${ps}px;height:${ps}px;background:${donut(counts, n)}">
+          ${faces.length ? faces.map((a, i) => `<img src="${esc(a.image)}" alt="" class="f${i}" onerror="this.remove()">`).join("") : `<span>${CATS[kids[0].animal.category].emoji}</span>`}
+          <b>${n}</b></div>`,
+        className: "", iconSize: [ps, ps],
+      });
+    }
+    return L.divIcon({
+      html: `<div class="cl ${cls}" style="width:${size}px;height:${size}px;background:${donut(counts, n)}"><b>${n}</b></div>`,
+      className: "", iconSize: [size, size],
+    });
+  },
+});
+map.addLayer(cluster);
+
+// one location (a shelter) -> open it in the panel; several -> zoom in
+cluster.on("clusterclick", e => {
+  const kids = e.layer.getAllChildMarkers();
+  const names = new Set(kids.map(m => m.animal.shelter));
+  const b = e.layer.getBounds();
+  if (names.size === 1 || b.getNorthEast().equals(b.getSouthWest())) {
+    openShelter([...names][0], [...names]);
+  } else {
+    map.fitBounds(b, { padding: [60, 60], maxZoom: 15 });
+  }
+});
+
+function pinIcon(a, sel) {
+  return L.divIcon({
+    html: `<div class="pin${sel ? " sel" : ""}" style="--c:${color(a.category)}"><div>${imgTag(a)}</div></div>`,
+    className: "", iconSize: [44, 44], iconAnchor: [22, 22],
+  });
+}
+function refreshIcons() {
+  for (const m of markers.values()) m.setIcon(pinIcon(m.animal, m.animal.id === state.sel));
+  cluster.refreshClusters();
+  render();
+}
+
+let heat = null;
+$("heatBtn").onclick = () => {
+  if (heat) { map.removeLayer(heat); heat = null; $("heatBtn").classList.remove("on"); return; }
+  const pts = filtered().map(a => [a.lat, a.lon, 1]);
+  heat = L.heatLayer(pts, { radius: 38, blur: 30, maxZoom: 11, max: 25, minOpacity: .35,
+    gradient: { .2: "#4b6cff", .45: "#38c9b4", .65: "#ffd34d", .85: "#ff8a3d", 1: "#ff3d5a" } }).addTo(map);
+  $("heatBtn").classList.add("on");
+};
+let allBounds;
+$("fitBtn").onclick = () => allBounds && map.fitBounds(allBounds, { padding: fitPad() });
+const fitPad = () => innerWidth > 720 ? [40, 40] : [30, 30];
+const fitOpts = () => innerWidth > 720 ? { paddingTopLeft: [420, 40], paddingBottomRight: [70, 40] } : { paddingTopLeft: [20, 20], paddingBottomRight: [20, innerHeight * .52] };
+
+/* ---------- filtering ---------- */
+function matches(a) {
+  if (!state.on.has(a.category)) return false;
+  if (!state.q) return true;
+  return a._hay.includes(state.q);
+}
+const filtered = () => animals.filter(matches);
+const inView = list => { const b = map.getBounds(); return list.filter(a => b.contains([a.lat, a.lon])); };
+
+function applyFilter() {
+  const list = filtered();
+  cluster.clearLayers();
+  cluster.addLayers(list.map(a => markers.get(a.id)));
+  if (heat) { heat.setLatLngs(list.map(a => [a.lat, a.lon, 1])); }
+  state.shown = PAGE;
+  render();
+}
+
+/* ---------- panel ---------- */
+function renderHead() {
+  const list = filtered(), visible = inView(list);
+  const byCat = c => visible.filter(a => a.category === c).length;
+  $("mix").innerHTML = ORDER.map(c => `<span style="background:${color(c)};flex-grow:${byCat(c)}" title="${CATS[c].label}: ${byCat(c)}"></span>`).join("");
+  $("chips").innerHTML = ORDER.map(c => {
+    const total = animals.filter(a => a.category === c).length;
+    return `<button class="chip${state.on.has(c) ? "" : " off"}" data-cat="${c}" style="--c:${color(c)}" title="Click to toggle, double-click to show only ${CATS[c].label.toLowerCase()}">
+      <span class="em">${CATS[c].emoji}</span>${CATS[c].label}<span class="n">${fmt(total)}</span></button>`;
+  }).join("");
+  $("nView").textContent = fmt(visible.length);
+  return visible;
+}
+
+function card(a) {
+  const bits = [cleanBreed(a.breed), SEX[a.sex], a.age && a.age.replace(" jaar en ", "y ").replace(" maand", "m").replace(" jaar", "y")].filter(Boolean);
+  return `<div class="card" data-id="${a.id}">
+    <div class="thumb" style="--c:${color(a.category)}">${imgTag(a)}</div>
+    <div class="meta">
+      <div class="name">${esc(a.name)}${a.badge ? `<span class="tag">${esc(a.badge)}</span>` : ""}</div>
+      <div class="line">${esc(bits.join(" · "))}</div>
+      <div class="line">${esc(a.shelter)} · ${esc(nice(a.location))}</div>
+    </div></div>`;
+}
+
+function renderList(visible) {
+  if (!visible.length) return `<div class="empty">No animals here.<br>Zoom out or loosen the filters.</div>`;
+  const rows = visible.slice(0, state.shown).map(card).join("");
+  const more = visible.length > state.shown ? `<button class="more" data-more>Show ${Math.min(PAGE, visible.length - state.shown)} more of ${fmt(visible.length - state.shown)}</button>` : "";
+  return rows + more;
+}
+
+function group(list, keyFn) {
+  const g = new Map();
+  for (const a of list) {
+    const k = keyFn(a);
+    if (!g.has(k)) g.set(k, { key: k, items: [], counts: {} });
+    const e = g.get(k); e.items.push(a); e.counts[a.category] = (e.counts[a.category] || 0) + 1;
+  }
+  return [...g.values()].sort((x, y) => y.items.length - x.items.length);
+}
+function hotRow(e, i, max, kind, sub) {
+  const bar = ORDER.map(c => `<span style="background:${color(c)};flex-grow:${e.counts[c] || 0}"></span>`).join("");
+  return `<div class="hot" data-${kind}="${esc(e.key)}">
+    <span class="rank">${i + 1}</span><span class="t">${esc(kind === "town" ? nice(e.key) : e.key)}</span><span class="c">${fmt(e.items.length)}</span>
+    <div class="bar" style="width:${Math.max(8, e.items.length / max * 100)}%">${bar}</div>
+    ${sub ? `<span class="line">${esc(sub)}</span>` : ""}</div>`;
+}
+function renderHot(visible) {
+  if (!visible.length) return `<div class="empty">Nothing in view.</div>`;
+  const towns = group(visible, a => a.location).slice(0, 10);
+  const sh = group(visible, a => a.shelter).slice(0, 15);
+  const tMax = towns[0].items.length, sMax = sh[0].items.length;
+  return `<div class="section">Busiest towns in view</div>` +
+    towns.map((e, i) => hotRow(e, i, tMax, "town", `${new Set(e.items.map(a => a.shelter)).size} shelter(s)`)).join("") +
+    `<div class="section">Biggest shelters in view</div>` +
+    sh.map((e, i) => hotRow(e, i, sMax, "shelter", nice(e.items[0].location))).join("");
+}
+
+function renderAnimal(a) {
+  const s = shelters[a.shelter] || {};
+  const facts = [
+    ["Kind", [a.type && nice(a.type), CATS[a.category].label].filter(Boolean)[0]],
+    ["Breed", cleanBreed(a.breed)], ["Sex", SEX[a.sex] || a.sex], ["Age", a.age],
+    ["Shelter", a.shelter], ["Where", [nice(s.street), [s.postcode, nice(s.city || a.location)].filter(Boolean).join(" ")].filter(Boolean).join(", ")],
+  ].filter(f => f[1]);
+  return `<button class="back" data-back>← Back</button>
+    <div class="hero" style="--c:${color(a.category)}">${imgTag(a)}</div>
+    <div class="detail" style="--c:${color(a.category)}">
+      <h2>${esc(a.name)}</h2>
+      ${a.badge ? `<span class="tag" style="margin:0">${esc(a.badge)}</span>` : ""}
+      <dl class="facts">${facts.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+      ${a.summary ? `<p class="summary">${esc(a.summary)}</p>` : ""}
+      <a class="cta" href="${esc(a.url)}" target="_blank" rel="noopener">Meet ${esc(a.name)} on adopteereendier.be ↗</a>
+      ${s.name ? `<p style="margin-top:14px"><a href="#" data-shelter="${esc(s.name)}" style="color:var(--muted)">All animals at ${esc(s.name)} →</a></p>` : ""}
+    </div>`;
+}
+
+function renderShelter(names) {
+  const list = filtered().filter(a => names.includes(a.shelter));
+  const head = names.map(n => {
+    const s = shelters[n] || {};
+    const contact = [s.phone, s.website && `<a href="${esc(s.website)}" target="_blank" rel="noopener">website</a>`, s.url && `<a href="${esc(s.url)}" target="_blank" rel="noopener">on adopteereendier.be</a>`].filter(Boolean).join(" · ");
+    return `<div class="shead"><h2>${esc(n)}</h2>
+      <div class="line" style="white-space:normal">${esc([nice(s.street), [s.postcode, nice(s.city)].filter(Boolean).join(" ")].filter(Boolean).join(", "))}</div>
+      <div class="line" style="white-space:normal">${contact}</div>
+      ${s.geo_precision === "municipality" ? `<div class="approx">Pin is at the town centre; the exact address isn't listed.</div>` : ""}</div>`;
+  }).join("");
+  const counts = {}; list.forEach(a => counts[a.category] = (counts[a.category] || 0) + 1);
+  const mix = `<div class="bar" style="margin:0 18px 6px">${ORDER.map(c => `<span style="background:${color(c)};flex-grow:${counts[c] || 0}"></span>`).join("")}</div>`;
+  return `<button class="back" data-back>← Back</button>${head}${mix}
+    <div class="section">${fmt(list.length)} animals${list.length ? "" : " match your filters"}</div>` +
+    list.slice(0, state.shown).map(card).join("") +
+    (list.length > state.shown ? `<button class="more" data-more>Show more</button>` : "");
+}
+
+function render() {
+  const visible = renderHead();
+  const body = $("body");
+  if (state.view?.type === "animal") body.innerHTML = renderAnimal(state.view.a);
+  else if (state.view?.type === "shelter") body.innerHTML = renderShelter(state.view.names);
+  else body.innerHTML = state.tab === "hot" ? renderHot(visible) : renderList(visible);
+  $("tabs").style.display = state.view ? "none" : "";
+}
+
+function select(id) {
+  const prev = state.sel; state.sel = id;
+  for (const k of [prev, id]) if (k && markers.has(k)) markers.get(k).setIcon(pinIcon(markers.get(k).animal, k === id));
+}
+function openAnimal(a, fly = true) {
+  const scroll = $("body").scrollTop;
+  state.view = { type: "animal", a, back: state.view, scroll };
+  select(a.id);
+  if (fly) map.flyTo([a.lat, a.lon], Math.max(map.getZoom(), 13), { duration: .8 });
+  render(); $("body").scrollTop = 0; $("panel").classList.remove("min");
+}
+function openShelter(name, names = [name]) {
+  state.view = { type: "shelter", names, back: state.view?.type === "animal" ? state.view : null, scroll: $("body").scrollTop };
+  state.shown = PAGE;
+  const s = shelters[name];
+  if (s && s.lat !== "") map.flyTo([s.lat, s.lon], Math.max(map.getZoom(), 12), { duration: .8 });
+  render(); $("body").scrollTop = 0; $("panel").classList.remove("min");
+}
+function back() {
+  const v = state.view; state.view = v?.back || null; select(null);
+  render(); $("body").scrollTop = v?.scroll || 0;
+}
+
+/* ---------- events ---------- */
+$("chips").addEventListener("click", e => {
+  const c = e.target.closest(".chip")?.dataset.cat; if (!c) return;
+  if (e.detail === 2) { state.on = new Set([c]); }       // double-click: only this one
+  else if (state.on.has(c)) { state.on.delete(c); if (!state.on.size) state.on = new Set(ORDER); }
+  else state.on.add(c);
+  applyFilter();
+});
+let qt;
+$("q").addEventListener("input", e => {
+  clearTimeout(qt);
+  qt = setTimeout(() => { state.q = e.target.value.trim().toLowerCase(); state.view = null; applyFilter(); }, 150);
+});
+$("tabs").addEventListener("click", e => {
+  const t = e.target.closest(".tab")?.dataset.tab; if (!t) return;
+  state.tab = t; document.querySelectorAll(".tab").forEach(b => b.classList.toggle("on", b.dataset.tab === t));
+  render(); $("body").scrollTop = 0;
+});
+$("body").addEventListener("click", e => {
+  const el = e.target;
+  if (el.closest("[data-back]")) return back();
+  if (el.closest("[data-more]")) { state.shown += PAGE; const s = $("body").scrollTop; render(); $("body").scrollTop = s; return; }
+  const sh = el.closest("[data-shelter]"); if (sh) { e.preventDefault(); return openShelter(sh.dataset.shelter); }
+  const town = el.closest("[data-town]");
+  if (town) {
+    const pts = filtered().filter(a => a.location === town.dataset.town).map(a => [a.lat, a.lon]);
+    const names = [...new Set(filtered().filter(a => a.location === town.dataset.town).map(a => a.shelter))];
+    if (names.length === 1) return openShelter(names[0]);
+    return map.fitBounds(pts, { ...fitOpts(), maxZoom: 14 });
+  }
+  const c = el.closest(".card"); if (c) openAnimal(animals.find(a => a.id === +c.dataset.id));
+});
+$("grab").onclick = () => $("panel").classList.toggle("min");
+let photoMode = null;
+map.on("zoomend", () => { const pm = map.getZoom() >= 10.5; if (pm !== photoMode) { photoMode = pm; cluster.refreshClusters(); } });
+let mt; map.on("moveend", () => { clearTimeout(mt); mt = setTimeout(() => { if (!state.view) state.shown = PAGE; render(); }, 120); });
+
+/* ---------- load ---------- */
+Promise.all([
+  fetch("data/animals.json").then(r => r.json()),
+  fetch("data/shelters.json").then(r => r.json()),
+  fetch("data/meta.json").then(r => r.json()).catch(() => ({})),
+]).then(([a, s, meta]) => {
+  for (const x of s) shelters[x.name] = x;
+  animals = a.filter(x => x.lat !== "" && x.lat != null && CATS[x.category]);
+  for (const x of animals) {
+    x._hay = [x.name, x.breed, x.shelter, x.location, x.type, CATS[x.category].label].join(" ").toLowerCase();
+    const m = L.marker([x.lat, x.lon], { icon: pinIcon(x) });
+    m.animal = x;
+    m.on("click", () => openAnimal(x, false));
+    markers.set(x.id, m);
+  }
+  const towns = new Set(animals.map(x => x.location)).size;
+  const when = meta.updated_at ? new Date(meta.updated_at.replace("Z", ":00Z")).toLocaleString("en-GB", { dateStyle: "medium", timeStyle: "short" }) : "";
+  $("sub").innerHTML = `<b>${fmt(animals.length)}</b> animals in <b>${s.length}</b> shelters across <b>${towns}</b> towns${when ? ` · updated ${esc(when)}` : ""}`;
+  allBounds = L.latLngBounds(animals.map(x => [x.lat, x.lon]));
+  map.fitBounds(allBounds, fitOpts());
+  applyFilter();
+  $("loading").classList.add("gone");
+}).catch(err => {
+  $("loading").innerHTML = `<div style="text-align:center;padding:16px">Couldn't load the data.<br><small>${esc(err.message)}</small></div>`;
+});
+</script>
+</body>
+</html>
