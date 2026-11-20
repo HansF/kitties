@@ -184,9 +184,16 @@
 
   /* ---------- phone: panel becomes a bottom sheet ---------- */
   @media (max-width: 720px) {
-    #panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: 52vh; border-radius: 18px 18px 0 0; border-bottom: 0; transition: height .25s ease; }
-    .grab { display: block; width: 40px; height: 5px; border-radius: 9px; background: var(--line); margin: 8px auto 0; cursor: pointer; border: 0; padding: 0; }
-    .head { padding: 8px 16px 10px; }
+    #panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; height: var(--sheet); border-radius: 18px 18px 0 0; border-bottom: 0; transition: height .28s cubic-bezier(.2,.8,.2,1); }
+    body { --sheet: 52vh; }
+    body[data-sheet="min"] { --sheet: 182px; }
+    body[data-sheet="full"] { --sheet: 80vh; }
+    .grab { display: block; width: 100%; height: 22px; background: none; cursor: grab; border: 0; padding: 0; position: relative; touch-action: none; }
+    .grab::after { content: ""; position: absolute; left: 50%; top: 9px; width: 40px; height: 5px; margin-left: -20px; border-radius: 9px; background: color-mix(in srgb, var(--fg) 25%, transparent); }
+    .head { padding: 0 16px 10px; touch-action: pan-x; flex: none; }
+    .grab, .tabs { flex: none; }
+    body.viewing .head { display: none; }
+    body.viewing .back { padding-top: 2px; }
     h1 { font-size: 19px; }
     .sub { font-size: 12px; }
     .bar { margin: 10px 0 10px; }
@@ -194,11 +201,14 @@
     .chips::-webkit-scrollbar { display: none; }
     .chip { flex: none; }
     .search { margin-top: 10px; }
-    #panel.min { height: 178px; }
     .tabs, .card, .hot, .section, .shead, .detail, .back { padding-left: 16px; padding-right: 16px; }
     .ctrls { top: 12px; right: 12px; }
     .leaflet-top.leaflet-right { top: 108px; }
-    .leaflet-bottom.leaflet-right { bottom: calc(52vh + 4px); }
+    .leaflet-bottom.leaflet-right { bottom: calc(var(--sheet) + 2px); transition: bottom .28s; }
+    /* looking at an animal or shelter: the map is a small strip, keep it clean */
+    body[data-sheet="full"] .ctrls, body[data-sheet="full"] .leaflet-top.leaflet-right, body[data-sheet="full"] .leaflet-control-attribution { display: none; }
+    .hero { margin: 4px 16px 0; aspect-ratio: 4/3; }
+    .pin { width: 38px; height: 38px; }
   }
 </style>
 </head>
@@ -250,6 +260,7 @@ const CATS = {
 const ORDER = Object.keys(CATS);
 const SEX = { M: "Male", V: "Female", Kater: "Male", Kattin: "Female", Reu: "Male", Teef: "Female" };
 const PAGE = 60;
+const isPhone = () => innerWidth <= 720;
 const TRAITS = {
   "Kan met kinderen om < 6 jaar?": "Kids under 6",
   "Kan met kinderen om < 14 jaar?": "Kids under 14",
@@ -332,19 +343,19 @@ function donut(counts, total) {
   return `conic-gradient(${stops.join(",")})`;
 }
 const cluster = L.markerClusterGroup({
-  maxClusterRadius: z => z < 10 ? 70 : 50,
+  maxClusterRadius: z => isPhone() ? (z < 10 ? 50 : 40) : (z < 10 ? 70 : 50),
   showCoverageOnHover: false, spiderfyOnMaxZoom: false, zoomToBoundsOnClick: false, chunkedLoading: true,
   iconCreateFunction(c) {
     const kids = c.getAllChildMarkers(), counts = {};
     for (const m of kids) counts[m.animal.category] = (counts[m.animal.category] || 0) + 1;
-    const n = kids.length, size = Math.round(34 + Math.min(40, Math.log2(n) * 5));
+    const n = kids.length, size = Math.round(isPhone() ? 30 + Math.min(26, Math.log2(n) * 3.4) : 34 + Math.min(40, Math.log2(n) * 5));
     const cls = n >= 200 ? "huge" : n >= 50 ? "big" : "";
     // zoomed in on one spot (a shelter, or several sharing a town centre): show it as a photo bubble instead of a bare number
     const k0 = kids[0].animal;
     if (map.getZoom() >= 10.5 && kids.every(m => m.animal.lat === k0.lat && m.animal.lon === k0.lon)) {
       const withImg = kids.filter(m => m.animal.image).map(m => m.animal);
       const faces = withImg.slice(0, 3);
-      const ps = Math.round(50 + Math.min(18, Math.log2(n) * 3));
+      const ps = Math.round(isPhone() ? 42 + Math.min(12, Math.log2(n) * 2) : 50 + Math.min(18, Math.log2(n) * 3));
       return L.divIcon({
         html: `<div class="shel" style="width:${ps}px;height:${ps}px;background:${donut(counts, n)}">
           ${faces.length ? faces.map((a, i) => `<img src="${esc(a.image)}" alt="" class="f${i}" onerror="this.remove()">`).join("") : `<span>${CATS[kids[0].animal.category].emoji}</span>`}
@@ -375,7 +386,7 @@ cluster.on("clusterclick", e => {
 function pinIcon(a, sel) {
   return L.divIcon({
     html: `<div class="pin${sel ? " sel" : ""}" style="--c:${color(a.category)}"><div>${imgTag(a)}</div></div>`,
-    className: "", iconSize: [44, 44], iconAnchor: [22, 22],
+    className: "", iconSize: isPhone() ? [38, 38] : [44, 44],
   });
 }
 function refreshIcons() {
@@ -392,10 +403,33 @@ $("heatBtn").onclick = () => {
     gradient: { .2: "#4b6cff", .45: "#38c9b4", .65: "#ffd34d", .85: "#ff8a3d", 1: "#ff3d5a" } }).addTo(map);
   $("heatBtn").classList.add("on");
 };
+const SHEETS = ["min", "half", "full"];
+const sheet = () => document.body.dataset.sheet || "half";
+function sheetPx(st = sheet()) {
+  if (!isPhone()) return 0;
+  return st === "min" ? 182 : st === "full" ? innerHeight * .8 : innerHeight * .52;
+}
+function setSheet(st) {
+  if (!isPhone() || st === sheet()) return;
+  document.body.dataset.sheet = st;
+  setTimeout(() => map.invalidateSize({ pan: false }), 300);
+}
+// the part of the map that isn't covered by the panel
+function visibleRect() {
+  const W = innerWidth, H = innerHeight;
+  if (isPhone()) return { l: 0, t: 0, r: W, b: H - sheetPx() };
+  return { l: $("panel").getBoundingClientRect().right, t: 0, r: W, b: H };
+}
+// fly so `latlng` sits in the middle of the visible part of the map
+function focusOn(latlng, zoom) {
+  const size = map.getSize(), r = visibleRect();
+  const off = L.point(size.x / 2 - (r.l + r.r) / 2, size.y / 2 - (r.t + r.b) / 2);
+  const target = map.unproject(map.project(latlng, zoom).add(off), zoom);
+  map.flyTo(target, zoom, { duration: .7 });
+}
 let allBounds;
-$("fitBtn").onclick = () => allBounds && map.fitBounds(allBounds, { padding: fitPad() });
-const fitPad = () => innerWidth > 720 ? [40, 40] : [30, 30];
-const fitOpts = () => innerWidth > 720 ? { paddingTopLeft: [420, 40], paddingBottomRight: [70, 40] } : { paddingTopLeft: [20, 20], paddingBottomRight: [20, innerHeight * .52] };
+$("fitBtn").onclick = () => allBounds && map.fitBounds(allBounds, fitOpts());
+const fitOpts = () => isPhone() ? { paddingTopLeft: [16, 16], paddingBottomRight: [16, sheetPx() + 16] } : { paddingTopLeft: [420, 40], paddingBottomRight: [70, 40] };
 
 /* ---------- filtering ---------- */
 function matches(a) {
@@ -542,6 +576,7 @@ function render() {
   else if (state.view?.type === "shelter") body.innerHTML = renderShelter(state.view.names);
   else body.innerHTML = state.tab === "hot" ? renderHot(visible) : renderList(visible);
   $("tabs").style.display = state.view ? "none" : "";
+  document.body.classList.toggle("viewing", !!state.view);
 }
 
 function select(id) {
@@ -552,8 +587,9 @@ function openAnimal(a, fly = true) {
   const scroll = $("body").scrollTop;
   state.view = { type: "animal", a, back: state.view, scroll };
   select(a.id);
-  if (fly) map.flyTo([a.lat, a.lon], Math.max(map.getZoom(), 13), { duration: .8 });
-  render(); $("body").scrollTop = 0; $("panel").classList.remove("min");
+  setSheet("full");
+  if (fly || isPhone()) focusOn([a.lat, a.lon], Math.max(map.getZoom(), fly ? 13 : map.getZoom()));
+  render(); $("body").scrollTop = 0;
   const view = state.view;
   loadDetails(a.id).then(d => {
     view.details = d;               // null = no details file (yet): keep the teaser
@@ -564,11 +600,13 @@ function openShelter(name, names = [name]) {
   state.view = { type: "shelter", names, back: state.view?.type === "animal" ? state.view : null, scroll: $("body").scrollTop };
   state.shown = PAGE;
   const s = shelters[name];
-  if (s && s.lat !== "") map.flyTo([s.lat, s.lon], Math.max(map.getZoom(), 12), { duration: .8 });
-  render(); $("body").scrollTop = 0; $("panel").classList.remove("min");
+  setSheet("full");
+  if (s && s.lat !== "") focusOn([s.lat, s.lon], Math.max(map.getZoom(), 12));
+  render(); $("body").scrollTop = 0;
 }
 function back() {
   const v = state.view; state.view = v?.back || null; select(null);
+  if (!state.view) setSheet("half");
   render(); $("body").scrollTop = v?.scroll || 0;
 }
 
@@ -607,12 +645,30 @@ $("body").addEventListener("click", e => {
   }
   const c = el.closest(".card"); if (c) openAnimal(animals.find(a => a.id === +c.dataset.id));
 });
-$("grab").onclick = () => $("panel").classList.toggle("min");
+$("grab").onclick = () => setSheet(sheet() === "half" ? "min" : "half");
+{
+  let y0 = null, x0 = 0;
+  const start = e => { if (!isPhone() || e.target.closest("input")) return; y0 = e.touches[0].clientY; x0 = e.touches[0].clientX; };
+  const end = e => {
+    if (y0 === null) return;
+    const dy = e.changedTouches[0].clientY - y0, dx = e.changedTouches[0].clientX - x0; y0 = null;
+    if (Math.abs(dy) < 35 || Math.abs(dy) < Math.abs(dx)) return;
+    const i = SHEETS.indexOf(sheet()) + (dy < 0 ? 1 : -1);
+    setSheet(SHEETS[Math.max(0, Math.min(2, i))]);
+  };
+  for (const el of [$("grab"), document.querySelector(".head")]) {
+    el.addEventListener("touchstart", start, { passive: true });
+    el.addEventListener("touchend", end);
+  }
+}
+$("q").addEventListener("focus", () => { if (sheet() === "min") setSheet("half"); });
+$("tabs").addEventListener("click", () => { if (sheet() === "min") setSheet("half"); });
 let photoMode = null;
 map.on("zoomend", () => { const pm = map.getZoom() >= 10.5; if (pm !== photoMode) { photoMode = pm; cluster.refreshClusters(); } });
 let mt; map.on("moveend", () => { clearTimeout(mt); mt = setTimeout(() => { if (!state.view) state.shown = PAGE; render(); }, 120); });
 
 /* ---------- load ---------- */
+if (isPhone()) document.body.dataset.sheet = "min";
 Promise.all([
   fetch("data/animals.json").then(r => r.json()),
   fetch("data/shelters.json").then(r => r.json()),
