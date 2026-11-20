@@ -1,6 +1,23 @@
 [
  {
   "category": "honden",
+  "id": 143458,
+  "type": "",
+  "name": "Marco",
+  "breed": "Shih Tzu",
+  "sex": "Reu",
+  "age": "0 jaar en 9 maand",
+  "summary": "Marco is een prachtige shihtzu reu van 8 maand oud. Hij kwam bij ons terecht na afstand vanwege zijn verlatingsangst. Marco is gewoon van zowel...",
+  "shelter": "Sint-Hubertus vzw",
+  "location": "AALST",
+  "lat": 50.964054,
+  "lon": 4.045662,
+  "badge": "",
+  "image": "https://media.animalshelter.be/310698/sint-hubertus-vzw-marco-272866-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143458/marco"
+ },
+ {
+  "category": "honden",
   "id": 143450,
   "type": "",
   "name": "Gipsy",
@@ -1035,23 +1052,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/309694/vzw-dierenasiel-de-knuffelpootjes-soeki-274279-main.jpg",
   "url": "https://www.adopteereendier.be/honden/142953/soeki"
- },
- {
-  "category": "honden",
-  "id": 142945,
-  "type": "",
-  "name": "Baz",
-  "breed": "Canis Vulgaris",
-  "sex": "Reu",
-  "age": "9 jaar en 4 maand",
-  "summary": "🐾❤️ BAZ – EEN LIEVE, GEVOELIGE SCHAT DIE DROOMT VAN ZIJN EIGEN RUSTIGE THUIS! 🏡 Sommige hondjes hebben wat meer tijd nodig om hun hartje...",
-  "shelter": "TWAS Animal Rescue",
-  "location": "BLAASVELD",
-  "lat": 51.053954,
-  "lon": 4.368514,
-  "badge": "",
-  "image": "https://media.animalshelter.be/312260/twas-animal-rescue-baz-274778-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/142945/baz"
  },
  {
   "category": "honden",
@@ -2939,23 +2939,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/303629/het-blauwe-kruis-van-de-kust-monty-272181-main.jpg",
   "url": "https://www.adopteereendier.be/honden/140370/monty"
- },
- {
-  "category": "honden",
-  "id": 140284,
-  "type": "",
-  "name": "Jef",
-  "breed": "Labrador Retriever",
-  "sex": "Reu",
-  "age": "7 jaar en 5 maand",
-  "summary": "🐾 Maak kennis met Jef🐾 Leeftijd: 24/05/2019 Ras: Labrador x jachthond Geslacht: Reu Steriel: Nee Beschrijving: Jef werd afgestaan omdat er door omstandigheden niet meer...",
-  "shelter": "Pootjesparadijs vzw",
-  "location": "ZEMST",
-  "lat": 50.9493,
-  "lon": 4.42348,
-  "badge": "",
-  "image": "https://media.animalshelter.be/303271/pootjesparadijs-vzw-jef-272276-main.jpeg",
-  "url": "https://www.adopteereendier.be/honden/140284/jef"
  },
  {
   "category": "honden",
