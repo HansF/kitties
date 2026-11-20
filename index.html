@@ -4,6 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kitties Data API</title>
+<link rel="alternate" type="application/rss+xml" title="All animals" href="data/feeds/all.xml">
+<link rel="alternate" type="application/rss+xml" title="Cats" href="data/feeds/katten.xml">
+<link rel="alternate" type="application/rss+xml" title="Dogs" href="data/feeds/honden.xml">
+<link rel="alternate" type="application/rss+xml" title="Farm animals" href="data/feeds/weidedieren.xml">
+<link rel="alternate" type="application/rss+xml" title="Rabbits &amp; rodents" href="data/feeds/konijnen-en-knaagdieren.xml">
+<link rel="alternate" type="application/rss+xml" title="Other animals" href="data/feeds/overigedieren.xml">
 <meta name="description" content="Hourly JSON/CSV snapshot of every animal up for adoption on adopteereendier.be">
 <style>
   :root {
@@ -87,6 +93,15 @@
   </div>
   <p style="margin-top:12px">CSV files use <code>;</code> as separator and UTF-8 with BOM, so they open directly in Excel.
     All URLs are served with <code>Access-Control-Allow-Origin: *</code>.</p>
+
+  <h2>RSS feeds</h2>
+  <p>The 50 newest animals, with photo and full description, in any feed reader:
+    <a href="data/feeds/all.xml">all</a> ·
+    <a href="data/feeds/katten.xml">cats</a> ·
+    <a href="data/feeds/honden.xml">dogs</a> ·
+    <a href="data/feeds/konijnen-en-knaagdieren.xml">rabbits &amp; rodents</a> ·
+    <a href="data/feeds/weidedieren.xml">farm animals</a> ·
+    <a href="data/feeds/overigedieren.xml">other</a>.</p>
 
   <h2>Animal fields</h2>
   <div class="table-wrap">

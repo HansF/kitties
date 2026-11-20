@@ -9,6 +9,7 @@ Writes:
   data/meta.json           index for apps: last update time, counts, file list
   data/geocache.json       address -> coordinates cache (see geocode.py)
   data/details/<id>.json   full detail page per animal (see details.py)
+  data/feeds/<name>.xml    RSS feeds of the newest animals, all and per category (see feeds.py)
 
 Refuses to overwrite data if a scrape returns far fewer animals than before
 (e.g. the site layout changed), so a broken run can't wipe the dataset.
@@ -21,6 +22,7 @@ from pathlib import Path
 
 from check_cats import fetch_page
 import details
+import feeds
 import geocode
 import scrape_shelters
 
@@ -76,6 +78,7 @@ def write_meta(animals, shelters, added, removed, now, changed):
         "last_change": {"added": len(added), "removed": len(removed)} if changed else old.get("last_change"),
         "files": {k: f"{BASE_URL}/{v}" for k, v in files.items()},
         "details": f"{BASE_URL}/details/{{id}}.json",
+        "feeds": {k: f"{BASE_URL}/feeds/{k}.xml" for k in feeds.TITLES},
         "csv": {k: f"{BASE_URL}/{v[:-5]}.csv" for k, v in files.items() if k != "new"},
     }
     meta_file.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
@@ -139,6 +142,7 @@ def main():
         for change, rows in (("added", added), ("removed", removed)):
             for a in rows:
                 w.writerow({"time": now, "change": change, **a})
+    feeds.write_feeds(animals)  # after the log, so new animals get their pubDate
     write_meta(animals, shelters, added, removed, now, snapshot() != before)
 
 

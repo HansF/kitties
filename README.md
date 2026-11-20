@@ -14,6 +14,7 @@ plus all shelters. A GitHub Action runs `refresh.py` every hour and commits the 
 | `changes.csv` | Running log of every animal added/removed, with UTC timestamp. |
 | `geocache.json` | Address → coordinates cache used by `geocode.py`. |
 | `details/<id>.json` | Full detail page per animal: description, reference, all photos, traits (see below). |
+| `feeds/<name>.xml` | RSS 2.0 feed of the 50 newest animals: `all.xml` plus one per category (`katten.xml`, `honden.xml`, …), with photo and full description. |
 
 CSV files use `;` as separator and open directly in Excel. Git history = full history of the listings.
 
@@ -24,6 +25,7 @@ python refresh.py                  # full refresh into data/ (~35 s)
 python check_cats.py               # new cats since your last local check
 python check_cats.py -c honden     # same for dogs (honden, weidedieren, konijnen-en-knaagdieren, overigedieren)
 python geocode.py                  # (re)geocode data/shelters.json only
+python feeds.py                    # rebuild the RSS feeds from data/animals.json
 ```
 
 ## Coordinates
