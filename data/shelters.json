@@ -12,7 +12,10 @@
   "cats": 14,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/t-kattenkwaad-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48575/kattenkwaad-vzw-0683630264rprgent-logo-20171113-170339.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48575/kattenkwaad-vzw-0683630264rprgent-logo-20171113-170339.png",
+  "lat": 50.939052,
+  "lon": 3.211617,
+  "geo_precision": "address"
  },
  {
   "name": "'t Duffels Kattenhuisje",
@@ -27,7 +30,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/t-duffels-kattenhuisje",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48691/t-duffels-kattenhuisje-logo-20200119-183732.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48691/t-duffels-kattenhuisje-logo-20200119-183732.jpg",
+  "lat": 51.089406,
+  "lon": 4.492933,
+  "geo_precision": "address"
  },
  {
   "name": "'t Gouden poezenmandje Hoogstraten",
@@ -42,7 +48,10 @@
   "cats": 11,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/t-gouden-poezenmandje-hoogstraten",
-  "logo": "https://media.animalshelter.be/77261/635D3B28-ECF7-4340-85BF-79D22D52772D.jpeg"
+  "logo": "https://media.animalshelter.be/77261/635D3B28-ECF7-4340-85BF-79D22D52772D.jpeg",
+  "lat": 51.406231,
+  "lon": 4.764609,
+  "geo_precision": "address"
  },
  {
   "name": "'t Kittenhof",
@@ -57,7 +66,10 @@
   "cats": 1,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/t-kittenhof",
-  "logo": ""
+  "logo": "",
+  "lat": 51.335576,
+  "lon": 4.750773,
+  "geo_precision": "address"
  },
  {
   "name": "’t Dierenhof",
@@ -72,7 +84,10 @@
   "cats": 0,
   "other": 20,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/t-dierenhof",
-  "logo": ""
+  "logo": "",
+  "lat": 51.226341,
+  "lon": 2.981488,
+  "geo_precision": "address"
  },
  {
   "name": "Anegria",
@@ -87,7 +102,10 @@
   "cats": 0,
   "other": 3,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/anegria",
-  "logo": "https://media.animalshelter.be/120886/Anegria.jpg"
+  "logo": "https://media.animalshelter.be/120886/Anegria.jpg",
+  "lat": 51.229773,
+  "lon": 4.144598,
+  "geo_precision": "address"
  },
  {
   "name": "Animal Rescue Service vzw",
@@ -102,7 +120,10 @@
   "cats": 0,
   "other": 40,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/animal-rescue-service-vzw",
-  "logo": "https://media.animalshelter.be/257027/797bf558-28a4-47e9-9266-79f78b65f8be.png"
+  "logo": "https://media.animalshelter.be/257027/797bf558-28a4-47e9-9266-79f78b65f8be.png",
+  "lat": 50.810327,
+  "lon": 5.202978,
+  "geo_precision": "municipality"
  },
  {
   "name": "Animal Trust Vzw",
@@ -117,7 +138,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/animal-trust-vzw",
-  "logo": "https://media.animalshelter.be/113877/Schermafbeelding-2021-12-12-om-10.03.19.png"
+  "logo": "https://media.animalshelter.be/113877/Schermafbeelding-2021-12-12-om-10.03.19.png",
+  "lat": 50.982677,
+  "lon": 3.819499,
+  "geo_precision": "address"
  },
  {
   "name": "Asiel Cattaleya",
@@ -132,7 +156,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/asiel-cattaleya",
-  "logo": "https://media.animalshelter.be/260333/Logo-Asiel-Cattaleya-zonder-achtergrond.png"
+  "logo": "https://media.animalshelter.be/260333/Logo-Asiel-Cattaleya-zonder-achtergrond.png",
+  "lat": 51.11262,
+  "lon": 5.247784,
+  "geo_precision": "address"
  },
  {
   "name": "AWP Animal Welfare Projects vzw",
@@ -147,7 +174,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/awp-animal-welfare-projects-vzw",
-  "logo": "https://media.animalshelter.be/114958/Logo-AWP.png"
+  "logo": "https://media.animalshelter.be/114958/Logo-AWP.png",
+  "lat": 51.199706,
+  "lon": 4.535696,
+  "geo_precision": "address"
  },
  {
   "name": "Balkenende Donkieshuis vzw",
@@ -162,7 +192,10 @@
   "cats": 0,
   "other": 3,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/balkenende-donkieshuis-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48711/balkenende-donkieshuis-vzw-logo-20200817-154324.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48711/balkenende-donkieshuis-vzw-logo-20200817-154324.jpg",
+  "lat": 51.090744,
+  "lon": 4.767256,
+  "geo_precision": "address"
  },
  {
   "name": "BaristaCat",
@@ -177,7 +210,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/baristacat",
-  "logo": ""
+  "logo": "",
+  "lat": 51.232828,
+  "lon": 2.917515,
+  "geo_precision": "address"
  },
  {
   "name": "Be Happy Dog",
@@ -192,7 +228,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/be-happy-dog",
-  "logo": "https://media.animalshelter.be/207564/494828335_1055944033132891_7484217847531498948_n.jpg"
+  "logo": "https://media.animalshelter.be/207564/494828335_1055944033132891_7484217847531498948_n.jpg",
+  "lat": 50.911216,
+  "lon": 2.689343,
+  "geo_precision": "address"
  },
  {
   "name": "Bunny Tails VZW",
@@ -207,7 +246,10 @@
   "cats": 0,
   "other": 28,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/bunny-tails-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48695/bunny-tails-vzw-logo-20190819-223429.jpeg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48695/bunny-tails-vzw-logo-20190819-223429.jpeg",
+  "lat": 50.83773,
+  "lon": 3.699396,
+  "geo_precision": "address"
  },
  {
   "name": "Canina Vzw",
@@ -222,7 +264,10 @@
   "cats": 0,
   "other": 1,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/canina-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48584/canina-vzw-logo-20181203-235232.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48584/canina-vzw-logo-20181203-235232.png",
+  "lat": 51.454111,
+  "lon": 4.533287,
+  "geo_precision": "address"
  },
  {
   "name": "Cat Shelter",
@@ -237,7 +282,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/cat-shelter",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48585/cat-shelter-logo-20181205-230903.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48585/cat-shelter-logo-20181205-230903.png",
+  "lat": 51.117413,
+  "lon": 5.250471,
+  "geo_precision": "municipality"
  },
  {
   "name": "CAT-Project",
@@ -252,7 +300,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/cat-project",
-  "logo": "https://media.animalshelter.be/128604/Cat-logo.jpg"
+  "logo": "https://media.animalshelter.be/128604/Cat-logo.jpg",
+  "lat": 51.188631,
+  "lon": 3.805928,
+  "geo_precision": "address"
  },
  {
   "name": "Catdet",
@@ -267,7 +318,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/catdet",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48586/catdet-logo-20200114-125831.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48586/catdet-logo-20200114-125831.jpg",
+  "lat": 51.305636,
+  "lon": 4.509741,
+  "geo_precision": "address"
  },
  {
   "name": "Cathz vzw",
@@ -282,7 +336,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/cathz-vzw",
-  "logo": ""
+  "logo": "",
+  "lat": 51.039941,
+  "lon": 2.946326,
+  "geo_precision": "address"
  },
  {
   "name": "Catopie VZW",
@@ -297,7 +354,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/catopie-vzw",
-  "logo": "https://media.animalshelter.be/272518/Catopie.jpg"
+  "logo": "https://media.animalshelter.be/272518/Catopie.jpg",
+  "lat": 51.099226,
+  "lon": 3.610697,
+  "geo_precision": "address"
  },
  {
   "name": "Cats & Friends",
@@ -312,7 +372,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/cats-friends",
-  "logo": "https://media.animalshelter.be/262840/Cats&amp;Friends.png"
+  "logo": "https://media.animalshelter.be/262840/Cats&amp;Friends.png",
+  "lat": 51.027706,
+  "lon": 5.726948,
+  "geo_precision": "address"
  },
  {
   "name": "Cattitude VZW",
@@ -327,7 +390,10 @@
   "cats": 22,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/cattitude-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48587/cattitude-vzw-logo-20171228-232439.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48587/cattitude-vzw-logo-20171228-232439.jpg",
+  "lat": 50.85383,
+  "lon": 4.60971,
+  "geo_precision": "municipality"
  },
  {
   "name": "Cavy Opvang VZW",
@@ -342,7 +408,10 @@
   "cats": 0,
   "other": 24,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/cavy-opvang-vzw",
-  "logo": "https://media.animalshelter.be/248482/Cavy-Logo---v1.png"
+  "logo": "https://media.animalshelter.be/248482/Cavy-Logo---v1.png",
+  "lat": 51.057039,
+  "lon": 4.364587,
+  "geo_precision": "address"
  },
  {
   "name": "Chez Swa vzw",
@@ -357,7 +426,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/chez-swa-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48589/chez-swa-vzw-logo-20200113-105917.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48589/chez-swa-vzw-logo-20200113-105917.jpg",
+  "lat": 51.321877,
+  "lon": 4.840125,
+  "geo_precision": "address"
  },
  {
   "name": "Chihuahua Rescue",
@@ -372,7 +444,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/chihuahua-rescue",
-  "logo": "https://media.animalshelter.be/238948/original-E0519516-12C7-49DC-A19D-9D4D2B7B3231.jpeg"
+  "logo": "https://media.animalshelter.be/238948/original-E0519516-12C7-49DC-A19D-9D4D2B7B3231.jpeg",
+  "lat": 51.214925,
+  "lon": 5.427197,
+  "geo_precision": "municipality"
  },
  {
   "name": "Coördinatie Antwerpse Dierenbescherming Vzw",
@@ -387,7 +462,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/coordinatie-antwerpse-dierenbescherming-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48590/coordinatie-antwerpse-dierenbescherming-vzw-logo-20181203-235851.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48590/coordinatie-antwerpse-dierenbescherming-vzw-logo-20181203-235851.png",
+  "lat": 51.259424,
+  "lon": 4.371799,
+  "geo_precision": "municipality"
  },
  {
   "name": "De Ark van Pollare vzw",
@@ -402,7 +480,10 @@
   "cats": 22,
   "other": 66,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/de-ark-van-pollare-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48576/de-ark-van-pollare-vzw-logo-20181004-172646.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48576/de-ark-van-pollare-vzw-logo-20181004-172646.jpg",
+  "lat": 50.817867,
+  "lon": 4.137281,
+  "geo_precision": "address"
  },
  {
   "name": "De Poezemoeders Zwerfkattenproject Turnhout vzw",
@@ -417,7 +498,10 @@
   "cats": 12,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/de-poezemoeders-zwerfkattenproject-turnhout-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48687/de-poezemoeders-zwerfkattenproject-turnhout-vzw-logo-20200121-132612.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48687/de-poezemoeders-zwerfkattenproject-turnhout-vzw-logo-20200121-132612.jpg",
+  "lat": 51.328953,
+  "lon": 4.94017,
+  "geo_precision": "municipality"
  },
  {
   "name": "De Snorhaar vzw",
@@ -432,7 +516,10 @@
   "cats": 19,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/de-snorhaar-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48591/de-snorhaar-vzw-logo-20190620-205957.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48591/de-snorhaar-vzw-logo-20190620-205957.jpg",
+  "lat": 50.973261,
+  "lon": 4.966789,
+  "geo_precision": "address"
  },
  {
   "name": "De Zorghoeve vzw",
@@ -447,7 +534,10 @@
   "cats": 0,
   "other": 13,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/de-zorghoeve-vzw",
-  "logo": "https://media.animalshelter.be/125458/animal-shelter-logo-zorghoeve.jpg"
+  "logo": "https://media.animalshelter.be/125458/animal-shelter-logo-zorghoeve.jpg",
+  "lat": 50.89471,
+  "lon": 5.040647,
+  "geo_precision": "address"
  },
  {
   "name": "Dendermonde Zwervertjes",
@@ -462,7 +552,10 @@
   "cats": 38,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/dendermonde-zwervertjes",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48714/dendermonde-zwervertjes-logo-20220225-174838.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48714/dendermonde-zwervertjes-logo-20220225-174838.png",
+  "lat": 51.039003,
+  "lon": 4.152815,
+  "geo_precision": "address"
  },
  {
   "name": "Dieren in Nood Vzw",
@@ -477,7 +570,10 @@
   "cats": 21,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/dieren-in-nood-vzw",
-  "logo": "https://media.animalshelter.be/113116/Dino&#039;s-Dierenasiel.jpg"
+  "logo": "https://media.animalshelter.be/113116/Dino&#039;s-Dierenasiel.jpg",
+  "lat": 51.125826,
+  "lon": 5.766061,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Ganzeweide vzw",
@@ -492,7 +588,10 @@
   "cats": 27,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenasiel-ganzeweide-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48566/dierenasiel-ganzeweide-logo-20160225-133632.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48566/dierenasiel-ganzeweide-logo-20160225-133632.jpg",
+  "lat": 51.111953,
+  "lon": 2.679325,
+  "geo_precision": "municipality"
  },
  {
   "name": "Dierenasiel Genk Vzw",
@@ -507,7 +606,10 @@
   "cats": 11,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/dierenasiel-genk-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48594/dierenasiel-genk-vzw-logo-20190101-123258.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48594/dierenasiel-genk-vzw-logo-20190101-123258.jpg",
+  "lat": 50.967031,
+  "lon": 5.486767,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Ieper vzw",
@@ -522,7 +624,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenasiel-ieper-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48567/dierenasiel-ieper-vzw-logo-20180109-094448.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48567/dierenasiel-ieper-vzw-logo-20180109-094448.png",
+  "lat": 50.842494,
+  "lon": 2.88475,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Knokke-Heist",
@@ -537,7 +642,10 @@
   "cats": 22,
   "other": 2,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenasiel-knokke-heist",
-  "logo": "https://media.animalshelter.be/212773/logo-asiel-knokke-heist.jpg"
+  "logo": "https://media.animalshelter.be/212773/logo-asiel-knokke-heist.jpg",
+  "lat": 51.315942,
+  "lon": 3.344186,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Kontich",
@@ -552,7 +660,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/dierenasiel-kontich",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48595/dierenasiel-kontich-logo-20181217-212756.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48595/dierenasiel-kontich-logo-20181217-212756.jpg",
+  "lat": 51.119568,
+  "lon": 4.432214,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Lommel",
@@ -567,7 +678,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/dierenasiel-lommel",
-  "logo": "https://media.animalshelter.be/161602/LOMMEL.png"
+  "logo": "https://media.animalshelter.be/161602/LOMMEL.png",
+  "lat": 51.240249,
+  "lon": 5.269926,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Ninove vzw",
@@ -582,7 +696,10 @@
   "cats": 8,
   "other": 2,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/dierenasiel-ninove-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48597/dierenasiel-ninove-vzw-logo-20201119-194316.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48597/dierenasiel-ninove-vzw-logo-20201119-194316.png",
+  "lat": 50.793558,
+  "lon": 4.020949,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Regio Roeselare",
@@ -597,7 +714,10 @@
   "cats": 22,
   "other": 2,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenasiel-regio-roeselare",
-  "logo": "https://media.animalshelter.be/128360/Logo-Dierenasiel-RSL-RGB.png"
+  "logo": "https://media.animalshelter.be/128360/Logo-Dierenasiel-RSL-RGB.png",
+  "lat": 50.955745,
+  "lon": 3.100748,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Schoten Vzw",
@@ -612,7 +732,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/dierenasiel-schoten-vzw",
-  "logo": "https://media.animalshelter.be/68518/logo.png"
+  "logo": "https://media.animalshelter.be/68518/logo.png",
+  "lat": 51.242871,
+  "lon": 4.503418,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Tienen",
@@ -627,7 +750,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/dierenasiel-tienen",
-  "logo": "https://media.animalshelter.be/74900/DAT-2022-logo-REC-trans-stempel.png"
+  "logo": "https://media.animalshelter.be/74900/DAT-2022-logo-REC-trans-stempel.png",
+  "lat": 50.803647,
+  "lon": 4.928099,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel Unco Jerry Kempen VZW",
@@ -642,7 +768,10 @@
   "cats": 9,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/dierenasiel-unco-jerry-kempen-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48656/unco-jerry-kempen-logo-20180926-205044.gif"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48656/unco-jerry-kempen-logo-20180926-205044.gif",
+  "lat": 51.091871,
+  "lon": 4.922545,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenasiel vzw De Leiestreek",
@@ -657,7 +786,10 @@
   "cats": 39,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenasiel-vzw-de-leiestreek",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48568/dierenasiel-vzw-de-leiestreek-logo-20190723-161244.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48568/dierenasiel-vzw-de-leiestreek-logo-20190723-161244.png",
+  "lat": 50.798219,
+  "lon": 3.356363,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenbescherming Mechelen",
@@ -672,7 +804,10 @@
   "cats": 17,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/dierenbescherming-mechelen",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48599/dierenbescherming-mechelen-logo-20181009-120107.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48599/dierenbescherming-mechelen-logo-20181009-120107.jpg",
+  "lat": 51.045596,
+  "lon": 4.462201,
+  "geo_precision": "address"
  },
  {
   "name": "Dierencentrum Waasland",
@@ -687,7 +822,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/dierencentrum-waasland",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48602/dierencentrum-waasland-logo-20210815-115203.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48602/dierencentrum-waasland-logo-20210815-115203.png",
+  "lat": 51.189127,
+  "lon": 4.227183,
+  "geo_precision": "address"
  },
  {
   "name": "Dierenvrienden Knokke-Heist vzw",
@@ -702,7 +840,10 @@
   "cats": 8,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/dierenvrienden-knokke-heist-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48701/knokkevoordieren-logo-20200309-170059.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48701/knokkevoordieren-logo-20200309-170059.png",
+  "lat": 51.332533,
+  "lon": 3.307918,
+  "geo_precision": "municipality"
  },
  {
   "name": "Dierenwereldkruis Vzw",
@@ -717,7 +858,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/dierenwereldkruis-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48604/dierenwereldkruis-vzw-logo-20181012-110752.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48604/dierenwereldkruis-vzw-logo-20181012-110752.jpg",
+  "lat": 51.059906,
+  "lon": 4.216207,
+  "geo_precision": "address"
  },
  {
   "name": "DreamCATchers vzw",
@@ -732,7 +876,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/dreamcatchers-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48605/dreamcatchers-vzw-logo-20201104-140357.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48605/dreamcatchers-vzw-logo-20201104-140357.png",
+  "lat": 51.059226,
+  "lon": 3.730083,
+  "geo_precision": "address"
  },
  {
   "name": "EEFS HOEKJE",
@@ -747,7 +894,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/eefs-hoekje",
-  "logo": "https://media.animalshelter.be/155749/kitten-scherp.png"
+  "logo": "https://media.animalshelter.be/155749/kitten-scherp.png",
+  "lat": 51.089604,
+  "lon": 4.150314,
+  "geo_precision": "address"
  },
  {
   "name": "Feathery Forest vzw",
@@ -762,7 +912,10 @@
   "cats": 0,
   "other": 7,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/feathery-forest-vzw",
-  "logo": ""
+  "logo": "",
+  "lat": 50.749705,
+  "lon": 3.607581,
+  "geo_precision": "municipality"
  },
  {
   "name": "Fieke's Poezenhuisje",
@@ -777,7 +930,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/fiekes-poezenhuisje",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48692/fiekes-poezenhuisje-logo-20200114-130427.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48692/fiekes-poezenhuisje-logo-20200114-130427.png",
+  "lat": 50.853295,
+  "lon": 4.233824,
+  "geo_precision": "municipality"
  },
  {
   "name": "Forrest and Friends vzw",
@@ -792,7 +948,10 @@
   "cats": 0,
   "other": 55,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/forrest-and-friends-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48679/vzw-forrest-friends-logo-20181203-231404.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48679/vzw-forrest-friends-logo-20181203-231404.jpg",
+  "lat": 50.97641,
+  "lon": 5.027244,
+  "geo_precision": "address"
  },
  {
   "name": "Furevercatz asiel vzw",
@@ -807,7 +966,10 @@
   "cats": 14,
   "other": 4,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/furevercatz-asiel-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48607/furevercatz-logo-20180105-191252.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48607/furevercatz-logo-20180105-191252.jpg",
+  "lat": 50.947307,
+  "lon": 3.211811,
+  "geo_precision": "address"
  },
  {
   "name": "Harten-Diefjes",
@@ -822,7 +984,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/harten-diefjes",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48609/harten-diefjes-logo-20181127-141118.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48609/harten-diefjes-logo-20181127-141118.jpg",
+  "lat": 51.210102,
+  "lon": 4.661953,
+  "geo_precision": "address"
  },
  {
   "name": "Heartbeat",
@@ -837,7 +1002,10 @@
   "cats": 15,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/heartbeat",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48610/heartbeat-logo-20191226-204307.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48610/heartbeat-logo-20191226-204307.jpg",
+  "lat": 51.288478,
+  "lon": 4.163859,
+  "geo_precision": "address"
  },
  {
   "name": "HELLO KATty",
@@ -852,7 +1020,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/hello-katty",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48611/hello-katty-logo-20181205-225748.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48611/hello-katty-logo-20181205-225748.png",
+  "lat": 51.153005,
+  "lon": 5.760167,
+  "geo_precision": "municipality"
  },
  {
   "name": "Helping Dogs Vzw",
@@ -867,7 +1038,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/helping-dogs-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48612/helping-dogs-vzw-logo-20181011-231605.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48612/helping-dogs-vzw-logo-20181011-231605.png",
+  "lat": 50.992933,
+  "lon": 3.409911,
+  "geo_precision": "address"
  },
  {
   "name": "Het Blauwe Kruis Brugge",
@@ -882,7 +1056,10 @@
   "cats": 24,
   "other": 8,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/het-blauwe-kruis-brugge",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48572/het-blauwe-kruis-brugge-logo-20181009-190807.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48572/het-blauwe-kruis-brugge-logo-20181009-190807.png",
+  "lat": 51.254461,
+  "lon": 3.201011,
+  "geo_precision": "address"
  },
  {
   "name": "Het Blauwe Kruis van België - Wommelgem",
@@ -897,7 +1074,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/het-blauwe-kruis-van-belgie-wommelgem",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48613/het-blauwe-kruis-van-belgie-logo-20210319-125048.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48613/het-blauwe-kruis-van-belgie-logo-20210319-125048.png",
+  "lat": 51.191518,
+  "lon": 4.509218,
+  "geo_precision": "address"
  },
  {
   "name": "Het Blauwe Kruis van de Kust",
@@ -912,7 +1092,10 @@
   "cats": 21,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/het-blauwe-kruis-van-de-kust",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48582/blauwe-kruis-van-de-kust-logo-20191227-123554.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48582/blauwe-kruis-van-de-kust-logo-20191227-123554.png",
+  "lat": 51.221443,
+  "lon": 2.921074,
+  "geo_precision": "address"
  },
  {
   "name": "Het Dabbertje",
@@ -927,7 +1110,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/het-dabbertje",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48614/het-dabbertje-logo-20201030-044632.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48614/het-dabbertje-logo-20201030-044632.png",
+  "lat": 51.028657,
+  "lon": 4.45024,
+  "geo_precision": "municipality"
  },
  {
   "name": "Het Dierenthuisje Vzw",
@@ -942,7 +1128,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/het-dierenthuisje-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48615/het-dierenthuisje-vzw-logo-20200311-213924.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48615/het-dierenthuisje-vzw-logo-20200311-213924.jpg",
+  "lat": 51.19447,
+  "lon": 5.002208,
+  "geo_precision": "address"
  },
  {
   "name": "Het Felix Project Vzw",
@@ -957,7 +1146,10 @@
   "cats": 8,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/het-felix-project-vzw",
-  "logo": "https://media.animalshelter.be/128621/download.png"
+  "logo": "https://media.animalshelter.be/128621/download.png",
+  "lat": 51.074925,
+  "lon": 5.556318,
+  "geo_precision": "municipality"
  },
  {
   "name": "Het Kattenkabinet",
@@ -972,7 +1164,10 @@
   "cats": 23,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/het-kattenkabinet",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48693/het-kattenkabinet-logo-20200524-144239.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48693/het-kattenkabinet-logo-20200524-144239.jpg",
+  "lat": 50.944668,
+  "lon": 4.376545,
+  "geo_precision": "municipality"
  },
  {
   "name": "Het Kittenhuis",
@@ -987,7 +1182,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/het-kittenhuis",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48581/het-kittenhuis-logo-20181211-215507.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48581/het-kittenhuis-logo-20181211-215507.png",
+  "lat": 51.178589,
+  "lon": 3.111371,
+  "geo_precision": "address"
  },
  {
   "name": "Het Knaagtandje",
@@ -1002,7 +1200,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/het-knaagtandje",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48616/het-knaagtandje-logo-20200223-133607.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48616/het-knaagtandje-logo-20200223-133607.jpg",
+  "lat": 50.773935,
+  "lon": 3.861397,
+  "geo_precision": "address"
  },
  {
   "name": "Het Wase poezenhuisje",
@@ -1017,7 +1218,10 @@
   "cats": 77,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/het-wase-poezenhuisje",
-  "logo": "https://media.animalshelter.be/139689/Logoo.png"
+  "logo": "https://media.animalshelter.be/139689/Logoo.png",
+  "lat": 51.222408,
+  "lon": 4.227333,
+  "geo_precision": "address"
  },
  {
   "name": "Het Zilveren Mandje",
@@ -1032,7 +1236,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/het-zilveren-mandje",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48709/het-zilveren-mandje-logo-20210927-102618.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48709/het-zilveren-mandje-logo-20210927-102618.jpg",
+  "lat": 51.137922,
+  "lon": 3.955567,
+  "geo_precision": "municipality"
  },
  {
   "name": "Hippo Agri BV",
@@ -1047,7 +1254,10 @@
   "cats": 0,
   "other": 3,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/hippo-agri-bv",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48669/hippo-agri-bv-logo-20200907-154404.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48669/hippo-agri-bv-logo-20200907-154404.jpg",
+  "lat": 51.248822,
+  "lon": 3.214412,
+  "geo_precision": "municipality"
  },
  {
   "name": "Hof Daalder",
@@ -1062,7 +1272,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/hof-daalder",
-  "logo": "https://media.animalshelter.be/178372/Hof-Daalder.png"
+  "logo": "https://media.animalshelter.be/178372/Hof-Daalder.png",
+  "lat": 51.01624,
+  "lon": 3.170775,
+  "geo_precision": "address"
  },
  {
   "name": "Hof ter Veewyte",
@@ -1077,7 +1290,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/hof-ter-veewyte",
-  "logo": ""
+  "logo": "",
+  "lat": 50.997824,
+  "lon": 3.454663,
+  "geo_precision": "address"
  },
  {
   "name": "Hondenopvang/Herplaatsing Sirius",
@@ -1092,7 +1308,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/hondenopvangherplaatsing-sirius",
-  "logo": "https://media.animalshelter.be/110333/simpel-1.jpg"
+  "logo": "https://media.animalshelter.be/110333/simpel-1.jpg",
+  "lat": 50.951193,
+  "lon": 3.07323,
+  "geo_precision": "address"
  },
  {
   "name": "Hoop voor Zwervertjes vzw",
@@ -1107,7 +1326,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/hoop-voor-zwervertjes-vzw",
-  "logo": "https://media.animalshelter.be/200908/logo_1.jpg"
+  "logo": "https://media.animalshelter.be/200908/logo_1.jpg",
+  "lat": 51.2107,
+  "lon": 2.923576,
+  "geo_precision": "municipality"
  },
  {
   "name": "IOFPA - De Poezenboot",
@@ -1122,7 +1344,10 @@
   "cats": 14,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/iofpa-de-poezenboot",
-  "logo": ""
+  "logo": "",
+  "lat": 51.070276,
+  "lon": 3.692285,
+  "geo_precision": "address"
  },
  {
   "name": "Jodipro vzw",
@@ -1137,7 +1362,10 @@
   "cats": 0,
   "other": 19,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/jodipro-vzw",
-  "logo": "https://media.animalshelter.be/131735/JODIPRO.png"
+  "logo": "https://media.animalshelter.be/131735/JODIPRO.png",
+  "lat": 51.17963,
+  "lon": 4.368176,
+  "geo_precision": "address"
  },
  {
   "name": "Kapoela vzw",
@@ -1152,7 +1380,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/kapoela-vzw",
-  "logo": "https://media.animalshelter.be/203506/Primair-logo-rood.png"
+  "logo": "https://media.animalshelter.be/203506/Primair-logo-rood.png",
+  "lat": 51.053063,
+  "lon": 3.769704,
+  "geo_precision": "address"
  },
  {
   "name": "Kat op de dool Deinze",
@@ -1167,7 +1398,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/kat-op-de-dool-deinze",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48573/kat-op-de-dool-deinze-logo-20181008-184317.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48573/kat-op-de-dool-deinze-logo-20181008-184317.jpg",
+  "lat": 51.02434,
+  "lon": 3.575188,
+  "geo_precision": "address"
  },
  {
   "name": "Kat zoekt Thuis vzw",
@@ -1182,7 +1416,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/kat-zoekt-thuis-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48574/kat-zoekt-thuis-vzw-logo-20181012-225737.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48574/kat-zoekt-thuis-vzw-logo-20181012-225737.png",
+  "lat": 51.074431,
+  "lon": 3.725453,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kathleens katjes",
@@ -1197,7 +1434,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/kathleens-katjes",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48706/kathleen-titeca-logo-20200306-151320.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48706/kathleen-titeca-logo-20200306-151320.jpg",
+  "lat": 51.15342,
+  "lon": 2.838571,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kathy's Cathouse",
@@ -1212,7 +1452,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/kathys-cathouse",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48622/kathys-cathouse-logo-20181127-213626.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48622/kathys-cathouse-logo-20181127-213626.jpg",
+  "lat": 50.981613,
+  "lon": 3.203103,
+  "geo_precision": "municipality"
  },
  {
   "name": "Katimoe VZW",
@@ -1227,7 +1470,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/katimoe-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48623/katimoe-vzw-logo-20180911-163658.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48623/katimoe-vzw-logo-20180911-163658.png",
+  "lat": 50.792496,
+  "lon": 3.154402,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kato",
@@ -1242,7 +1488,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/kato",
-  "logo": "https://media.animalshelter.be/310607/IMG-20261101-WA0010(1).jpg"
+  "logo": "https://media.animalshelter.be/310607/IMG-20261101-WA0010(1).jpg",
+  "lat": 50.864439,
+  "lon": 5.516273,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kattekuren",
@@ -1257,7 +1506,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/kattekuren",
-  "logo": "https://media.animalshelter.be/149180/1-8.webp"
+  "logo": "https://media.animalshelter.be/149180/1-8.webp",
+  "lat": 51.200259,
+  "lon": 2.976355,
+  "geo_precision": "address"
  },
  {
   "name": "Katten Mama's",
@@ -1272,7 +1524,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/katten-mamas",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48732/katten-mamas-logo-20211031-172132.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48732/katten-mamas-logo-20211031-172132.jpg",
+  "lat": 51.132427,
+  "lon": 2.753687,
+  "geo_precision": "address"
  },
  {
   "name": "Katten-t-huis.be",
@@ -1287,7 +1542,10 @@
   "cats": 18,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/katten-t-huisbe",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48626/katten-t-huis-logo-20201014-160337.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48626/katten-t-huis-logo-20201014-160337.png",
+  "lat": 51.259424,
+  "lon": 4.371799,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kattenopvang Waasland",
@@ -1302,7 +1560,10 @@
   "cats": 10,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/kattenopvang-waasland",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48624/kattenopvang-waasland-logo-20171129-184047.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48624/kattenopvang-waasland-logo-20171129-184047.jpg",
+  "lat": 51.078082,
+  "lon": 4.139863,
+  "geo_precision": "municipality"
  },
  {
   "name": "Kattenpension Molenheiken",
@@ -1317,7 +1578,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/kattenpension-molenheiken",
-  "logo": ""
+  "logo": "",
+  "lat": 51.345398,
+  "lon": 4.666306,
+  "geo_precision": "address"
  },
  {
   "name": "Katthuis Vzw",
@@ -1332,7 +1596,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/katthuis-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48627/katthuis-vzw-logo-20200621-221438.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48627/katthuis-vzw-logo-20200621-221438.png",
+  "lat": 51.097944,
+  "lon": 4.14086,
+  "geo_precision": "address"
  },
  {
   "name": "Kittenopvang Katjeduk",
@@ -1347,7 +1614,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/kittenopvang-katjeduk",
-  "logo": "https://media.animalshelter.be/68100/logo.JPG"
+  "logo": "https://media.animalshelter.be/68100/logo.JPG",
+  "lat": 50.881807,
+  "lon": 2.825849,
+  "geo_precision": "address"
  },
  {
   "name": "KMDA Vzw",
@@ -1362,7 +1632,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/kmda-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48630/kmda-vzw-logo-20190415-003055.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48630/kmda-vzw-logo-20190415-003055.jpg",
+  "lat": 51.257052,
+  "lon": 4.41663,
+  "geo_precision": "address"
  },
  {
   "name": "Knaagdierenopvang Wind Whistler",
@@ -1377,7 +1650,10 @@
   "cats": 0,
   "other": 11,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/knaagdierenopvang-wind-whistler",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48631/knaagdierenopvang-wind-whistler-logo-20201014-173418.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48631/knaagdierenopvang-wind-whistler-logo-20201014-173418.png",
+  "lat": 51.049689,
+  "lon": 4.880342,
+  "geo_precision": "address"
  },
  {
   "name": "Konijnenopvang Rambi",
@@ -1392,7 +1668,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/konijnenopvang-rambi",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48712/konijnenopvang-rambi-logo-20210115-225400.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48712/konijnenopvang-rambi-logo-20210115-225400.jpg",
+  "lat": 51.180483,
+  "lon": 3.462647,
+  "geo_precision": "address"
  },
  {
   "name": "Koninklijke Maatschappij voor Dierenbescherming vzw",
@@ -1407,7 +1686,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/koninklijke-maatschappij-voor-dierenbescherming-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48632/asiel-gent-kmd-vzw-logo-20181129-204351.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48632/asiel-gent-kmd-vzw-logo-20181129-204351.jpg",
+  "lat": 51.049633,
+  "lon": 3.693486,
+  "geo_precision": "address"
  },
  {
   "name": "Little Jungle vzw kattenopvang",
@@ -1422,7 +1704,10 @@
   "cats": 17,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/little-jungle-vzw-kattenopvang",
-  "logo": "https://media.animalshelter.be/145486/Screenshot-2023-07-19-14.02.16.png"
+  "logo": "https://media.animalshelter.be/145486/Screenshot-2023-07-19-14.02.16.png",
+  "lat": 51.18013,
+  "lon": 4.898797,
+  "geo_precision": "address"
  },
  {
   "name": "Lucky Paws vzw",
@@ -1437,7 +1722,10 @@
   "cats": 1,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/lucky-paws-vzw",
-  "logo": "https://media.animalshelter.be/97242/Lucky-Paws.PNG"
+  "logo": "https://media.animalshelter.be/97242/Lucky-Paws.PNG",
+  "lat": 51.14408,
+  "lon": 4.835878,
+  "geo_precision": "address"
  },
  {
   "name": "Matakiasiel",
@@ -1452,7 +1740,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/matakiasiel",
-  "logo": "https://media.animalshelter.be/192249/logo.png"
+  "logo": "https://media.animalshelter.be/192249/logo.png",
+  "lat": 51.036715,
+  "lon": 4.802726,
+  "geo_precision": "address"
  },
  {
   "name": "Missie Miauw vzw",
@@ -1467,7 +1758,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/missie-miauw-vzw",
-  "logo": "https://media.animalshelter.be/256478/Missiemiauw.png"
+  "logo": "https://media.animalshelter.be/256478/Missiemiauw.png",
+  "lat": 51.19203,
+  "lon": 5.035644,
+  "geo_precision": "address"
  },
  {
   "name": "MLM Bullies",
@@ -1482,7 +1776,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/mlm-bullies",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48707/mlm-bullies-logo-20200411-095058.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48707/mlm-bullies-logo-20200411-095058.jpg",
+  "lat": 51.108673,
+  "lon": 2.800441,
+  "geo_precision": "address"
  },
  {
   "name": "Nala's Friends",
@@ -1497,7 +1794,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/nalas-friends",
-  "logo": "https://media.animalshelter.be/217760/nalas-friends-logo.png"
+  "logo": "https://media.animalshelter.be/217760/nalas-friends-logo.png",
+  "lat": 50.948978,
+  "lon": 3.682985,
+  "geo_precision": "address"
  },
  {
   "name": "Natuurhulpcentrum vzw",
@@ -1512,7 +1812,10 @@
   "cats": 0,
   "other": 17,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/natuurhulpcentrum-vzw",
-  "logo": "https://media.animalshelter.be/198811/natuurhulpcentrum.png"
+  "logo": "https://media.animalshelter.be/198811/natuurhulpcentrum.png",
+  "lat": 51.074925,
+  "lon": 5.556318,
+  "geo_precision": "municipality"
  },
  {
   "name": "Operatie Zwerfkat Vzw",
@@ -1527,7 +1830,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/operatie-zwerfkat-vzw",
-  "logo": "https://media.animalshelter.be/141818/Logo_OperatieZwerfkat.jpg"
+  "logo": "https://media.animalshelter.be/141818/Logo_OperatieZwerfkat.jpg",
+  "lat": 50.85644,
+  "lon": 3.660525,
+  "geo_precision": "address"
  },
  {
   "name": "Opvangcentrum voor Vogels & Wilde Dieren Brasschaat-Kapellen Vzw",
@@ -1542,7 +1848,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/opvangcentrum-voor-vogels-wilde-dieren-brasschaat-kapellen-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48636/opvangcentrum-voor-vogels-wilde-dieren-brasschaat-kapellen-vzw-logo-20200101-173716.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48636/opvangcentrum-voor-vogels-wilde-dieren-brasschaat-kapellen-vzw-logo-20200101-173716.jpg",
+  "lat": 51.304921,
+  "lon": 4.457878,
+  "geo_precision": "address"
  },
  {
   "name": "Opvangcentrum voor Vogels & Wilde Dieren Merelbeke Vzw",
@@ -1557,7 +1866,10 @@
   "cats": 0,
   "other": 4,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/opvangcentrum-voor-vogels-wilde-dieren-merelbeke-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48637/opvangcentrum-voor-vogels-wilde-dieren-merelbeke-vzw-logo-20181127-224852.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48637/opvangcentrum-voor-vogels-wilde-dieren-merelbeke-vzw-logo-20181127-224852.jpg",
+  "lat": 51.020294,
+  "lon": 3.747203,
+  "geo_precision": "address"
  },
  {
   "name": "Opvangcentrum voor Vogels & Wilde Dieren Oostende Vzw",
@@ -1572,7 +1884,10 @@
   "cats": 0,
   "other": 3,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/opvangcentrum-voor-vogels-wilde-dieren-oostende-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48638/opvangcentrum-voor-vogels-wilde-dieren-oostende-vzw-logo-20181127-222306.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48638/opvangcentrum-voor-vogels-wilde-dieren-oostende-vzw-logo-20181127-222306.png",
+  "lat": 51.197218,
+  "lon": 2.847378,
+  "geo_precision": "address"
  },
  {
   "name": "Opvangcentrum voor Vogels en Wilde Dieren Malderen",
@@ -1587,7 +1902,10 @@
   "cats": 0,
   "other": 18,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/opvangcentrum-voor-vogels-en-wilde-dieren-malderen",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48640/opvangcentrum-voor-vogels-en-wilde-dieren-malderen-logo-20181126-233519.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48640/opvangcentrum-voor-vogels-en-wilde-dieren-malderen-logo-20181126-233519.png",
+  "lat": 51.012832,
+  "lon": 4.227294,
+  "geo_precision": "address"
  },
  {
   "name": "Paardenambulance",
@@ -1602,7 +1920,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/paardenambulance",
-  "logo": ""
+  "logo": "",
+  "lat": 51.330203,
+  "lon": 4.381016,
+  "geo_precision": "address"
  },
  {
   "name": "Pet Rescue Pink Paws",
@@ -1617,7 +1938,10 @@
   "cats": 7,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/pet-rescue-pink-paws",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48641/pink-paws-pet-human-rescue-logo-20200116-124829.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48641/pink-paws-pet-human-rescue-logo-20200116-124829.png",
+  "lat": 51.068022,
+  "lon": 5.110501,
+  "geo_precision": "address"
  },
  {
   "name": "Pet's Clover",
@@ -1632,7 +1956,10 @@
   "cats": 1,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/pets-clover",
-  "logo": ""
+  "logo": "",
+  "lat": 51.046122,
+  "lon": 3.936085,
+  "geo_precision": "address"
  },
  {
   "name": "Poespartoe vzw",
@@ -1647,7 +1974,10 @@
   "cats": 18,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/poespartoe-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48730/poespartoe-vzw-logo-20211017-202836.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48730/poespartoe-vzw-logo-20211017-202836.jpg",
+  "lat": 51.197238,
+  "lon": 3.249741,
+  "geo_precision": "address"
  },
  {
   "name": "Poezelou/zwerfkatjes Koekelare",
@@ -1662,7 +1992,10 @@
   "cats": 10,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/poezelouzwerfkatjes-koekelare",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48685/poezelouzwerfkatjes-koekelare-logo-20200111-161922.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48685/poezelouzwerfkatjes-koekelare-logo-20200111-161922.jpg",
+  "lat": 51.085847,
+  "lon": 2.984382,
+  "geo_precision": "address"
  },
  {
   "name": "Poezenbos VZW",
@@ -1677,7 +2010,10 @@
   "cats": 14,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/poezenbos-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48642/poezenbos-vzw-logo-20200313-170550.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48642/poezenbos-vzw-logo-20200313-170550.jpg",
+  "lat": 51.018755,
+  "lon": 4.206168,
+  "geo_precision": "address"
  },
  {
   "name": "Poezencentrale Vzw",
@@ -1692,7 +2028,10 @@
   "cats": 6,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/poezencentrale-vzw",
-  "logo": "https://media.animalshelter.be/136672/logo-achtergond-wit-tekst.png"
+  "logo": "https://media.animalshelter.be/136672/logo-achtergond-wit-tekst.png",
+  "lat": 51.158605,
+  "lon": 5.182956,
+  "geo_precision": "municipality"
  },
  {
   "name": "Poezenopvang Matissa VZW",
@@ -1707,7 +2046,10 @@
   "cats": 6,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/poezenopvang-matissa-vzw",
-  "logo": "https://media.animalshelter.be/184805/345339516_276219818298049_6595513952328754162_n.png"
+  "logo": "https://media.animalshelter.be/184805/345339516_276219818298049_6595513952328754162_n.png",
+  "lat": 51.31552,
+  "lon": 4.982772,
+  "geo_precision": "address"
  },
  {
   "name": "Poezenplaneet vzw Betekom",
@@ -1722,7 +2064,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/poezenplaneet-vzw-betekom",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48645/poezenplaneet-vzw-betekom-logo-20191226-114536.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48645/poezenplaneet-vzw-betekom-logo-20191226-114536.png",
+  "lat": 51.007012,
+  "lon": 4.784627,
+  "geo_precision": "municipality"
  },
  {
   "name": "Poezensnoetje vzw",
@@ -1737,7 +2082,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/poezensnoetje-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48646/poezensnoetje-vzw-logo-20181127-213609.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48646/poezensnoetje-vzw-logo-20181127-213609.jpg",
+  "lat": 50.772727,
+  "lon": 4.274289,
+  "geo_precision": "address"
  },
  {
   "name": "Pootjesparadijs vzw",
@@ -1752,7 +2100,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/pootjesparadijs-vzw",
-  "logo": "https://media.animalshelter.be/155832/images.png"
+  "logo": "https://media.animalshelter.be/155832/images.png",
+  "lat": 50.9493,
+  "lon": 4.42348,
+  "geo_precision": "address"
  },
  {
   "name": "Projectvereniging Dierenasiel Zuidelijke Westhoek Poezewoef",
@@ -1767,7 +2118,10 @@
   "cats": 18,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/projectvereniging-dierenasiel-zuidelijke-westhoek-poezewoef",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48680/projectvereniging-dierenasiel-zuidelijke-westhoek-poezewoef-logo-20181001-115712.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48680/projectvereniging-dierenasiel-zuidelijke-westhoek-poezewoef-logo-20181001-115712.jpg",
+  "lat": 50.845665,
+  "lon": 2.743589,
+  "geo_precision": "address"
  },
  {
   "name": "Purrito Cat Shelter",
@@ -1782,7 +2136,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/purrito-cat-shelter",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48735/purrito-cat-shelter-logo-20220329-151640.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48735/purrito-cat-shelter-logo-20220329-151640.png",
+  "lat": 51.065472,
+  "lon": 5.236039,
+  "geo_precision": "municipality"
  },
  {
   "name": "Puss and Books VZW",
@@ -1797,7 +2154,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/puss-and-books-vzw",
-  "logo": ""
+  "logo": "",
+  "lat": 51.158821,
+  "lon": 3.320573,
+  "geo_precision": "address"
  },
  {
   "name": "Rattenopvang Ratopia vzw",
@@ -1812,7 +2172,10 @@
   "cats": 0,
   "other": 68,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/rattenopvang-ratopia-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48647/rattenopvang-ratopia-vzw-logo-20181127-214353.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48647/rattenopvang-ratopia-vzw-logo-20181127-214353.png",
+  "lat": 50.995302,
+  "lon": 5.183281,
+  "geo_precision": "municipality"
  },
  {
   "name": "Rody Resq vzw",
@@ -1827,7 +2190,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/rody-resq-vzw",
-  "logo": ""
+  "logo": "",
+  "lat": 51.254533,
+  "lon": 4.496158,
+  "geo_precision": "address"
  },
  {
   "name": "Schildpaddenopvang België",
@@ -1842,7 +2208,10 @@
   "cats": 0,
   "other": 22,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/schildpaddenopvang-belgie",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48682/schildpaddenopvang-belgie-logo-20181201-121845.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48682/schildpaddenopvang-belgie-logo-20181201-121845.jpg",
+  "lat": 50.802728,
+  "lon": 3.935728,
+  "geo_precision": "address"
  },
  {
   "name": "Sint-Hubertus vzw",
@@ -1857,7 +2226,10 @@
   "cats": 29,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/sint-hubertus-vzw",
-  "logo": ""
+  "logo": "",
+  "lat": 50.964054,
+  "lon": 4.045662,
+  "geo_precision": "address"
  },
  {
   "name": "Socio Vzw Deurne",
@@ -1872,7 +2244,10 @@
   "cats": 0,
   "other": 29,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/socio-vzw-deurne",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48651/socio-vzw-deurne-logo-20200428-204615.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48651/socio-vzw-deurne-logo-20200428-204615.jpg",
+  "lat": 51.210346,
+  "lon": 4.469251,
+  "geo_precision": "address"
  },
  {
   "name": "SOS Reptiel Vzw",
@@ -1887,7 +2262,10 @@
   "cats": 0,
   "other": 55,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/sos-reptiel-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48652/sos-reptiel-vzw-logo-20210305-102146.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48652/sos-reptiel-vzw-logo-20210305-102146.jpg",
+  "lat": 51.086866,
+  "lon": 3.056076,
+  "geo_precision": "address"
  },
  {
   "name": "SOS wilde dieren",
@@ -1902,7 +2280,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/sos-wilde-dieren",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48639/sos-wilde-dieren-logo-20200716-165458.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48639/sos-wilde-dieren-logo-20200716-165458.jpg",
+  "lat": 50.755354,
+  "lon": 3.877381,
+  "geo_precision": "address"
  },
  {
   "name": "Spooky's paradise",
@@ -1917,7 +2298,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/spookys-paradise",
-  "logo": "https://media.animalshelter.be/217761/Spooky.jpg"
+  "logo": "https://media.animalshelter.be/217761/Spooky.jpg",
+  "lat": 51.038273,
+  "lon": 3.857607,
+  "geo_precision": "address"
  },
  {
   "name": "Stal 't Venhof VZW",
@@ -1932,7 +2316,10 @@
   "cats": 0,
   "other": 7,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/stal-t-venhof-vzw",
-  "logo": "https://media.animalshelter.be/265467/Stal-Venhof.jpg"
+  "logo": "https://media.animalshelter.be/265467/Stal-Venhof.jpg",
+  "lat": 50.958812,
+  "lon": 5.568255,
+  "geo_precision": "address"
  },
  {
   "name": "Stichting Maes",
@@ -1947,7 +2334,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/stichting-maes",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48653/stichting-maes-logo-20181127-215101.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48653/stichting-maes-logo-20181127-215101.jpg",
+  "lat": 50.955075,
+  "lon": 4.338449,
+  "geo_precision": "address"
  },
  {
   "name": "Stichting Manegepaardenpensioenfonds",
@@ -1962,7 +2352,10 @@
   "cats": 0,
   "other": 5,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/stichting-manegepaardenpensioenfonds",
-  "logo": "https://media.animalshelter.be/256473/Manegepaard.png"
+  "logo": "https://media.animalshelter.be/256473/Manegepaard.png",
+  "lat": 51.448753,
+  "lon": 4.399049,
+  "geo_precision": "address"
  },
  {
   "name": "The Old Horses Lodge",
@@ -1977,7 +2370,10 @@
   "cats": 0,
   "other": 21,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/the-old-horses-lodge",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48655/the-old-horses-lodge-logo-20181203-224517.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48655/the-old-horses-lodge-logo-20181203-224517.png",
+  "lat": 51.02427,
+  "lon": 3.837664,
+  "geo_precision": "address"
  },
  {
   "name": "Together Alive vzw - De wereld van Nellie",
@@ -1992,7 +2388,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/together-alive-vzw-de-wereld-van-nellie",
-  "logo": "https://media.animalshelter.be/226233/Logo_Together-Alive_all-03.png"
+  "logo": "https://media.animalshelter.be/226233/Logo_Together-Alive_all-03.png",
+  "lat": 51.047376,
+  "lon": 4.883016,
+  "geo_precision": "municipality"
  },
  {
   "name": "TWAS Animal Rescue",
@@ -2007,7 +2406,10 @@
   "cats": 11,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/twas-animal-rescue",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48690/twas-animal-rescue-logo-20190511-134827.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48690/twas-animal-rescue-logo-20190511-134827.jpg",
+  "lat": 51.053954,
+  "lon": 4.368514,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vedette's Kattenthuisje",
@@ -2022,7 +2424,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vedettes-kattenthuisje",
-  "logo": "https://media.animalshelter.be/143704/logo-en-tekst-asiel.jpg"
+  "logo": "https://media.animalshelter.be/143704/logo-en-tekst-asiel.jpg",
+  "lat": 51.328953,
+  "lon": 4.94017,
+  "geo_precision": "municipality"
  },
  {
   "name": "Veeweyde vzw",
@@ -2037,7 +2442,10 @@
   "cats": 9,
   "other": 7,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/veeweyde-vzw",
-  "logo": "https://media.animalshelter.be/142309/Veeweyde-logo-Turnhout.png"
+  "logo": "https://media.animalshelter.be/142309/Veeweyde-logo-Turnhout.png",
+  "lat": 51.400126,
+  "lon": 4.953495,
+  "geo_precision": "address"
  },
  {
   "name": "Vereniging Animals Love",
@@ -2052,7 +2460,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/vereniging-animals-love",
-  "logo": "https://media.animalshelter.be/82690/logo-animals-love.jpg"
+  "logo": "https://media.animalshelter.be/82690/logo-animals-love.jpg",
+  "lat": 50.925912,
+  "lon": 5.685509,
+  "geo_precision": "address"
  },
  {
   "name": "Villa Vagebond Vzw",
@@ -2067,7 +2478,10 @@
   "cats": 9,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/villa-vagebond-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48659/villa-vagebond-vzw-logo-20220206-180913.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48659/villa-vagebond-vzw-logo-20220206-180913.jpg",
+  "lat": 51.082682,
+  "lon": 5.774183,
+  "geo_precision": "address"
  },
  {
   "name": "VOC Neteland vzw",
@@ -2082,7 +2496,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/voc-neteland-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48683/voc-neteland-vzw-logo-20181201-115603.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48683/voc-neteland-vzw-logo-20181201-115603.png",
+  "lat": 51.132635,
+  "lon": 4.757702,
+  "geo_precision": "address"
  },
  {
   "name": "Vogel- en Zoogdierenopvangcentrum Vzw",
@@ -2097,7 +2514,10 @@
   "cats": 0,
   "other": 15,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/vogel-en-zoogdierenopvangcentrum-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48660/vogel-en-zoogdierenopvangcentrum-vzw-logo-20181127-225211.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48660/vogel-en-zoogdierenopvangcentrum-vzw-logo-20181127-225211.png",
+  "lat": 51.01608,
+  "lon": 5.243495,
+  "geo_precision": "address"
  },
  {
   "name": "VZW Aristocat",
@@ -2112,7 +2532,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-aristocat",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48671/vzw-aristocat-logo-20181203-224136.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48671/vzw-aristocat-logo-20181203-224136.jpg",
+  "lat": 50.882518,
+  "lon": 3.988044,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Chalet Minou",
@@ -2127,7 +2550,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-chalet-minou",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48588/melissa-henaux-logo-20200610-181912.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48588/melissa-henaux-logo-20200610-181912.jpg",
+  "lat": 51.008937,
+  "lon": 4.101353,
+  "geo_precision": "address"
  },
  {
   "name": "VZW De Gouden Pootjes",
@@ -2142,7 +2568,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/vzw-de-gouden-pootjes",
-  "logo": "https://media.animalshelter.be/102468/339740423_253960667050023_3116483822159873436_n.png"
+  "logo": "https://media.animalshelter.be/102468/339740423_253960667050023_3116483822159873436_n.png",
+  "lat": 50.995302,
+  "lon": 5.183281,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw Dier onder Dak",
@@ -2157,7 +2586,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-dier-onder-dak",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48662/vzw-dier-onder-dak-logo-20181127-210859.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48662/vzw-dier-onder-dak-logo-20181127-210859.jpg",
+  "lat": 51.017735,
+  "lon": 3.531579,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw Dierenasiel De Knuffelpootjes",
@@ -2172,7 +2604,10 @@
   "cats": 16,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/vzw-dierenasiel-de-knuffelpootjes",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48703/vzw-dierenasiel-de-knuffelpootjes-logo-20200128-141511.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48703/vzw-dierenasiel-de-knuffelpootjes-logo-20200128-141511.png",
+  "lat": 50.774611,
+  "lon": 3.183813,
+  "geo_precision": "street"
  },
  {
   "name": "VZW Dierenbescherming Meetjesland",
@@ -2187,7 +2622,10 @@
   "cats": 0,
   "other": 4,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-dierenbescherming-meetjesland",
-  "logo": "https://media.animalshelter.be/174588/Dierenbescherming-Meetjesland.jpg"
+  "logo": "https://media.animalshelter.be/174588/Dierenbescherming-Meetjesland.jpg",
+  "lat": 51.135904,
+  "lon": 3.764007,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Dierenvrienden St-Truiden",
@@ -2202,7 +2640,10 @@
   "cats": 1,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/vzw-dierenvrienden-st-truiden",
-  "logo": "https://media.animalshelter.be/134382/Logo.jpg"
+  "logo": "https://media.animalshelter.be/134382/Logo.jpg",
+  "lat": 50.81316,
+  "lon": 5.21196,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Duts",
@@ -2217,7 +2658,10 @@
   "cats": 0,
   "other": 227,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-duts",
-  "logo": "https://media.animalshelter.be/236545/vzw-duts.jpg"
+  "logo": "https://media.animalshelter.be/236545/vzw-duts.jpg",
+  "lat": 51.158605,
+  "lon": 5.182956,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw Het Kattenpootje",
@@ -2232,7 +2676,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-het-kattenpootje",
-  "logo": "https://media.animalshelter.be/282840/VZW-kattenpootje.jpg"
+  "logo": "https://media.animalshelter.be/282840/VZW-kattenpootje.jpg",
+  "lat": 51.414903,
+  "lon": 5.025943,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw House of Cats",
@@ -2247,7 +2694,10 @@
   "cats": 3,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-house-of-cats",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48713/vzw-house-of-cats-logo-20201103-142233.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48713/vzw-house-of-cats-logo-20201103-142233.png",
+  "lat": 50.771921,
+  "lon": 3.877842,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Hulplijn Dier in Nood",
@@ -2262,7 +2712,10 @@
   "cats": 22,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-hulplijn-dier-in-nood",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48577/helgas-poezenhuisopvang-logo-20181004-184518.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48577/helgas-poezenhuisopvang-logo-20181004-184518.jpg",
+  "lat": 51.047086,
+  "lon": 4.58286,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Katsoiets",
@@ -2274,10 +2727,13 @@
   "email": "info@vzwkatsoiets.be",
   "website": "https://www.vzwkatsoiets.be/",
   "dogs": 0,
-  "cats": 12,
+  "cats": 11,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-katsoiets",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48717/vzw-katsoiets-logo-20210311-150411.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48717/vzw-katsoiets-logo-20210311-150411.png",
+  "lat": 50.779636,
+  "lon": 3.904054,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw Kittycat",
@@ -2292,7 +2748,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-kittycat",
-  "logo": "https://media.animalshelter.be/94071/Kittycat.png"
+  "logo": "https://media.animalshelter.be/94071/Kittycat.png",
+  "lat": 51.416154,
+  "lon": 4.660098,
+  "geo_precision": "street"
  },
  {
   "name": "Vzw Liefde voor Pootjes",
@@ -2307,7 +2766,10 @@
   "cats": 0,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/vzw-liefde-voor-pootjes",
-  "logo": "https://media.animalshelter.be/193281/vzw.jpg"
+  "logo": "https://media.animalshelter.be/193281/vzw.jpg",
+  "lat": 50.801288,
+  "lon": 4.159612,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Ludwig & Co",
@@ -2322,7 +2784,10 @@
   "cats": 0,
   "other": 69,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-ludwig-co",
-  "logo": ""
+  "logo": "",
+  "lat": 51.179132,
+  "lon": 4.215305,
+  "geo_precision": "address"
  },
  {
   "name": "VZW Marmelly",
@@ -2337,7 +2802,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-marmelly",
-  "logo": ""
+  "logo": "",
+  "lat": 50.911661,
+  "lon": 3.590353,
+  "geo_precision": "address"
  },
  {
   "name": "VZW Nally's Papegaaien Opvang",
@@ -2352,7 +2820,10 @@
   "cats": 0,
   "other": 48,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/vzw-nallys-papegaaien-opvang",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48665/vzw-nallys-papegaaien-opvang-logo-20191205-114231.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48665/vzw-nallys-papegaaien-opvang-logo-20191205-114231.jpg",
+  "lat": 51.187679,
+  "lon": 3.292089,
+  "geo_precision": "address"
  },
  {
   "name": "VZW Opvang Knaagje",
@@ -2367,7 +2838,10 @@
   "cats": 0,
   "other": 60,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-opvang-knaagje",
-  "logo": "https://media.animalshelter.be/91659/logo.jpg"
+  "logo": "https://media.animalshelter.be/91659/logo.jpg",
+  "lat": 51.350614,
+  "lon": 4.982702,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw Opvangcentrum voor Vogels en Wilde Dieren Beernem",
@@ -2382,7 +2856,10 @@
   "cats": 0,
   "other": 3,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/vzw-opvangcentrum-voor-vogels-en-wilde-dieren-beernem",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48722/vzw-opvangcentrum-voor-vogels-en-wilde-dieren-beernem-logo-20220210-142054.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48722/vzw-opvangcentrum-voor-vogels-en-wilde-dieren-beernem-logo-20220210-142054.jpg",
+  "lat": 51.115895,
+  "lon": 3.294732,
+  "geo_precision": "address"
  },
  {
   "name": "Vzw tKattenkompas",
@@ -2397,7 +2874,10 @@
   "cats": 8,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/vzw-tkattenkompas",
-  "logo": "https://media.animalshelter.be/236552/kattenkompas.jpg"
+  "logo": "https://media.animalshelter.be/236552/kattenkompas.jpg",
+  "lat": 51.248822,
+  "lon": 3.214412,
+  "geo_precision": "municipality"
  },
  {
   "name": "VZW Zwerfkat in Nood II",
@@ -2412,7 +2892,10 @@
   "cats": 24,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/limburg/vzw-zwerfkat-in-nood-ii",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48668/vzw-zwerfkat-in-nood-ii-logo-20220403-205721.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48668/vzw-zwerfkat-in-nood-ii-logo-20220403-205721.jpg",
+  "lat": 50.783976,
+  "lon": 5.418895,
+  "geo_precision": "municipality"
  },
  {
   "name": "Vzw Zwerfkatjes Zelzate",
@@ -2427,7 +2910,10 @@
   "cats": 4,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/vzw-zwerfkatjes-zelzate",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48727/vzw-zwerfkatjes-zelzate-logo-20210727-085522.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48727/vzw-zwerfkatjes-zelzate-logo-20210727-085522.png",
+  "lat": 51.208308,
+  "lon": 3.794728,
+  "geo_precision": "address"
  },
  {
   "name": "VZW Zwerfkatten Rijkevorsel/Hoogstraten",
@@ -2442,7 +2928,10 @@
   "cats": 2,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/vzw-zwerfkatten-rijkevorselhoogstraten",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48697/svea-plees-logo-20200413-151618.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48697/svea-plees-logo-20200413-151618.jpg",
+  "lat": 51.355154,
+  "lon": 4.767494,
+  "geo_precision": "municipality"
  },
  {
   "name": "Ziggy's Poezenparadijs",
@@ -2457,7 +2946,10 @@
   "cats": 1,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/ziggys-poezenparadijs",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48677/ziggys-poezenparadijs-logo-20190410-225004.jpg"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48677/ziggys-poezenparadijs-logo-20190410-225004.jpg",
+  "lat": 51.01214,
+  "lon": 4.757738,
+  "geo_precision": "address"
  },
  {
   "name": "Zoetjes & Snoetjes VZW",
@@ -2472,7 +2964,10 @@
   "cats": 11,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/oost-vlaanderen/zoetjes-snoetjes-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48702/zoetjes-snoetjes-vzw-logo-20200129-152618.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48702/zoetjes-snoetjes-vzw-logo-20200129-152618.png",
+  "lat": 51.174689,
+  "lon": 3.944178,
+  "geo_precision": "address"
  },
  {
   "name": "Zorgboerderij Huppeldepup",
@@ -2487,7 +2982,10 @@
   "cats": 11,
   "other": 137,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/zorgboerderij-huppeldepup",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48704/ellen-van-assche-logo-20200224-160035.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48704/ellen-van-assche-logo-20200224-160035.png",
+  "lat": 50.976013,
+  "lon": 4.384641,
+  "geo_precision": "address"
  },
  {
   "name": "Zwerfkat in Le(u)ven vzw",
@@ -2502,7 +3000,10 @@
   "cats": 10,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/vlaams-brabant/zwerfkat-in-leuven-vzw",
-  "logo": "https://media.animalshelter.be/215463/1200X1200.png"
+  "logo": "https://media.animalshelter.be/215463/1200X1200.png",
+  "lat": 50.882005,
+  "lon": 4.828928,
+  "geo_precision": "municipality"
  },
  {
   "name": "ZWERFKAT WOMMELGEM vzw",
@@ -2517,7 +3018,10 @@
   "cats": 17,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/zwerfkat-wommelgem-vzw",
-  "logo": "https://www.animalshelter.be/storage/animalshelter/48699/zwerfkat-wommelgem-vzw-logo-20200113-145602.png"
+  "logo": "https://www.animalshelter.be/storage/animalshelter/48699/zwerfkat-wommelgem-vzw-logo-20200113-145602.png",
+  "lat": 51.210536,
+  "lon": 4.495348,
+  "geo_precision": "address"
  },
  {
   "name": "Zwerfkatjes in Nood Eernegem",
@@ -2532,7 +3036,10 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/west-vlaanderen/zwerfkatjes-in-nood-eernegem",
-  "logo": ""
+  "logo": "",
+  "lat": 51.126271,
+  "lon": 3.025178,
+  "geo_precision": "address"
  },
  {
   "name": "Zwerfpoezen Rupelstreek",
@@ -2547,6 +3054,9 @@
   "cats": 5,
   "other": 0,
   "url": "https://www.adopteereendier.be/dierenasielen/antwerpen/zwerfpoezen-rupelstreek",
-  "logo": "https://media.animalshelter.be/105242/Logol-blauwe-achtergrond.png"
+  "logo": "https://media.animalshelter.be/105242/Logol-blauwe-achtergrond.png",
+  "lat": 51.061151,
+  "lon": 4.281748,
+  "geo_precision": "municipality"
  }
 ]
