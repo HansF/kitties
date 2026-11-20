@@ -32,5 +32,10 @@ jobs:
             echo "No changes"
           else
             git commit -m "Refresh $(date -u +'%Y-%m-%d %H:%M') UTC: $(python -c "import json;print(len(json.load(open('data/new.json',encoding='utf-8'))))") new"
-            git push
+            # someone may have pushed code while we were scraping: replay our data commit on top
+            for i in 1 2 3; do
+              git pull --rebase && git push && exit 0
+              sleep $((i * 5))
+            done
+            exit 1
           fi
