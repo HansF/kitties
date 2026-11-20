@@ -7,6 +7,7 @@ Writes:
   data/new.json            animals that appeared since the previous refresh
   data/changes.csv         running log of added/removed animals (timestamped)
   data/meta.json           index for apps: last update time, counts, file list
+  data/geocache.json       address -> coordinates cache (see geocode.py)
 
 Refuses to overwrite data if a scrape returns far fewer animals than before
 (e.g. the site layout changed), so a broken run can't wipe the dataset.
@@ -18,6 +19,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from check_cats import fetch_page
+import geocode
 import scrape_shelters
 
 CATEGORIES = ["katten", "honden", "weidedieren", "konijnen-en-knaagdieren", "overigedieren"]
@@ -36,6 +38,18 @@ def scrape_category(category):
         seen.update(a["id"] for a in page)
         animals.extend({"category": category, **a} for a in page)
         n += 1
+
+
+def add_coordinates(animal, shelters_by_name):
+    """Copy the shelter's lat/lon right after `location` (animals sit at their shelter)."""
+    shelter = shelters_by_name.get(animal["shelter"], {})
+    out = {}
+    for k, v in animal.items():
+        out[k] = v
+        if k == "location":
+            out["lat"] = shelter.get("lat", "")
+            out["lon"] = shelter.get("lon", "")
+    return out
 
 
 def snapshot():
@@ -93,6 +107,9 @@ def main():
     print(f"shelters: {len(shelters)}")
     if len(shelters) < 50:
         sys.exit(f"ABORT: only {len(shelters)} shelters scraped - site changed?")
+    geocode.add_coordinates(shelters)  # only new/changed addresses hit the API (data/geocache.json)
+    by_name = {s["name"]: s for s in shelters}
+    animals = [add_coordinates(a, by_name) for a in animals]
 
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%MZ")
     new_by_id = {a["id"]: a for a in animals}

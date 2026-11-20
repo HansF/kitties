@@ -1,0 +1,1004 @@
+{
+ " | 1701 | DILBEEK": {
+  "lat": 50.853295,
+  "lon": 4.233824,
+  "geo_precision": "municipality",
+  "matched": "Dilbeek"
+ },
+ " | 1850 | GRIMBERGEN": {
+  "lat": 50.944668,
+  "lon": 4.376545,
+  "geo_precision": "municipality",
+  "matched": "Grimbergen"
+ },
+ " | 2180 | ANTWERPEN (EKEREN)": {
+  "lat": 51.259424,
+  "lon": 4.371799,
+  "geo_precision": "municipality",
+  "matched": "Antwerpen"
+ },
+ " | 2230 | HERSELT": {
+  "lat": 51.047376,
+  "lon": 4.883016,
+  "geo_precision": "municipality",
+  "matched": "Herselt"
+ },
+ " | 2300 | TURNHOUT": {
+  "lat": 51.328953,
+  "lon": 4.94017,
+  "geo_precision": "municipality",
+  "matched": "Turnhout"
+ },
+ " | 2380 | RAVELS": {
+  "lat": 51.414903,
+  "lon": 5.025943,
+  "geo_precision": "municipality",
+  "matched": "Ravels"
+ },
+ " | 2490 | BALEN": {
+  "lat": 51.158605,
+  "lon": 5.182956,
+  "geo_precision": "municipality",
+  "matched": "Balen"
+ },
+ " | 2610 | WILRIJK": {
+  "lat": 51.259424,
+  "lon": 4.371799,
+  "geo_precision": "municipality",
+  "matched": "Antwerpen"
+ },
+ " | 2800 | MECHELEN": {
+  "lat": 51.028657,
+  "lon": 4.45024,
+  "geo_precision": "municipality",
+  "matched": "Mechelen"
+ },
+ " | 2830 | BLAASVELD": {
+  "lat": 51.053954,
+  "lon": 4.368514,
+  "geo_precision": "municipality",
+  "matched": "Willebroek"
+ },
+ " | 2870 | PUURS-SINT-AMANDS": {
+  "lat": 51.061151,
+  "lon": 4.281748,
+  "geo_precision": "municipality",
+  "matched": "Puurs-Sint-Amands"
+ },
+ " | 3061 | BERTEM": {
+  "lat": 50.85383,
+  "lon": 4.60971,
+  "geo_precision": "municipality",
+  "matched": "Bertem"
+ },
+ " | 3210 | LUBBEEK": {
+  "lat": 50.882005,
+  "lon": 4.828928,
+  "geo_precision": "municipality",
+  "matched": "Lubbeek"
+ },
+ " | 3560 | LUMMEN": {
+  "lat": 50.995302,
+  "lon": 5.183281,
+  "geo_precision": "municipality",
+  "matched": "Lummen"
+ },
+ " | 3583 | BERINGEN": {
+  "lat": 51.065472,
+  "lon": 5.236039,
+  "geo_precision": "municipality",
+  "matched": "Beringen"
+ },
+ " | 3640 | MOLENBEERSEL": {
+  "lat": 51.153005,
+  "lon": 5.760167,
+  "geo_precision": "municipality",
+  "matched": "Kinrooi"
+ },
+ " | 3700 | TONGEREN-BORGLOON": {
+  "lat": 50.783976,
+  "lon": 5.418895,
+  "geo_precision": "municipality",
+  "matched": "Tongeren-Borgloon"
+ },
+ " | 3740 | BILZEN": {
+  "lat": 50.864439,
+  "lon": 5.516273,
+  "geo_precision": "municipality",
+  "matched": "Bilzen-Hoeselt"
+ },
+ " | 3800 | SINT-TRUIDEN": {
+  "lat": 50.810327,
+  "lon": 5.202978,
+  "geo_precision": "municipality",
+  "matched": "Sint-Truiden"
+ },
+ " | 3900 | OVERPELT": {
+  "lat": 51.214925,
+  "lon": 5.427197,
+  "geo_precision": "municipality",
+  "matched": "Pelt"
+ },
+ " | 8000 | BRUGGE": {
+  "lat": 51.248822,
+  "lon": 3.214412,
+  "geo_precision": "municipality",
+  "matched": "Brugge"
+ },
+ " | 8400 | OOSTENDE": {
+  "lat": 51.2107,
+  "lon": 2.923576,
+  "geo_precision": "municipality",
+  "matched": "Oostende"
+ },
+ " | 8430 | MIDDELKERKE": {
+  "lat": 51.15342,
+  "lon": 2.838571,
+  "geo_precision": "municipality",
+  "matched": "Middelkerke"
+ },
+ " | 8670 | KOKSIJDE-WULPEN": {
+  "lat": 51.111953,
+  "lon": 2.679325,
+  "geo_precision": "municipality",
+  "matched": "Koksijde"
+ },
+ " | 8850 | ARDOOIE": {
+  "lat": 50.981613,
+  "lon": 3.203103,
+  "geo_precision": "municipality",
+  "matched": "Ardooie"
+ },
+ " | 8930 | MENEN": {
+  "lat": 50.792496,
+  "lon": 3.154402,
+  "geo_precision": "municipality",
+  "matched": "Menen"
+ },
+ " | 9040 | GENT": {
+  "lat": 51.074431,
+  "lon": 3.725453,
+  "geo_precision": "municipality",
+  "matched": "Gent"
+ },
+ " | 9220 | HAMME": {
+  "lat": 51.078082,
+  "lon": 4.139863,
+  "geo_precision": "municipality",
+  "matched": "Hamme"
+ },
+ " | 9500 | GERAARDSBERGEN": {
+  "lat": 50.779636,
+  "lon": 3.904054,
+  "geo_precision": "municipality",
+  "matched": "Geraardsbergen"
+ },
+ " | 9600 | RONSE": {
+  "lat": 50.749705,
+  "lon": 3.607581,
+  "geo_precision": "municipality",
+  "matched": "Ronse"
+ },
+ " | 9800 | DEINZE": {
+  "lat": 51.017735,
+  "lon": 3.531579,
+  "geo_precision": "municipality",
+  "matched": "Deinze"
+ },
+ "ACACIASTRAAT 1 | 9220 | HAMME": {
+  "lat": 51.089604,
+  "lon": 4.150314,
+  "geo_precision": "address",
+  "matched": "Acaciastraat 1, 9220 Hamme"
+ },
+ "ASSESTEENWEG 57 | 1750 | LENNIK": {
+  "lat": 50.817867,
+  "lon": 4.137281,
+  "geo_precision": "address",
+  "matched": "Assesteenweg 57, 1750 Lennik"
+ },
+ "AVELGEMSTRAAT 186C | 8550 | ZWEVEGEM": {
+  "lat": 50.798219,
+  "lon": 3.356363,
+  "geo_precision": "address",
+  "matched": "Avelgemstraat 186C, 8550 Zwevegem"
+ },
+ "BAAIKENSEDESTRAAT 3A | 9990 | MALDEGEM": {
+  "lat": 51.180483,
+  "lon": 3.462647,
+  "geo_precision": "address",
+  "matched": "Baaikensedestraat 3A, 9990 Maldegem"
+ },
+ "BAASRODESTRAAT 76 | 9200 | BAASRODE": {
+  "lat": 51.039003,
+  "lon": 4.152815,
+  "geo_precision": "address",
+  "matched": "Baasrodestraat 76, 9200 Dendermonde"
+ },
+ "BANKELINDEWEG 19 | 8972 | KROMBEKE": {
+  "lat": 50.911216,
+  "lon": 2.689343,
+  "geo_precision": "address",
+  "matched": "Bankelindeweg 19, 8972 Poperinge"
+ },
+ "BARON TIBBAUTSTRAAT 67 | 9290 | OVERMERE": {
+  "lat": 51.046122,
+  "lon": 3.936085,
+  "geo_precision": "address",
+  "matched": "Baron Tibbautstraat 67, 9290 Berlare"
+ },
+ "BAUDELOKAAI 13/001 | 9000 | GENT": {
+  "lat": 51.059226,
+  "lon": 3.730083,
+  "geo_precision": "address",
+  "matched": "Baudelokaai 13, 9000 Gent"
+ },
+ "BEDRIJVENSTRAAT 5797 | 3800 | SINT-TRUIDEN": {
+  "lat": 50.81316,
+  "lon": 5.21196,
+  "geo_precision": "address",
+  "matched": "Bedrijvenstraat 5797, 3800 Sint-Truiden"
+ },
+ "BELHUTTEBAAN 59 | 8680 | KOEKELARE": {
+  "lat": 51.085847,
+  "lon": 2.984382,
+  "geo_precision": "address",
+  "matched": "Belhuttebaan 59, 8680 Koekelare"
+ },
+ "BERGSEBAAN 30 | 2910 | ESSEN": {
+  "lat": 51.448753,
+  "lon": 4.399049,
+  "geo_precision": "address",
+  "matched": "Bergsebaan 30, 2910 Essen"
+ },
+ "BERGSTRAAT 112 | 9451 | KERKSKEN": {
+  "lat": 50.882518,
+  "lon": 3.988044,
+  "geo_precision": "address",
+  "matched": "Bergstraat 112, 9451 Haaltert"
+ },
+ "BOEKSHEIDE 51 | 1840 | MALDEREN": {
+  "lat": 51.012832,
+  "lon": 4.227294,
+  "geo_precision": "address",
+  "matched": "Boeksheide 51, 1840 Londerzeel"
+ },
+ "BREDESTRAAT 128 | 3293 | KAGGEVINNE": {
+  "lat": 50.97641,
+  "lon": 5.027244,
+  "geo_precision": "address",
+  "matched": "Bredestraat 128, 3293 Diest"
+ },
+ "BRUGGESTRAAT 200 A | 8730 | OEDELEM": {
+  "lat": 51.187679,
+  "lon": 3.292089,
+  "geo_precision": "address",
+  "matched": "Bruggestraat 200A, 8730 Beernem"
+ },
+ "BRUGGESTRAAT 32 | 2240 | ZANDHOVEN": {
+  "lat": 51.210102,
+  "lon": 4.661953,
+  "geo_precision": "address",
+  "matched": "Bruggestraat 32, 2240 Zandhoven"
+ },
+ "BRUN CORNET 40 | 8930 | REKKEM": {
+  "lat": 50.774611,
+  "lon": 3.183813,
+  "geo_precision": "street",
+  "matched": "Brun Cornet, Menen"
+ },
+ "BULSCAMPVELD 8 | 8730 | BEERNEM": {
+  "lat": 51.115895,
+  "lon": 3.294732,
+  "geo_precision": "address",
+  "matched": "Bulscampveld 8, 8730 Beernem"
+ },
+ "CARONSTRAAT 57 | 2660 | HOBOKEN": {
+  "lat": 51.17963,
+  "lon": 4.368176,
+  "geo_precision": "address",
+  "matched": "Caronstraat 57, 2660 Antwerpen"
+ },
+ "CASTERSTRAAT 16 | 9700 | OUDENAARDE": {
+  "lat": 50.85644,
+  "lon": 3.660525,
+  "geo_precision": "address",
+  "matched": "Casterstraat 16, 9700 Oudenaarde"
+ },
+ "CEDERDREEF 1 | 8400 | OOSTENDE": {
+  "lat": 51.221443,
+  "lon": 2.921074,
+  "geo_precision": "address",
+  "matched": "Cederdreef 1, 8400 Oostende"
+ },
+ "DAALDERSTRAAT 3 | 8810 | LICHTERVELDE": {
+  "lat": 51.01624,
+  "lon": 3.170775,
+  "geo_precision": "address",
+  "matched": "Daalderstraat 3, 8810 Lichtervelde"
+ },
+ "DE MERODEDREEF 137 B | 2260 | WESTERLO": {
+  "lat": 51.091871,
+  "lon": 4.922545,
+  "geo_precision": "address",
+  "matched": "de Merodedreef 137, 2260 Westerlo"
+ },
+ "DEINSESTEENWEG 192 | 8700 | TIELT": {
+  "lat": 50.992933,
+  "lon": 3.409911,
+  "geo_precision": "address",
+  "matched": "Deinsesteenweg 192, 8700 Tielt"
+ },
+ "DENDERDREVE 48 | 9060 | ZELZATE": {
+  "lat": 51.208308,
+  "lon": 3.794728,
+  "geo_precision": "address",
+  "matched": "Denderdreve 48, 9060 Zelzate"
+ },
+ "DENDERMONDESTEENWEG 180 | 9070 | DESTELBERGEN": {
+  "lat": 51.053063,
+  "lon": 3.769704,
+  "geo_precision": "address",
+  "matched": "Dendermondesteenweg 180, 9070 Destelbergen"
+ },
+ "DIEPENBROEKSTRAAT 54 | 1750 | LENNIK": {
+  "lat": 50.801288,
+  "lon": 4.159612,
+  "geo_precision": "address",
+  "matched": "Diepenbroekstraat 54, 1750 Lennik"
+ },
+ "DREEF 19 | 1651 | LOT": {
+  "lat": 50.772727,
+  "lon": 4.274289,
+  "geo_precision": "address",
+  "matched": "Dreef 19, 1651 Beersel"
+ },
+ "DRIE-EIKENSTRAAT 10 | 2200 | NOORDERWIJK - HERENTALS": {
+  "lat": 51.14408,
+  "lon": 4.835878,
+  "geo_precision": "address",
+  "matched": "Drie-Eikenstraat 10, 2200 Herentals"
+ },
+ "EMMANUEL ROLLIERSTRAAT 42 | 2830 | WILLEBROEK": {
+  "lat": 51.057039,
+  "lon": 4.364587,
+  "geo_precision": "address",
+  "matched": "Emmanuel Rollierstraat 42, 2830 Willebroek"
+ },
+ "ERASMUSLAAN 31 | 1804 | ZEMST": {
+  "lat": 50.9493,
+  "lon": 4.42348,
+  "geo_precision": "address",
+  "matched": "Erasmuslaan 31, 1980 Zemst"
+ },
+ "EUROPALAAN 13 | 3600 | GENK": {
+  "lat": 50.967031,
+  "lon": 5.486767,
+  "geo_precision": "address",
+  "matched": "Europalaan 13, 3600 Genk"
+ },
+ "EYGENWEG 1 | 3640 | OPHOVEN": {
+  "lat": 51.125826,
+  "lon": 5.766061,
+  "geo_precision": "address",
+  "matched": "Eygenweg 1, 3640 Kinrooi"
+ },
+ "FELIX AERTGEERTSSTRAAT 48 | 3128 | BAAL": {
+  "lat": 51.01214,
+  "lon": 4.757738,
+  "geo_precision": "address",
+  "matched": "Felix Aertgeertsstraat 48, 3128 Tremelo"
+ },
+ "FRANS BREUGELMANSSTRAAT 16 | 2900 | SCHOTEN": {
+  "lat": 51.254533,
+  "lon": 4.496158,
+  "geo_precision": "address",
+  "matched": "Frans Breugelmansstraat 16, 2900 Schoten"
+ },
+ "GEERBOSSTRAAT 1 | 9090 | MELLE": {
+  "lat": 50.982677,
+  "lon": 3.819499,
+  "geo_precision": "address",
+  "matched": "Geerbosstraat 1, 9090 Merelbeke-Melle"
+ },
+ "GELEWEG 58 | 2570 | DUFFEL": {
+  "lat": 51.089406,
+  "lon": 4.492933,
+  "geo_precision": "address",
+  "matched": "Geleweg 58, 2570 Duffel"
+ },
+ "GEMENE WEIDESTRAAT 61 | 8000 | BRUGGE": {
+  "lat": 51.248822,
+  "lon": 3.214412,
+  "geo_precision": "municipality",
+  "matched": "Brugge"
+ },
+ "GRIMALDILAAN 158 | 2940 | STABROEK": {
+  "lat": 51.330203,
+  "lon": 4.381016,
+  "geo_precision": "address",
+  "matched": "Grimaldilaan 158, 2940 Stabroek"
+ },
+ "GROTESTRAAT 43 | 9500 | GERAARDSBERGEN": {
+  "lat": 50.771921,
+  "lon": 3.877842,
+  "geo_precision": "address",
+  "matched": "Grotestraat 43, 9500 Geraardsbergen"
+ },
+ "GÉRARD WILLEMOTLAAN 145 | 9030 | GENT": {
+  "lat": 51.070276,
+  "lon": 3.692285,
+  "geo_precision": "address",
+  "matched": "Gérard Willemotlaan 145, 9030 Gent"
+ },
+ "HAMMESTRAAT 52 | 9300 | AALST": {
+  "lat": 50.964054,
+  "lon": 4.045662,
+  "geo_precision": "address",
+  "matched": "Hammestraat 52, 9300 Aalst"
+ },
+ "HEMELRIJKEN 24 | 2890 | PUURS-SINT-AMANDS": {
+  "lat": 51.059906,
+  "lon": 4.216207,
+  "geo_precision": "address",
+  "matched": "Hemelrijken 24, 2890 Puurs-Sint-Amands"
+ },
+ "HEMMESTRAAT 63 | 8620 | NIEUWPOORT": {
+  "lat": 51.108673,
+  "lon": 2.800441,
+  "geo_precision": "address",
+  "matched": "Hemmestraat 63, 8620 Nieuwpoort"
+ },
+ "HOFTERBOSSEN 25 | 9220 | HAMME": {
+  "lat": 51.097944,
+  "lon": 4.14086,
+  "geo_precision": "address",
+  "matched": "Hofterbossen 25, 9220 Hamme"
+ },
+ "HOGE BUIZEMONT 219 B | 9500 | GERAARDSBERGEN": {
+  "lat": 50.755354,
+  "lon": 3.877381,
+  "geo_precision": "address",
+  "matched": "Hoge Buizemont 219B, 9500 Geraardsbergen"
+ },
+ "HOLLEWEG 43 | 2950 | KAPELLEN": {
+  "lat": 51.304921,
+  "lon": 4.457878,
+  "geo_precision": "address",
+  "matched": "Holleweg 43, 2950 Kapellen"
+ },
+ "HOSPICESTRAAT 14 | 9180 | MOERBEKE-WAAS": {
+  "lat": 51.174689,
+  "lon": 3.944178,
+  "geo_precision": "address",
+  "matched": "Hospicestraat 14, 9180 Lokeren"
+ },
+ "HULSHOUTSESTEENWEG 27 | 2222 | ITEGEM": {
+  "lat": 51.090744,
+  "lon": 4.767256,
+  "geo_precision": "address",
+  "matched": "Hulshoutsesteenweg 27, 2222 Heist-op-den-Berg"
+ },
+ "HULSTERWEG 49/1 | 3980 | TESSENDERLO": {
+  "lat": 51.068022,
+  "lon": 5.110501,
+  "geo_precision": "address",
+  "matched": "Hulsterweg 49, 3980 Tessenderlo-Ham"
+ },
+ "IMMERSEELSTRAAT 47 | 2160 | WOMMELGEM": {
+  "lat": 51.210536,
+  "lon": 4.495348,
+  "geo_precision": "address",
+  "matched": "Immerseelstraat 47, 2160 Wommelgem"
+ },
+ "INDUSTRIEWEG ZUID 2051 | 3660 | OUDSBERGEN": {
+  "lat": 51.074925,
+  "lon": 5.556318,
+  "geo_precision": "municipality",
+  "matched": "Oudsbergen"
+ },
+ "INDUSTRIEWEG ZUID 2061/1745 | 3660 | OPGLABBEEK": {
+  "lat": 51.074925,
+  "lon": 5.556318,
+  "geo_precision": "municipality",
+  "matched": "Oudsbergen"
+ },
+ "ISENBAERTSTRAAT 6 | 8490 | JABBEKE": {
+  "lat": 51.178589,
+  "lon": 3.111371,
+  "geo_precision": "address",
+  "matched": "Isenbaertstraat 6, 8490 Jabbeke"
+ },
+ "KERKEVELD 14 | 2230 | HERSELT": {
+  "lat": 51.049689,
+  "lon": 4.880342,
+  "geo_precision": "address",
+  "matched": "Kerkeveld 14, 2230 Herselt"
+ },
+ "KIEVITSTRAAT 40 | 2910 | ESSEN": {
+  "lat": 51.454111,
+  "lon": 4.533287,
+  "geo_precision": "address",
+  "matched": "Kievitstraat 40, 2910 Essen"
+ },
+ "KOUTERSTRAAT 14 | 9170 | MEERDONK": {
+  "lat": 51.288478,
+  "lon": 4.163859,
+  "geo_precision": "address",
+  "matched": "Kouterstraat 14, 9170 Sint-Gillis-Waas"
+ },
+ "KRINKELSTRAAT 4 | 8380 | BRUGGE": {
+  "lat": 51.254461,
+  "lon": 3.201011,
+  "geo_precision": "address",
+  "matched": "Krinkelstraat 4, 8380 Brugge"
+ },
+ "KRUISSTRAAT 9 | 2861 | ONZE-LIEVE-VROUW WAVER": {
+  "lat": 51.047086,
+  "lon": 4.58286,
+  "geo_precision": "address",
+  "matched": "Kruisstraat 9, 2861 Sint-Katelijne-Waver"
+ },
+ "KUIPERSBOS 31A | 8480 | ICHTEGEM": {
+  "lat": 51.126271,
+  "lon": 3.025178,
+  "geo_precision": "address",
+  "matched": "Kuipersbos 31A, 8480 Ichtegem"
+ },
+ "LANGESTRAAT 74 | 2235 | HOUTVENNE": {
+  "lat": 51.036715,
+  "lon": 4.802726,
+  "geo_precision": "address",
+  "matched": "Langestraat 74, 2235 Hulshout"
+ },
+ "LANGSTRAAT 29/1 | 2270 | HERENTHOUT": {
+  "lat": 51.132635,
+  "lon": 4.757702,
+  "geo_precision": "address",
+  "matched": "Langstraat 29, 2270 Herenthout"
+ },
+ "LEEMSTRAAT 11 | 2320 | HOOGSTRATEN": {
+  "lat": 51.406231,
+  "lon": 4.764609,
+  "geo_precision": "address",
+  "matched": "Leemstraat 11, 2320 Hoogstraten"
+ },
+ "LEENSTRAAT 50 | 9890 | GAVERE": {
+  "lat": 50.948978,
+  "lon": 3.682985,
+  "geo_precision": "address",
+  "matched": "Leenstraat 50, 9890 Gavere"
+ },
+ "LIEDERMEERSWEG 14 | 9820 | MERELBEKE": {
+  "lat": 51.020294,
+  "lon": 3.747203,
+  "geo_precision": "address",
+  "matched": "Liedermeersweg 14, 9820 Merelbeke-Melle"
+ },
+ "LOUISASTRAAT 4 | 8400 | OOSTENDE": {
+  "lat": 51.232828,
+  "lon": 2.917515,
+  "geo_precision": "address",
+  "matched": "Louisastraat 4A, 8400 Oostende"
+ },
+ "MAATHEIDE 74 H | 3920 | LOMMEL": {
+  "lat": 51.240249,
+  "lon": 5.269926,
+  "geo_precision": "address",
+  "matched": "Maatheide 74, 3920 Lommel"
+ },
+ "MARCEL TORFSSTRAAT 83 | 3970 | LEOPOLDSBURG": {
+  "lat": 51.11262,
+  "lon": 5.247784,
+  "geo_precision": "address",
+  "matched": "Marcel Torfsstraat 83, 3970 Leopoldsburg"
+ },
+ "MELLESTRAAT 2 | 9270 | LAARNE": {
+  "lat": 51.02427,
+  "lon": 3.837664,
+  "geo_precision": "address",
+  "matched": "Mellestraat 2, 9270 Laarne"
+ },
+ "MIDDELVELD 25 | 1860 | MEISE": {
+  "lat": 50.955075,
+  "lon": 4.338449,
+  "geo_precision": "address",
+  "matched": "Middelveld 25, 1860 Meise"
+ },
+ "MINNENHOFSTRAAT 24 | 9400 | DENDERWINDEKE": {
+  "lat": 50.793558,
+  "lon": 4.020949,
+  "geo_precision": "address",
+  "matched": "Minnenhofstraat 24, 9400 Ninove"
+ },
+ "MOERSTRAAT 131 | 9200 | SINT-GILLIS-DENDERMONDE": {
+  "lat": 51.008937,
+  "lon": 4.101353,
+  "geo_precision": "address",
+  "matched": "Moerstraat 131, 9200 Dendermonde"
+ },
+ "MOERSTRAAT 5 | 9850 | DEINZE": {
+  "lat": 51.02434,
+  "lon": 3.575188,
+  "geo_precision": "address",
+  "matched": "Moerstraat 5, 9850 Deinze"
+ },
+ "MOLENDREEF 85 | 9920 | LIEVEGEM": {
+  "lat": 51.099226,
+  "lon": 3.610697,
+  "geo_precision": "address",
+  "matched": "Molendreef 85, 9920 Lievegem"
+ },
+ "MOLENHEIKEN 28 | 2960 | SINT-LENAARTS": {
+  "lat": 51.345398,
+  "lon": 4.666306,
+  "geo_precision": "address",
+  "matched": "Molenheiken 28, 2960 Brecht"
+ },
+ "MOLENSTRAAT 39 | 9750 | KRUISEM": {
+  "lat": 50.911661,
+  "lon": 3.590353,
+  "geo_precision": "address",
+  "matched": "Molenstraat 39, 9750 Kruisem"
+ },
+ "MOORSTRAAT 2 | 2550 | KONTICH": {
+  "lat": 51.119568,
+  "lon": 4.432214,
+  "geo_precision": "address",
+  "matched": "Moorstraat 2, 2550 Kontich"
+ },
+ "NATIENLAAN 275 | 8300 | KNOKKE-HEIST": {
+  "lat": 51.332533,
+  "lon": 3.307918,
+  "geo_precision": "municipality",
+  "matched": "Knokke-Heist"
+ },
+ "NEDERLANDLAAN 35 | 2440 | GEEL": {
+  "lat": 51.19203,
+  "lon": 5.035644,
+  "geo_precision": "address",
+  "matched": "Nederlandlaan 35, 2440 Geel"
+ },
+ "NEERSTRAAT 38 | 2360 | OUD-TURNHOUT": {
+  "lat": 51.31552,
+  "lon": 4.982772,
+  "geo_precision": "address",
+  "matched": "Neerstraat 38, 2360 Oud-Turnhout"
+ },
+ "NETELAARSTRAAT 12 | 2160 | WOMMELGEM": {
+  "lat": 51.191518,
+  "lon": 4.509218,
+  "geo_precision": "address",
+  "matched": "Netelaarstraat 12, 2160 Wommelgem"
+ },
+ "NIEUWPOORTSESTEENWEG 642 | 8400 | OOSTENDE": {
+  "lat": 51.197218,
+  "lon": 2.847378,
+  "geo_precision": "address",
+  "matched": "Nieuwpoortsesteenweg 642, 8400 Oostende"
+ },
+ "NOORDERLAAN 9 | 9000 | GENT": {
+  "lat": 51.049633,
+  "lon": 3.693486,
+  "geo_precision": "address",
+  "matched": "Noorderlaan 9, 9000 Gent"
+ },
+ "NUCHTEN 58 | 9506 | IDEGEM": {
+  "lat": 50.802728,
+  "lon": 3.935728,
+  "geo_precision": "address",
+  "matched": "Nuchten 58, 9506 Geraardsbergen"
+ },
+ "OMMEGANGSTRAAT 19 | 9667 | HOREBEKE": {
+  "lat": 50.83773,
+  "lon": 3.699396,
+  "geo_precision": "address",
+  "matched": "Ommegangstraat 19, 9667 Horebeke"
+ },
+ "ONDANKSTRAAT 48 | 8840 | OOSTNIEUWKERKE": {
+  "lat": 50.951193,
+  "lon": 3.07323,
+  "geo_precision": "address",
+  "matched": "Ondankstraat 48, 8840 Staden"
+ },
+ "OOSTMALSESTEENWEG 213 | 2310 | RIJKEVORSEL": {
+  "lat": 51.335576,
+  "lon": 4.750773,
+  "geo_precision": "address",
+  "matched": "Oostmalsesteenweg 213, 2310 Rijkevorsel"
+ },
+ "OUDE STADENSTRAAT 4 | 8800 | ROESELARE": {
+  "lat": 50.955745,
+  "lon": 3.100748,
+  "geo_precision": "address",
+  "matched": "Oude Stadenstraat 4, 8800 Roeselare"
+ },
+ "OUDENAARDSESTRAAT 232 | 9500 | GERAARDSBERGEN": {
+  "lat": 50.773935,
+  "lon": 3.861397,
+  "geo_precision": "address",
+  "matched": "Oudenaardsestraat 232, 9500 Geraardsbergen"
+ },
+ "OUDERDOMSEWEG 9C | 8970 | POPERINGE": {
+  "lat": 50.845665,
+  "lon": 2.743589,
+  "geo_precision": "address",
+  "matched": "Ouderdomseweg 9C, 8970 Poperinge"
+ },
+ "OUDSTRIJDERSLAAN 10 | 8900 | IEPER": {
+  "lat": 50.842494,
+  "lon": 2.88475,
+  "geo_precision": "address",
+  "matched": "Oudstrijderslaan 10, 8900 Ieper"
+ },
+ "PASTOOR LAMBRECHTSSTRAAT 16 | 2310 | RIJKEVORSEL": {
+  "lat": 51.355154,
+  "lon": 4.767494,
+  "geo_precision": "municipality",
+  "matched": "Rijkevorsel"
+ },
+ "PAUWELSLEI 37 | 2930 | BRASSCHAAT": {
+  "lat": 51.305636,
+  "lon": 4.509741,
+  "geo_precision": "address",
+  "matched": "Pauwelslei 37, 2930 Brasschaat"
+ },
+ "POPENDONKSEWEG 27 | 2990 | WUUSTWEZEL": {
+  "lat": 51.416154,
+  "lon": 4.660098,
+  "geo_precision": "street",
+  "matched": "Popendonkseweg, Wuustwezel"
+ },
+ "POSTBUS 33 | 3970 | LEOPOLDSBURG": {
+  "lat": 51.117413,
+  "lon": 5.250471,
+  "geo_precision": "municipality",
+  "matched": "Leopoldsburg"
+ },
+ "PRINS ALEXANDERSTRAAT 55 | 8310 | BRUGGE": {
+  "lat": 51.197238,
+  "lon": 3.249741,
+  "geo_precision": "address",
+  "matched": "Prins Alexanderstraat 55, 8310 Brugge"
+ },
+ "PROF. SCHARPELAAN 117 | 3130 | BETEKOM": {
+  "lat": 51.007012,
+  "lon": 4.784627,
+  "geo_precision": "municipality",
+  "matched": "Begijnendijk"
+ },
+ "RENDERSVENSEDIJK 4 | 2440 | GEEL": {
+  "lat": 51.19447,
+  "lon": 5.002208,
+  "geo_precision": "address",
+  "matched": "Rendersvensedijk 4, 2440 Geel"
+ },
+ "RIJKSWEG 360 | 3650 | DILSEN-STOKKEM": {
+  "lat": 51.027706,
+  "lon": 5.726948,
+  "geo_precision": "address",
+  "matched": "Rijksweg 360, 3650 Dilsen-Stokkem"
+ },
+ "ROGIERVELDSTRAAT 9 | 8730 | BEERNEM": {
+  "lat": 51.158821,
+  "lon": 3.320573,
+  "geo_precision": "address",
+  "matched": "Rogierveldstraat 9, 8730 Beernem"
+ },
+ "ROOTSTRAAT 33 | 3270 | SCHERPENHEUVEL": {
+  "lat": 50.973261,
+  "lon": 4.966789,
+  "geo_precision": "address",
+  "matched": "Rootstraat 33, 3270 Scherpenheuvel-Zichem"
+ },
+ "SELSAETENSTRAAT 43 | 2160 | WOMMELGEM": {
+  "lat": 51.199706,
+  "lon": 4.535696,
+  "geo_precision": "address",
+  "matched": "Selsaetenstraat 43, 2160 Wommelgem"
+ },
+ "SIJSJESSTRAAT 36 | 2340 | BEERSE": {
+  "lat": 51.321877,
+  "lon": 4.840125,
+  "geo_precision": "address",
+  "matched": "Sijsjesstraat 36, 2340 Beerse"
+ },
+ "SINT-JACOBSTRAAT 38 | 8620 | NIEUWPOORT": {
+  "lat": 51.132427,
+  "lon": 2.753687,
+  "geo_precision": "address",
+  "matched": "Sint-Jacobstraat 38, 8620 Nieuwpoort"
+ },
+ "SLACHTHUISLAAN 3 | 2800 | MECHELEN": {
+  "lat": 51.045596,
+  "lon": 4.462201,
+  "geo_precision": "address",
+  "matched": "Slachthuislaan 3, 2800 Mechelen"
+ },
+ "SLUISSTRAAT 82 | 8300 | KNOKKE-HEIST": {
+  "lat": 51.315942,
+  "lon": 3.344186,
+  "geo_precision": "address",
+  "matched": "Sluisstraat 82, 8300 Knokke-Heist"
+ },
+ "SLUIZENSTRAAT 119 | 2900 | SCHOTEN": {
+  "lat": 51.242871,
+  "lon": 4.503418,
+  "geo_precision": "address",
+  "matched": "Sluizenstraat 119, 2900 Schoten"
+ },
+ "SLUIZENSTRAAT 175 | 8450 | BREDENE": {
+  "lat": 51.226341,
+  "lon": 2.981488,
+  "geo_precision": "address",
+  "matched": "Sluizenstraat 175, 8450 Bredene"
+ },
+ "STAGGESTRAAT 58 | 9800 | DEINZE": {
+  "lat": 50.997824,
+  "lon": 3.454663,
+  "geo_precision": "address",
+  "matched": "Staggestraat 58, 9800 Deinze"
+ },
+ "STEENWEG OP RAVELS 354 | 2360 | OUD-TURNHOUT": {
+  "lat": 51.350614,
+  "lon": 4.982702,
+  "geo_precision": "address",
+  "matched": "Steenweg op Ravels 354, 2360 Oud-Turnhout"
+ },
+ "STRABROEKWEG 32 | 3550 | HEUSDEN-ZOLDER": {
+  "lat": 51.01608,
+  "lon": 5.243495,
+  "geo_precision": "address",
+  "matched": "Strabroekweg 32, 3550 Heusden-Zolder"
+ },
+ "STUURSTRAAT 150 | 9120 | HAASDONK": {
+  "lat": 51.179132,
+  "lon": 4.215305,
+  "geo_precision": "address",
+  "matched": "Stuurstraat 150, 9120 Beveren-Kruibeke-Zwijndrecht"
+ },
+ "STUURSTRAAT 55 | 9120 | BEVEREN": {
+  "lat": 51.189127,
+  "lon": 4.227183,
+  "geo_precision": "address",
+  "matched": "Stuurstraat 55, 9120 Beveren-Kruibeke-Zwijndrecht"
+ },
+ "SUIKERKAAI 81 | 9060 | ZELZATE": {
+  "lat": 51.188631,
+  "lon": 3.805928,
+  "geo_precision": "address",
+  "matched": "Suikerkaai 81, 9060 Zelzate"
+ },
+ "TIENSESTRAAT 97 | 3470 | KORTENAKEN": {
+  "lat": 50.89471,
+  "lon": 5.040647,
+  "geo_precision": "address",
+  "matched": "Tiensestraat 97, 3470 Kortenaken"
+ },
+ "TINNENPOTSTRAAT 14 | 8850 | ARDOOIE": {
+  "lat": 50.947307,
+  "lon": 3.211811,
+  "geo_precision": "address",
+  "matched": "Tinnenpotstraat 14, 8850 Ardooie"
+ },
+ "TOEKOMSTSTRAAT 4 | 2381 | WEELDE": {
+  "lat": 51.400126,
+  "lon": 4.953495,
+  "geo_precision": "address",
+  "matched": "Toekomststraat 4, 2381 Ravels"
+ },
+ "TORHOUTBAAN 207 A | 8480 | ICHTEGEM": {
+  "lat": 51.086866,
+  "lon": 3.056076,
+  "geo_precision": "address",
+  "matched": "Torhoutbaan 207, 8480 Ichtegem"
+ },
+ "TRIESTSTRAAT 2 | 9170 | SINT-GILLIS-WAAS": {
+  "lat": 51.229773,
+  "lon": 4.144598,
+  "geo_precision": "address",
+  "matched": "Trieststraat 2, 9170 Sint-Gillis-Waas"
+ },
+ "VAARTWEG 144 | 2100 | DEURNE": {
+  "lat": 51.210346,
+  "lon": 4.469251,
+  "geo_precision": "address",
+  "matched": "Vaartweg 144, 2100 Antwerpen"
+ },
+ "VELDSTRAAT 33 | 8870 | IZEGEM": {
+  "lat": 50.939052,
+  "lon": 3.211617,
+  "geo_precision": "address",
+  "matched": "Veldstraat 33, 8870 Izegem"
+ },
+ "VENSTRAAT 11 | 3690 | ZUTENDAAL": {
+  "lat": 50.958812,
+  "lon": 5.568255,
+  "geo_precision": "address",
+  "matched": "Venstraat 11, 3690 Zutendaal"
+ },
+ "VEURNSEWEG 504 | 8906 | IEPER": {
+  "lat": 50.881807,
+  "lon": 2.825849,
+  "geo_precision": "address",
+  "matched": "Veurnseweg 504, 8906 Ieper"
+ },
+ "VIADUCTSTRAAT 176BIS | 3300 | TIENEN": {
+  "lat": 50.803647,
+  "lon": 4.928099,
+  "geo_precision": "address",
+  "matched": "Viaductstraat 176, 3300 Tienen"
+ },
+ "VITSSTRAAT 33 | 9255 | BUGGENHOUT": {
+  "lat": 51.018755,
+  "lon": 4.206168,
+  "geo_precision": "address",
+  "matched": "Vitsstraat 33, 9255 Buggenhout"
+ },
+ "VLADSLOSTRAAT 38 | 8610 | KORTEMARK": {
+  "lat": 51.039941,
+  "lon": 2.946326,
+  "geo_precision": "address",
+  "matched": "Vladslostraat 38, 8610 Kortemark"
+ },
+ "VLIEGSTRAAT 33 | 3621 | REKEM": {
+  "lat": 50.925912,
+  "lon": 5.685509,
+  "geo_precision": "address",
+  "matched": "Vliegstraat 33, 3621 Lanaken"
+ },
+ "VOGELZANG 11 | 9160 | LOKEREN": {
+  "lat": 51.137922,
+  "lon": 3.955567,
+  "geo_precision": "municipality",
+  "matched": "Lokeren"
+ },
+ "VOSSESCHIJNSTRAAT 88 | 2030 | ANTWERPEN": {
+  "lat": 51.257052,
+  "lon": 4.41663,
+  "geo_precision": "address",
+  "matched": "Vosseschijnstraat 88, 2030 Antwerpen"
+ },
+ "WAAIERHOFSTRAAT 36A | 3680 | MAASEIK": {
+  "lat": 51.082682,
+  "lon": 5.774183,
+  "geo_precision": "address",
+  "matched": "Waaierhofstraat 36, 3680 Maaseik"
+ },
+ "WARANDESTRAAT 48 | 1851 | HUMBEEK": {
+  "lat": 50.976013,
+  "lon": 4.384641,
+  "geo_precision": "address",
+  "matched": "Warandestraat 48, 1851 Grimbergen"
+ },
+ "WELVAARTSTRAAT 35 | 2250 | OLEN": {
+  "lat": 51.18013,
+  "lon": 4.898797,
+  "geo_precision": "address",
+  "matched": "Welvaartstraat 35, 2250 Olen"
+ },
+ "WILDESTRAAT 34 | 9940 | EVERGEM": {
+  "lat": 51.135904,
+  "lon": 3.764007,
+  "geo_precision": "address",
+  "matched": "Wildestraat 34, 9940 Evergem"
+ },
+ "ZANDSTRAAT 23 | 9270 | LAARNE": {
+  "lat": 51.038273,
+  "lon": 3.857607,
+  "geo_precision": "address",
+  "matched": "Zandstraat 23, 9270 Laarne"
+ },
+ "ZANDVOORDEDORPSTRAAT 48 | 8400 | OOSTENDE": {
+  "lat": 51.200259,
+  "lon": 2.976355,
+  "geo_precision": "address",
+  "matched": "Zandvoordedorpstraat 48, 8400 Oostende"
+ },
+ "ZILLEBEEK 66 | 9120 | BEVEREN-WAAS": {
+  "lat": 51.222408,
+  "lon": 4.227333,
+  "geo_precision": "address",
+  "matched": "Zillebeek 66, 9120 Beveren-Kruibeke-Zwijndrecht"
+ }
+}
