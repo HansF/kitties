@@ -8,6 +8,7 @@ Writes:
   data/changes.csv         running log of added/removed animals (timestamped)
   data/meta.json           index for apps: last update time, counts, file list
   data/geocache.json       address -> coordinates cache (see geocode.py)
+  data/details/<id>.json   full detail page per animal (see details.py)
 
 Refuses to overwrite data if a scrape returns far fewer animals than before
 (e.g. the site layout changed), so a broken run can't wipe the dataset.
@@ -19,6 +20,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from check_cats import fetch_page
+import details
 import geocode
 import scrape_shelters
 
@@ -26,6 +28,7 @@ CATEGORIES = ["katten", "honden", "weidedieren", "konijnen-en-knaagdieren", "ove
 DATA = Path(__file__).parent / "data"
 MIN_RATIO = 0.5  # abort if a category shrinks below half its previous size
 BASE_URL = "https://hansf.github.io/kitties/data"
+DETAILS_PER_RUN = 600  # cap so a backlog can't push the Action past its timeout
 LOG_FIELDS = ["time", "change", "category", "id", "type", "name", "shelter", "url"]
 
 
@@ -72,6 +75,7 @@ def write_meta(animals, shelters, added, removed, now, changed):
         },
         "last_change": {"added": len(added), "removed": len(removed)} if changed else old.get("last_change"),
         "files": {k: f"{BASE_URL}/{v}" for k, v in files.items()},
+        "details": f"{BASE_URL}/details/{{id}}.json",
         "csv": {k: f"{BASE_URL}/{v[:-5]}.csv" for k, v in files.items() if k != "new"},
     }
     meta_file.write_text(json.dumps(meta, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
@@ -118,6 +122,8 @@ def main():
     print(f"added: {len(added)}, removed: {len(removed)}")
 
     before = snapshot()
+    # full description, photos and traits per animal; only new animals are fetched
+    details.update(animals, limit=DETAILS_PER_RUN)
     write("animals", animals)
     for cat in CATEGORIES:
         write(f"per-soort/{cat}", [a for a in animals if a["category"] == cat])

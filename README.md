@@ -13,6 +13,7 @@ plus all shelters. A GitHub Action runs `refresh.py` every hour and commits the 
 | `new.json` | Animals that appeared since the previous hourly run. |
 | `changes.csv` | Running log of every animal added/removed, with UTC timestamp. |
 | `geocache.json` | Address → coordinates cache used by `geocode.py`. |
+| `details/<id>.json` | Full detail page per animal: description, reference, all photos, traits (see below). |
 
 CSV files use `;` as separator and open directly in Excel. Git history = full history of the listings.
 
@@ -55,3 +56,17 @@ of every file. Poll it (hourly is plenty) and only re-download the data when `up
 
 Each animal: `category, id, type, name, breed, sex, age, summary, shelter, location, lat, lon, badge, image, url`.
 Join animals to shelters on `shelter` == `name`.
+
+## Animal details
+
+`data/details/<id>.json` holds what only the animal's own page shows:
+
+```json
+{"id": 143317, "url": "...", "sex": "Mannelijk", "age": "7 jaar en 6 maand", "breed": "Kruising",
+ "reference": "4519", "description": "full text, newlines kept", "photos": ["...main.jpg", "...extra-....jpg"],
+ "traits": {"Kan met kinderen om < 6 jaar?": "Ja", "Zindelijk?": "Ja", "Formaat": "Groot"}, "fetched_at": "..."}
+```
+
+`traits` values are mostly `Ja` / `Nee` / `Onbekend`. Dogs, cats and horses have traits; rabbits, birds and most
+farm animals have none. A page is fetched once, when the animal first appears (at most 600 per hourly run); the file
+is deleted when the animal is no longer listed. URL pattern is in `meta.json` under `details`.
