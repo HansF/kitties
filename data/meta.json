@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-11-20T12:58Z",
+ "updated_at": "2026-11-20T15:44Z",
  "source": "https://www.adopteereendier.be",
  "counts": {
-  "total": 2543,
-  "katten": 1001,
-  "honden": 416,
+  "total": 2535,
+  "katten": 992,
+  "honden": 417,
   "weidedieren": 324,
   "konijnen-en-knaagdieren": 568,
   "overigedieren": 234,
   "shelters": 170
  },
  "last_change": {
-  "added": 4,
-  "removed": 2
+  "added": 10,
+  "removed": 18
  },
  "files": {
   "animals": "https://hansf.github.io/kitties/data/animals.json",
@@ -25,6 +25,14 @@
   "overigedieren": "https://hansf.github.io/kitties/data/per-soort/overigedieren.json"
  },
  "details": "https://hansf.github.io/kitties/data/details/{id}.json",
+ "feeds": {
+  "all": "https://hansf.github.io/kitties/data/feeds/all.xml",
+  "katten": "https://hansf.github.io/kitties/data/feeds/katten.xml",
+  "honden": "https://hansf.github.io/kitties/data/feeds/honden.xml",
+  "weidedieren": "https://hansf.github.io/kitties/data/feeds/weidedieren.xml",
+  "konijnen-en-knaagdieren": "https://hansf.github.io/kitties/data/feeds/konijnen-en-knaagdieren.xml",
+  "overigedieren": "https://hansf.github.io/kitties/data/feeds/overigedieren.xml"
+ },
  "csv": {
   "animals": "https://hansf.github.io/kitties/data/animals.csv",
   "shelters": "https://hansf.github.io/kitties/data/shelters.csv",

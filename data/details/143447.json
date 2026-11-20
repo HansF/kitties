@@ -1,6 +1,6 @@
 {
- "id": 130212,
- "url": "https://www.adopteereendier.be/honden/130212/mick",
+ "id": 143447,
+ "url": "https://www.adopteereendier.be/honden/143447/mick",
  "sex": "Mannelijk",
  "age": "8 jaar en 5 maand",
  "breed": "Amerikaanse Staffordshire Terrier",
@@ -23,7 +23,7 @@
  "traits": {
   "Kan met kinderen om < 6 jaar?": "Nee",
   "Kan met kinderen om < 14 jaar?": "Ja",
-  "Gesteriliseerd/gecastreerd?": "Nee",
+  "Gesteriliseerd/gecastreerd?": "Ja",
   "Heeft toegang nodig tot een tuin?": "Ja",
   "Zindelijk?": "Ja",
   "Kan vervoerd worden in de auto?": "Onbekend",
@@ -35,5 +35,5 @@
   "Ervaring met honden/ras vereist?": "Ja",
   "Formaat": "Groot"
  },
- "fetched_at": "2026-11-20T11:31Z"
+ "fetched_at": "2026-11-20T15:44Z"
 }
