@@ -6,8 +6,17 @@
   <atom:link href="https://hansf.github.io/kitties/data/feeds/weidedieren.xml" rel="self" type="application/rss+xml"/>
   <description>Newest farm animals up for adoption on adopteereendier.be</description>
   <language>nl-BE</language>
-  <lastBuildDate>Sat, 21 Nov 2026 11:07:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 18:01:00 +0000</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+   <title>Kalkoen (pluimvee · M)</title>
+   <link>https://www.adopteereendier.be/weidedieren/pluimvee/143504/kalkoen</link>
+   <guid isPermaLink="false">adopteereendier-143504</guid>
+   <pubDate>Sat, 21 Nov 2026 18:01:00 +0000</pubDate>
+   <category>Farm animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/313557/de-ark-van-pollare-vzw-kalkoen-70538-main.jpg" alt="Kalkoen" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;De Ark van Pollare vzw, Lennik&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/313557/de-ark-van-pollare-vzw-kalkoen-70538-main.jpg" length="0" type="image/jpeg"/>
+  </item>
   <item>
    <title>Noir (jerome) (pony · M · 9 jaar en 6 maand)</title>
    <link>https://www.adopteereendier.be/weidedieren/pony/143470/noir-jerome</link>
@@ -448,15 +457,6 @@
    <category>Farm animals</category>
    <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300894/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269309-main.webp" alt="Kuikens Wetteren 20/08" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M · 0 jaar en 3 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
    <enclosure url="https://media.animalshelter.be/300894/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269309-main.webp" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kuikens Wetteren 20/08 (pluimvee · M · 0 jaar en 3 maand)</title>
-   <link>https://www.adopteereendier.be/weidedieren/pluimvee/139658/kuikens-wetteren-2008</link>
-   <guid isPermaLink="false">adopteereendier-139658</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Farm animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300991/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269285-main.webp" alt="Kuikens Wetteren 20/08" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M · 0 jaar en 3 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/300991/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269285-main.webp" length="0" type="image/jpeg"/>
   </item>
  </channel>
 </rss>

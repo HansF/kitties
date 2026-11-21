@@ -1,6 +1,23 @@
 [
  {
   "category": "weidedieren",
+  "id": 143504,
+  "type": "pluimvee",
+  "name": "Kalkoen",
+  "breed": "-",
+  "sex": "M",
+  "age": "",
+  "summary": "",
+  "shelter": "De Ark van Pollare vzw",
+  "location": "LENNIK",
+  "lat": 50.817867,
+  "lon": 4.137281,
+  "badge": "",
+  "image": "https://media.animalshelter.be/313557/de-ark-van-pollare-vzw-kalkoen-70538-main.jpg",
+  "url": "https://www.adopteereendier.be/weidedieren/pluimvee/143504/kalkoen"
+ },
+ {
+  "category": "weidedieren",
   "id": 143470,
   "type": "pony",
   "name": "Noir (jerome)",
