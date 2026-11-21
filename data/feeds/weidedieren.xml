@@ -6,8 +6,26 @@
   <atom:link href="https://hansf.github.io/kitties/data/feeds/weidedieren.xml" rel="self" type="application/rss+xml"/>
   <description>Newest farm animals up for adoption on adopteereendier.be</description>
   <language>nl-BE</language>
-  <lastBuildDate>Fri, 20 Nov 2026 11:31:00 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 11:07:00 +0000</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+   <title>Noir (jerome) (pony · M · 9 jaar en 6 maand)</title>
+   <link>https://www.adopteereendier.be/weidedieren/pony/143470/noir-jerome</link>
+   <guid isPermaLink="false">adopteereendier-143470</guid>
+   <pubDate>Sat, 21 Nov 2026 11:07:00 +0000</pubDate>
+   <category>Farm animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/313469/stal-t-venhof-vzw-noir-jerome-265911-main.jpg" alt="Noir (jerome)" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pony · M · 9 jaar en 6 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Stal &amp;#x27;t Venhof VZW, Zutendaal&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/313469/stal-t-venhof-vzw-noir-jerome-265911-main.jpg" length="0" type="image/jpeg"/>
+  </item>
+  <item>
+   <title>Rakker (pony · M · 15 jaar en 6 maand)</title>
+   <link>https://www.adopteereendier.be/weidedieren/pony/143469/rakker</link>
+   <guid isPermaLink="false">adopteereendier-143469</guid>
+   <pubDate>Sat, 21 Nov 2026 11:07:00 +0000</pubDate>
+   <category>Farm animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/313468/stal-t-venhof-vzw-rakker-277179-main.jpg" alt="Rakker" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pony · M · 15 jaar en 6 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Stal &amp;#x27;t Venhof VZW, Zutendaal&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/313468/stal-t-venhof-vzw-rakker-277179-main.jpg" length="0" type="image/jpeg"/>
+  </item>
   <item>
    <title>Brahms (pluimvee · M · 1 jaar en 7 maand)</title>
    <link>https://www.adopteereendier.be/weidedieren/pluimvee/142978/brahms</link>
@@ -439,24 +457,6 @@
    <category>Farm animals</category>
    <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300991/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269285-main.webp" alt="Kuikens Wetteren 20/08" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M · 0 jaar en 3 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
    <enclosure url="https://media.animalshelter.be/300991/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269285-main.webp" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kuikens groep 2 (pluimvee · M)</title>
-   <link>https://www.adopteereendier.be/weidedieren/pluimvee/139655/kuikens-groep-2</link>
-   <guid isPermaLink="false">adopteereendier-139655</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Farm animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300979/zorgboerderij-huppeldepup-kuikens-groep-2-269774-main.webp" alt="Kuikens groep 2" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/300979/zorgboerderij-huppeldepup-kuikens-groep-2-269774-main.webp" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kippen groep 1 (pluimvee · M)</title>
-   <link>https://www.adopteereendier.be/weidedieren/pluimvee/139654/kippen-groep-1</link>
-   <guid isPermaLink="false">adopteereendier-139654</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Farm animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300978/zorgboerderij-huppeldepup-kippen-groep-1-269748-main.jpg" alt="Kippen groep 1" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/300978/zorgboerderij-huppeldepup-kippen-groep-1-269748-main.jpg" length="0" type="image/jpeg"/>
   </item>
  </channel>
 </rss>
