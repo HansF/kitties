@@ -1,18 +1,18 @@
 {
- "updated_at": "2026-11-22T06:55Z",
+ "updated_at": "2026-11-22T15:22Z",
  "source": "https://www.adopteereendier.be",
  "counts": {
-  "total": 2497,
-  "katten": 962,
-  "honden": 408,
+  "total": 2511,
+  "katten": 974,
+  "honden": 409,
   "weidedieren": 327,
-  "konijnen-en-knaagdieren": 568,
-  "overigedieren": 232,
+  "konijnen-en-knaagdieren": 567,
+  "overigedieren": 234,
   "shelters": 170
  },
  "last_change": {
-  "added": 0,
-  "removed": 0
+  "added": 39,
+  "removed": 25
  },
  "files": {
   "animals": "https://hansf.github.io/kitties/data/animals.json",
