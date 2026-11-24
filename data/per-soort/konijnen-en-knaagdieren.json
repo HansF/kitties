@@ -1,6 +1,23 @@
 [
  {
   "category": "konijnen-en-knaagdieren",
+  "id": 143719,
+  "type": "cavia",
+  "name": "Giseppe",
+  "breed": "-",
+  "sex": "V",
+  "age": "3 jaar en 5 maand",
+  "summary": "",
+  "shelter": "Cavy Opvang VZW",
+  "location": "WILLEBROEK",
+  "lat": 51.057039,
+  "lon": 4.364587,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314173/cavy-opvang-vzw-giseppe-277536-main.jpg",
+  "url": "https://www.adopteereendier.be/konijnen-en-knaagdieren/cavia/143719/giseppe"
+ },
+ {
+  "category": "konijnen-en-knaagdieren",
   "id": 143668,
   "type": "konijn",
   "name": "Gloomy",

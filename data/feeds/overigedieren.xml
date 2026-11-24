@@ -6,8 +6,17 @@
   <atom:link href="https://hansf.github.io/kitties/data/feeds/overigedieren.xml" rel="self" type="application/rss+xml"/>
   <description>Newest birds, reptiles &amp; other animals up for adoption on adopteereendier.be</description>
   <language>nl-BE</language>
-  <lastBuildDate>Sun, 22 Nov 2026 15:22:00 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 21:16:00 +0000</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+   <title>Koningspython (reptielen · V)</title>
+   <link>https://www.adopteereendier.be/overigedieren/reptielen/143711/koningspython</link>
+   <guid isPermaLink="false">adopteereendier-143711</guid>
+   <pubDate>Tue, 24 Nov 2026 21:16:00 +0000</pubDate>
+   <category>Birds, reptiles &amp; other animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/311236/natuurhulpcentrum-vzw-koningspython-166650-main.jpg" alt="Koningspython" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;reptielen · V&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Natuurhulpcentrum vzw, Oudsbergen&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/311236/natuurhulpcentrum-vzw-koningspython-166650-main.jpg" length="0" type="image/jpeg"/>
+  </item>
   <item>
    <title>Koningsparkiet Mathilde (volierevogels · V)</title>
    <link>https://www.adopteereendier.be/overigedieren/volierevogels/143540/koningsparkiet-mathilde</link>
@@ -448,15 +457,6 @@
    <category>Birds, reptiles &amp; other animals</category>
    <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/299221/zorgboerderij-huppeldepup-kanarie-groep-2-269562-main.jpg" alt="Kanarie groep 2" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;volierevogels · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;</description>
    <enclosure url="https://media.animalshelter.be/299221/zorgboerderij-huppeldepup-kanarie-groep-2-269562-main.jpg" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kanarie groep 1 (volierevogels · M)</title>
-   <link>https://www.adopteereendier.be/overigedieren/volierevogels/139557/kanarie-groep-1</link>
-   <guid isPermaLink="false">adopteereendier-139557</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Birds, reptiles &amp; other animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/299220/zorgboerderij-huppeldepup-kanarie-groep-1-269557-main.jpg" alt="Kanarie groep 1" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;volierevogels · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Foto is indicatief&lt;/p&gt;&lt;p&gt;Er zijn vele vogels beschikbaar voor adoptie.&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/299220/zorgboerderij-huppeldepup-kanarie-groep-1-269557-main.jpg" length="0" type="image/jpeg"/>
   </item>
  </channel>
 </rss>
