@@ -1,6 +1,74 @@
 [
  {
   "category": "honden",
+  "id": 143795,
+  "type": "",
+  "name": "Max",
+  "breed": "Rottweiler",
+  "sex": "Reu",
+  "age": "0 jaar en 11 maand",
+  "summary": "Hallo, ik ben Max. Ik zie er misschien groot uit, maar ik ben nog maar 11 maanden oud en gedraag me als een energieke puppy....",
+  "shelter": "Dierencentrum Waasland",
+  "location": "BEVEREN",
+  "lat": 51.189127,
+  "lon": 4.227183,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314421/dierencentrum-waasland-max-277605-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143795/max"
+ },
+ {
+  "category": "honden",
+  "id": 143787,
+  "type": "",
+  "name": "Jolene",
+  "breed": "Duitse Herdershond",
+  "sex": "Teef",
+  "age": "5 jaar en 8 maand",
+  "summary": "🐾 JOLENE – Een prachtige dame met een gouden hart en een flinke portie levensvreugde! 🖤 Maak plaats voor Jolene! Een beeldschone, langharige zwarte Duitse...",
+  "shelter": "Dierenasiel Lommel",
+  "location": "LOMMEL",
+  "lat": 51.240249,
+  "lon": 5.269926,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314384/dierenasiel-lommel-ibn-24092026-jolene-270853-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143787/jolene"
+ },
+ {
+  "category": "honden",
+  "id": 143786,
+  "type": "",
+  "name": "Mick",
+  "breed": "Duitse Herdershond",
+  "sex": "Reu",
+  "age": "4 jaar en 4 maand",
+  "summary": "Wat een heerlijke kerel om in de kijker te zetten! ❤️ 🐾 MICK – Een grote, zwarte knuffelbeer met een peperkoeken hartje! 🖤 Maak kennis...",
+  "shelter": "Dierenasiel Lommel",
+  "location": "LOMMEL",
+  "lat": 51.240249,
+  "lon": 5.269926,
+  "badge": "",
+  "image": "https://media.animalshelter.be/310307/dierenasiel-lommel-ibn-24092026-mick-270854-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143786/mick"
+ },
+ {
+  "category": "honden",
+  "id": 143776,
+  "type": "",
+  "name": "Barry",
+  "breed": "Berner Sennenhond",
+  "sex": "Reu",
+  "age": "0 jaar en 11 maand",
+  "summary": "Barry kwam recent in ons asiel terecht nadat zijn vorige eigenaar de zorg en verantwoordelijkheid die het houden van een hond met zich meebrengt, ernstig...",
+  "shelter": "Het Blauwe Kruis Brugge",
+  "location": "BRUGGE",
+  "lat": 51.254461,
+  "lon": 3.201011,
+  "badge": "",
+  "image": "https://media.animalshelter.be/313318/het-blauwe-kruis-brugge-barry-277101-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143776/barry"
+ },
+ {
+  "category": "honden",
   "id": 143764,
   "type": "",
   "name": "Akira",
@@ -160,7 +228,7 @@
   "breed": "Canis Vulgaris",
   "sex": "Reu",
   "age": "1 jaar en 8 maand",
-  "summary": "Hallo, dit is Luka, een lieve, jonge, aanhankelijke hond. Hij werd afgestaan omdat hij te veel zou blaffen, voornamelijk uit verlatingsangst. Hier in het dierenasiel...",
+  "summary": "Maak kennis met Luka: een lieve, jonge, aanhankelijke hond. Hij werd afgestaan omdat hij te veel zou blaffen. Hier in het dierenasiel valt dit echter...",
   "shelter": "Dierencentrum Waasland",
   "location": "BEVEREN",
   "lat": 51.189127,
@@ -185,23 +253,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/308557/pootjesparadijs-vzw-pluto-274368-main.jpg",
   "url": "https://www.adopteereendier.be/honden/143695/pluto"
- },
- {
-  "category": "honden",
-  "id": 143693,
-  "type": "",
-  "name": "Bertje",
-  "breed": "Amerikaanse Staffordshire Terrier",
-  "sex": "Reu",
-  "age": "0 jaar en 7 maand",
-  "summary": "Bertje is een echt knuffelbeest en een ontzettend lieve Stafford. ❤️ Hij speelt heel graag, ziet mensen enorm graag en is ook sociaal met andere honden....",
-  "shelter": "Dierenbescherming Mechelen",
-  "location": "MECHELEN",
-  "lat": 51.045596,
-  "lon": 4.462201,
-  "badge": "",
-  "image": "https://media.animalshelter.be/313865/dierenbescherming-mechelen-bertje-275842-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/143693/bertje"
  },
  {
   "category": "honden",
@@ -313,7 +364,7 @@
   "breed": "Canis Vulgaris",
   "sex": "Teef",
   "age": "0 jaar en 3 maand",
-  "summary": "Aanvragen uitsluitend via mail! Telefonische aanvragen zullen niet beantwoord worden, spontaan langskomen is niet mogelijk. Wij vragen geduld, wij proberen iedereen te beantwoorden binnen de...",
+  "summary": "Aanvragen uitsluitend via mail! ER KAN NIET GEKOZEN WORDEN OP BASIS VAN EEN FOTO. Telefonische aanvragen zullen niet beantwoord worden, spontaan langskomen is niet mogelijk....",
   "shelter": "Sint-Hubertus vzw",
   "location": "AALST",
   "lat": 50.964054,
@@ -630,23 +681,6 @@
  },
  {
   "category": "honden",
-  "id": 143558,
-  "type": "",
-  "name": "Jamie",
-  "breed": "Border Collie",
-  "sex": "Reu",
-  "age": "8 jaar en 6 maand",
-  "summary": "Dit is Jamie, een ontzettend lieve en sociale hond, die samen met haar broer Jack op zoek is naar een warme, liefdevolle thuis. Jamie is een...",
-  "shelter": "Dierenasiel Ieper vzw",
-  "location": "IEPER",
-  "lat": 50.842494,
-  "lon": 2.88475,
-  "badge": "",
-  "image": "https://media.animalshelter.be/313480/dierenasiel-ieper-vzw-jamie-273857-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/143558/jamie"
- },
- {
-  "category": "honden",
   "id": 143554,
   "type": "",
   "name": "Dotcom (Dotje)",
@@ -812,7 +846,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/313511/het-blauwe-kruis-van-belgie-wommelgem-frate-275511-main.jpg",
+  "image": "https://media.animalshelter.be/314432/het-blauwe-kruis-van-belgie-wommelgem-frate-275511-main.jpg",
   "url": "https://www.adopteereendier.be/honden/143487/frate"
  },
  {
@@ -848,23 +882,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/313487/dierenasiel-ieper-vzw-max-276192-main.jpg",
   "url": "https://www.adopteereendier.be/honden/143485/max"
- },
- {
-  "category": "honden",
-  "id": 143471,
-  "type": "",
-  "name": "Jack",
-  "breed": "Canis Vulgaris",
-  "sex": "Reu",
-  "age": "8 jaar en 6 maand",
-  "summary": "Dit is Jack, een prachtige kruising Border Collie van 8 jaar oud. Hij is een ontzettend lieve, sociale en vriendelijke hond. Jack is een echte schat...",
-  "shelter": "Dierenasiel Ieper vzw",
-  "location": "IEPER",
-  "lat": 50.842494,
-  "lon": 2.88475,
-  "badge": "",
-  "image": "https://media.animalshelter.be/313474/dierenasiel-ieper-vzw-jack-273861-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/143471/jack"
  },
  {
   "category": "honden",
@@ -1486,7 +1503,7 @@
   "breed": "Canis Vulgaris",
   "sex": "Teef",
   "age": "7 jaar en 3 maand",
-  "summary": "Maak kennis met Bonnie! Bonnie is een kruising van middelgroot formaat (10-20 kg), vermoedelijk met een vleugje Mechelaar. Ze wandelt vlot aan de leiband, kent...",
+  "summary": "Maak kennis met Bonnie! Bonnie is een mooie kruising van middelgroot formaat. Ze wandelt flink aan de leiband, kent haar basiscommando's en geniet van aaitjes,...",
   "shelter": "Dierencentrum Waasland",
   "location": "BEVEREN",
   "lat": 51.189127,
@@ -2121,7 +2138,7 @@
   "lat": 51.240249,
   "lon": 5.269926,
   "badge": "",
-  "image": "https://media.animalshelter.be/310300/dierenasiel-lommel-xia-275414-main.jpg",
+  "image": "https://media.animalshelter.be/314374/dierenasiel-lommel-xia-275414-main.jpg",
   "url": "https://www.adopteereendier.be/honden/142464/xia"
  },
  {
@@ -2259,23 +2276,6 @@
   "badge": "Duo-adoptie",
   "image": "https://media.animalshelter.be/300556/dierenasiel-ninove-vzw-ice-267882-main.png",
   "url": "https://www.adopteereendier.be/honden/142382/ice"
- },
- {
-  "category": "honden",
-  "id": 142349,
-  "type": "",
-  "name": "Stormy",
-  "breed": "Jack Russell Terrier",
-  "sex": "Reu",
-  "age": "1 jaar en 1 maand",
-  "summary": "Maak kennis met Stormy! 🐾 Stormy is een jonge Jack Russell van één jaar oud, een echte deugniet met bakken energie! Deze lieve, aanhankelijke en...",
-  "shelter": "Dierenasiel Ganzeweide vzw",
-  "location": "KOKSIJDE-WULPEN",
-  "lat": 51.111953,
-  "lon": 2.679325,
-  "badge": "",
-  "image": "https://media.animalshelter.be/309371/dierenasiel-ganzeweide-vzw-stormy-275249-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/142349/stormy"
  },
  {
   "category": "honden",
@@ -2784,7 +2784,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/306335/het-blauwe-kruis-van-belgie-wommelgem-dipper-265667-main.jpg",
+  "image": "https://media.animalshelter.be/314400/het-blauwe-kruis-van-belgie-wommelgem-dipper-265667-main.jpg",
   "url": "https://www.adopteereendier.be/honden/141262/dipper"
  },
  {
@@ -2818,7 +2818,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/306312/het-blauwe-kruis-van-belgie-wommelgem-bongo-273006-main.jpg",
+  "image": "https://media.animalshelter.be/314392/het-blauwe-kruis-van-belgie-wommelgem-bongo-273006-main.jpg",
   "url": "https://www.adopteereendier.be/honden/141249/bongo"
  },
  {
@@ -3124,7 +3124,7 @@
   "lat": 51.240249,
   "lon": 5.269926,
   "badge": "",
-  "image": "https://media.animalshelter.be/298466/dierenasiel-lommel-ibn-11082026-duchess-264273-main.jpg",
+  "image": "https://media.animalshelter.be/314409/dierenasiel-lommel-duchess-264273-main.jpg",
   "url": "https://www.adopteereendier.be/honden/140812/duchess"
  },
  {
@@ -3143,23 +3143,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/268757/dierenwereldkruis-vzw-diesel-251076-main.jpg",
   "url": "https://www.adopteereendier.be/honden/140735/ares"
- },
- {
-  "category": "honden",
-  "id": 140730,
-  "type": "",
-  "name": "Cooper",
-  "breed": "Engelse Cocker Spaniel",
-  "sex": "Reu",
-  "age": "1 jaar en 0 maand",
-  "summary": "🐾 COOPER – Engelse Cocker Spaniel 🎂 12/11/2025 ♂️ Reu ⚖️ 17,5kg 🏡 In het asiel sinds: 26/09/2026 Cooper werd afgestaan omdat ze hem niet...",
-  "shelter": "Het Blauwe Kruis van België - Wommelgem",
-  "location": "WOMMELGEM",
-  "lat": 51.191518,
-  "lon": 4.509218,
-  "badge": "",
-  "image": "https://media.animalshelter.be/304766/het-blauwe-kruis-van-belgie-wommelgem-cooper-271449-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/140730/cooper"
  },
  {
   "category": "honden",
@@ -3260,7 +3243,7 @@
   "lat": 51.240249,
   "lon": 5.269926,
   "badge": "",
-  "image": "https://media.animalshelter.be/303003/dierenasiel-lommel-tessa-272195-main.jpg",
+  "image": "https://media.animalshelter.be/314380/dierenasiel-lommel-tessa-272195-main.jpg",
   "url": "https://www.adopteereendier.be/honden/140557/tessa"
  },
  {
@@ -3364,23 +3347,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/295730/vzw-dierenvrienden-st-truiden-falco-266074-main.jpg",
   "url": "https://www.adopteereendier.be/honden/140183/falco"
- },
- {
-  "category": "honden",
-  "id": 140073,
-  "type": "",
-  "name": "Herbie",
-  "breed": "Mechelse Herder",
-  "sex": "Reu",
-  "age": "0 jaar en 11 maand",
-  "summary": "Kan met andere honden: ja, stabiele teef Kan met katten: ? Kan op een appartement: nee, huis met tuin Kan met kinderen: ja, 14+ Herbie...",
-  "shelter": "Dierenasiel Genk Vzw",
-  "location": "GENK",
-  "lat": 50.967031,
-  "lon": 5.486767,
-  "badge": "",
-  "image": "https://media.animalshelter.be/302554/dierenasiel-genk-vzw-herbie-272009-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/140073/herbie"
  },
  {
   "category": "honden",
@@ -4569,7 +4535,7 @@
   "lat": 51.240249,
   "lon": 5.269926,
   "badge": "",
-  "image": "https://media.animalshelter.be/280975/dierenasiel-lommel-kes-258883-main.jpg",
+  "image": "https://media.animalshelter.be/314383/dierenasiel-lommel-kes-258883-main.jpg",
   "url": "https://www.adopteereendier.be/honden/133555/kes"
  },
  {
@@ -5215,7 +5181,7 @@
   "lat": 51.240249,
   "lon": 5.269926,
   "badge": "",
-  "image": "https://media.animalshelter.be/294208/dierenasiel-lommel-sena-248652-main.jpg",
+  "image": "https://media.animalshelter.be/314382/dierenasiel-lommel-sena-248652-main.jpg",
   "url": "https://www.adopteereendier.be/honden/130174/sena"
  },
  {
@@ -6184,7 +6150,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/197490/het-blauwe-kruis-van-belgie-wommelgem-chevy-206752-main.jpg",
+  "image": "https://media.animalshelter.be/314396/het-blauwe-kruis-van-belgie-wommelgem-chevy-206752-main.jpg",
   "url": "https://www.adopteereendier.be/honden/123906/chevy"
  },
  {
