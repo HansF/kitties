@@ -1,6 +1,40 @@
 [
  {
   "category": "honden",
+  "id": 143808,
+  "type": "",
+  "name": "Lou",
+  "breed": "Jack Russell Terrier",
+  "sex": "Reu",
+  "age": "13 jaar en 1 maand",
+  "summary": "Lou kwam als vondeling in ons asiel terecht. De eigenaar maakte zich bekend, maar gaf aan de hond niet meer terug te willen, waardoor Lou...",
+  "shelter": "Het Blauwe Kruis Brugge",
+  "location": "BRUGGE",
+  "lat": 51.254461,
+  "lon": 3.201011,
+  "badge": "",
+  "image": "https://media.animalshelter.be/313286/het-blauwe-kruis-brugge-lou-277096-main.png",
+  "url": "https://www.adopteereendier.be/honden/143808/lou"
+ },
+ {
+  "category": "honden",
+  "id": 143807,
+  "type": "",
+  "name": "Pua (Gucci)",
+  "breed": "Amerikaanse Staffordshire Terrier",
+  "sex": "Teef",
+  "age": "3 jaar en 11 maand",
+  "summary": "Pua is een ontzettend leuke, lieve en enthousiaste dame die graag deel uitmaakt van het leven van haar mensen. Ze is aanhankelijk, geniet van aandacht...",
+  "shelter": "Het Blauwe Kruis Brugge",
+  "location": "BRUGGE",
+  "lat": 51.254461,
+  "lon": 3.201011,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314532/het-blauwe-kruis-brugge-pua-gucci-276005-main.jpg",
+  "url": "https://www.adopteereendier.be/honden/143807/pua-gucci"
+ },
+ {
+  "category": "honden",
   "id": 143795,
   "type": "",
   "name": "Max",
@@ -1531,23 +1565,6 @@
  },
  {
   "category": "honden",
-  "id": 143155,
-  "type": "",
-  "name": "Toby",
-  "breed": "Beagle",
-  "sex": "Reu",
-  "age": "1 jaar en 2 maand",
-  "summary": "Beste kandidaat adoptant, als u interesse heeft lees dan aub eerst de info door en stuur dan uw gemotiveerde kandidatuur via het adoptieformulier https://www.dierenasielknokke-heist.be/adoptieaanvraag in....",
-  "shelter": "Dierenasiel Knokke-Heist",
-  "location": "KNOKKE-HEIST",
-  "lat": 51.315942,
-  "lon": 3.344186,
-  "badge": "",
-  "image": "https://media.animalshelter.be/312291/dierenasiel-knokke-heist-toby-273334-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/143155/toby"
- },
- {
-  "category": "honden",
   "id": 143149,
   "type": "",
   "name": "Barsky",
@@ -2801,7 +2818,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/306324/het-blauwe-kruis-van-belgie-wommelgem-mabel-265665-main.jpg",
+  "image": "https://media.animalshelter.be/314442/het-blauwe-kruis-van-belgie-wommelgem-mabel-265665-main.jpg",
   "url": "https://www.adopteereendier.be/honden/141257/mabel"
  },
  {
@@ -2812,7 +2829,7 @@
   "breed": "Canis Vulgaris",
   "sex": "Reu",
   "age": "2 jaar en 9 maand",
-  "summary": "🐾 BONGO – Beagle x Stafford 🎂 20/02/2024 ♂️ Reu ⚖️ 22,8kg 🏡 In het asiel sinds: 09/10/2026 Bongo werd afgestaan omdat het niet ging...",
+  "summary": "🐾 BONGO – Beagle x Stafford 🎂 20/02/2024 ♂️ Reu, gecastreerd ⚖️ 22,8kg 🏡 In het asiel sinds: 09/10/2026 Bongo werd afgestaan omdat het niet...",
   "shelter": "Het Blauwe Kruis van België - Wommelgem",
   "location": "WOMMELGEM",
   "lat": 51.191518,
@@ -4501,7 +4518,7 @@
   "lat": 51.191518,
   "lon": 4.509218,
   "badge": "",
-  "image": "https://media.animalshelter.be/311687/het-blauwe-kruis-van-belgie-wommelgem-shiva-258805-main.jpg",
+  "image": "https://media.animalshelter.be/314459/het-blauwe-kruis-van-belgie-wommelgem-shiva-258805-main.jpg",
   "url": "https://www.adopteereendier.be/honden/133637/shiva"
  },
  {
@@ -6016,23 +6033,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/244826/veeweyde-vzw-dion-161023-main.jpeg",
   "url": "https://www.adopteereendier.be/honden/124317/dion"
- },
- {
-  "category": "honden",
-  "id": 124316,
-  "type": "",
-  "name": "Duts",
-  "breed": "Canis Vulgaris",
-  "sex": "Reu",
-  "age": "9 jaar en 5 maand",
-  "summary": "Duts, onze mix Mechelse herder, kwam als een echt ‘dutske’ binnen op ons asiel drie jaar geleden. Hij was vrij bang, en kon ontzettend moeilijk...",
-  "shelter": "Veeweyde vzw",
-  "location": "WEELDE",
-  "lat": 51.400126,
-  "lon": 4.953495,
-  "badge": "",
-  "image": "https://media.animalshelter.be/133979/veeweyde-vzw-duts-161011-main.jpg",
-  "url": "https://www.adopteereendier.be/honden/124316/duts"
  },
  {
   "category": "honden",
