@@ -6,8 +6,17 @@
   <atom:link href="https://hansf.github.io/kitties/data/feeds/overigedieren.xml" rel="self" type="application/rss+xml"/>
   <description>Newest birds, reptiles &amp; other animals up for adoption on adopteereendier.be</description>
   <language>nl-BE</language>
-  <lastBuildDate>Tue, 24 Nov 2026 21:16:00 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 19:05:00 +0000</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+   <title>Axolotls (amfibieen · M · 1 jaar en 5 maand)</title>
+   <link>https://www.adopteereendier.be/overigedieren/amfibieen/143838/axolotls</link>
+   <guid isPermaLink="false">adopteereendier-143838</guid>
+   <pubDate>Thu, 26 Nov 2026 19:05:00 +0000</pubDate>
+   <category>Birds, reptiles &amp; other animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/314634/socio-vzw-deurne-axolotls-277695-main.jpg" alt="Axolotls" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;amfibieen · M · 1 jaar en 5 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Socio Vzw Deurne, Deurne&lt;/p&gt;&lt;p&gt;Deze 2 axolotls zoeken enkel samen een nieuwe thuis.&lt;/p&gt;&lt;p&gt;De roze heeft wel een scheef pootje, maar kan hier perfect mee leven.&lt;/p&gt;&lt;p&gt;De axolotls zitten momenteel bij een gastgezin en kunnen na afspraak geadopteerd worden.&lt;/p&gt;&lt;p&gt;Meer info enkel via mail infosociovzw@gmail.com met foto&amp;#x27;s van het toekomstige verblijf.&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/314634/socio-vzw-deurne-axolotls-277695-main.jpg" length="0" type="image/jpeg"/>
+  </item>
   <item>
    <title>Koningspython (reptielen · V)</title>
    <link>https://www.adopteereendier.be/overigedieren/reptielen/143711/koningspython</link>
@@ -448,15 +457,6 @@
    <category>Birds, reptiles &amp; other animals</category>
    <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/299218/zorgboerderij-huppeldepup-valkparkieten-groep-269566-main.jpg" alt="Valkparkieten groep" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;volierevogels · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Foto is indicatief&lt;/p&gt;&lt;p&gt;Er zijn vele vogels beschikbaar voor adoptie.&lt;/p&gt;</description>
    <enclosure url="https://media.animalshelter.be/299218/zorgboerderij-huppeldepup-valkparkieten-groep-269566-main.jpg" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kanarie groep 2 (volierevogels · M)</title>
-   <link>https://www.adopteereendier.be/overigedieren/volierevogels/139558/kanarie-groep-2</link>
-   <guid isPermaLink="false">adopteereendier-139558</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Birds, reptiles &amp; other animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/299221/zorgboerderij-huppeldepup-kanarie-groep-2-269562-main.jpg" alt="Kanarie groep 2" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;volierevogels · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/299221/zorgboerderij-huppeldepup-kanarie-groep-2-269562-main.jpg" length="0" type="image/jpeg"/>
   </item>
  </channel>
 </rss>

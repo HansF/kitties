@@ -1,6 +1,23 @@
 [
  {
   "category": "overigedieren",
+  "id": 143838,
+  "type": "amfibieen",
+  "name": "Axolotls",
+  "breed": "-",
+  "sex": "M",
+  "age": "1 jaar en 5 maand",
+  "summary": "Deze 2 axolotls zoeken enkel samen een nieuwe thuis. De roze heeft wel een scheef pootje, maar kan hier perfect mee leven. De axolotls zitten...",
+  "shelter": "Socio Vzw Deurne",
+  "location": "DEURNE",
+  "lat": 51.210346,
+  "lon": 4.469251,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314634/socio-vzw-deurne-axolotls-277695-main.jpg",
+  "url": "https://www.adopteereendier.be/overigedieren/amfibieen/143838/axolotls"
+ },
+ {
+  "category": "overigedieren",
   "id": 143711,
   "type": "reptielen",
   "name": "Koningspython",
