@@ -1,6 +1,40 @@
 [
  {
   "category": "weidedieren",
+  "id": 143914,
+  "type": "alpaca",
+  "name": "Mellow",
+  "breed": "-",
+  "sex": "M",
+  "age": "0 jaar en 4 maand",
+  "summary": "Enkel ter adoptie met Blanche",
+  "shelter": "Zorgboerderij Huppeldepup",
+  "location": "HUMBEEK",
+  "lat": 50.976013,
+  "lon": 4.384641,
+  "badge": "",
+  "image": "https://media.animalshelter.be/314827/zorgboerderij-huppeldepup-mellow-277778-main.jpg",
+  "url": "https://www.adopteereendier.be/weidedieren/alpaca/143914/mellow"
+ },
+ {
+  "category": "weidedieren",
+  "id": 143913,
+  "type": "alpaca",
+  "name": "Dropje",
+  "breed": "-",
+  "sex": "V",
+  "age": "0 jaar en 6 maand",
+  "summary": "",
+  "shelter": "Zorgboerderij Huppeldepup",
+  "location": "HUMBEEK",
+  "lat": 50.976013,
+  "lon": 4.384641,
+  "badge": "",
+  "image": "https://media.animalshelter.be/307134/zorgboerderij-huppeldepup-dropje-256690-main.jpg",
+  "url": "https://www.adopteereendier.be/weidedieren/alpaca/143913/dropje"
+ },
+ {
+  "category": "weidedieren",
   "id": 143504,
   "type": "pluimvee",
   "name": "Kalkoen",
@@ -440,23 +474,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/306188/vogel-en-zoogdierenopvangcentrum-vzw-kelis-273886-main.jpg",
   "url": "https://www.adopteereendier.be/weidedieren/paard/141193/kelis"
- },
- {
-  "category": "weidedieren",
-  "id": 141111,
-  "type": "alpaca",
-  "name": "Noah",
-  "breed": "-",
-  "sex": "V",
-  "age": "14 jaar en 6 maand",
-  "summary": "",
-  "shelter": "Zorgboerderij Huppeldepup",
-  "location": "HUMBEEK",
-  "lat": 50.976013,
-  "lon": 4.384641,
-  "badge": "",
-  "image": "https://media.animalshelter.be/143241/huppeldepup-zorgboerderij-noah-32779-main.jpg",
-  "url": "https://www.adopteereendier.be/weidedieren/alpaca/141111/noah"
  },
  {
   "category": "weidedieren",
@@ -5217,23 +5234,6 @@
   "badge": "",
   "image": "https://media.animalshelter.be/242748/de-ark-van-pollare-vzw-fenna-211031-main.jpg",
   "url": "https://www.adopteereendier.be/weidedieren/geit/123548/fenna"
- },
- {
-  "category": "weidedieren",
-  "id": 123535,
-  "type": "geit",
-  "name": "Bruin geitje (IBS 2025.03.14)",
-  "breed": "-",
-  "sex": "M",
-  "age": "",
-  "summary": "Dit lieve, jonge bokje is op zoek naar een fijn thuisje. Hij is nog wat bang en afwachtend naar vreemden, maar met eten komt hij...",
-  "shelter": "De Ark van Pollare vzw",
-  "location": "LENNIK",
-  "lat": 50.817867,
-  "lon": 4.137281,
-  "badge": "",
-  "image": "https://media.animalshelter.be/198174/de-ark-van-pollare-vzw-bruin-geitje-ibs-20250314-208724-main.jpg",
-  "url": "https://www.adopteereendier.be/weidedieren/geit/123535/bruin-geitje-ibs-20250314"
  },
  {
   "category": "weidedieren",

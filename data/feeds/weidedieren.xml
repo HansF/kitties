@@ -6,8 +6,26 @@
   <atom:link href="https://hansf.github.io/kitties/data/feeds/weidedieren.xml" rel="self" type="application/rss+xml"/>
   <description>Newest farm animals up for adoption on adopteereendier.be</description>
   <language>nl-BE</language>
-  <lastBuildDate>Sat, 21 Nov 2026 18:01:00 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 20:00:00 +0000</lastBuildDate>
   <ttl>60</ttl>
+  <item>
+   <title>Mellow (alpaca · M · 0 jaar en 4 maand)</title>
+   <link>https://www.adopteereendier.be/weidedieren/alpaca/143914/mellow</link>
+   <guid isPermaLink="false">adopteereendier-143914</guid>
+   <pubDate>Fri, 27 Nov 2026 20:00:00 +0000</pubDate>
+   <category>Farm animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/314827/zorgboerderij-huppeldepup-mellow-277778-main.jpg" alt="Mellow" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;alpaca · M · 0 jaar en 4 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Enkel ter adoptie met Blanche&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/314827/zorgboerderij-huppeldepup-mellow-277778-main.jpg" length="0" type="image/jpeg"/>
+  </item>
+  <item>
+   <title>Dropje (alpaca · V · 0 jaar en 6 maand)</title>
+   <link>https://www.adopteereendier.be/weidedieren/alpaca/143913/dropje</link>
+   <guid isPermaLink="false">adopteereendier-143913</guid>
+   <pubDate>Fri, 27 Nov 2026 20:00:00 +0000</pubDate>
+   <category>Farm animals</category>
+   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/307134/zorgboerderij-huppeldepup-dropje-256690-main.jpg" alt="Dropje" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;alpaca · V · 0 jaar en 6 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;</description>
+   <enclosure url="https://media.animalshelter.be/307134/zorgboerderij-huppeldepup-dropje-256690-main.jpg" length="0" type="image/jpeg"/>
+  </item>
   <item>
    <title>Kalkoen (pluimvee · M)</title>
    <link>https://www.adopteereendier.be/weidedieren/pluimvee/143504/kalkoen</link>
@@ -243,15 +261,6 @@
    <enclosure url="https://media.animalshelter.be/306188/vogel-en-zoogdierenopvangcentrum-vzw-kelis-273886-main.jpg" length="0" type="image/jpeg"/>
   </item>
   <item>
-   <title>Noah (alpaca · V · 14 jaar en 6 maand)</title>
-   <link>https://www.adopteereendier.be/weidedieren/alpaca/141111/noah</link>
-   <guid isPermaLink="false">adopteereendier-141111</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Farm animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/143241/huppeldepup-zorgboerderij-noah-32779-main.jpg" alt="Noah" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;alpaca · V · 14 jaar en 6 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/143241/huppeldepup-zorgboerderij-noah-32779-main.jpg" length="0" type="image/jpeg"/>
-  </item>
-  <item>
    <title>Blanche (alpaca · V · 5 jaar en 5 maand)</title>
    <link>https://www.adopteereendier.be/weidedieren/alpaca/141110/blanche</link>
    <guid isPermaLink="false">adopteereendier-141110</guid>
@@ -448,15 +457,6 @@
    <category>Farm animals</category>
    <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300984/zorgboerderij-huppeldepup-kuikens-uit-broedeieren-wetteren-2008-269311-main.webp" alt="Kuikens uit Broedeieren Wetter..." style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
    <enclosure url="https://media.animalshelter.be/300984/zorgboerderij-huppeldepup-kuikens-uit-broedeieren-wetteren-2008-269311-main.webp" length="0" type="image/jpeg"/>
-  </item>
-  <item>
-   <title>Kuikens Wetteren 20/08 (pluimvee · M · 0 jaar en 3 maand)</title>
-   <link>https://www.adopteereendier.be/weidedieren/pluimvee/139659/kuikens-wetteren-2008</link>
-   <guid isPermaLink="false">adopteereendier-139659</guid>
-   <pubDate>Fri, 20 Nov 2026 11:31:00 +0000</pubDate>
-   <category>Farm animals</category>
-   <description>&lt;p&gt;&lt;img src="https://media.animalshelter.be/300894/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269309-main.webp" alt="Kuikens Wetteren 20/08" style="max-width:100%"&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;pluimvee · M · 0 jaar en 3 maand&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Zorgboerderij Huppeldepup, Humbeek&lt;/p&gt;&lt;p&gt;Deze foto is indicatief.&lt;/p&gt;&lt;p&gt;Er zijn heel veel kippen van verschillende rassen beschikbaar voor adoptie.&lt;/p&gt;</description>
-   <enclosure url="https://media.animalshelter.be/300894/zorgboerderij-huppeldepup-kuikens-wetteren-2008-269309-main.webp" length="0" type="image/jpeg"/>
   </item>
  </channel>
 </rss>
